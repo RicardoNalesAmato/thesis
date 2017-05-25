@@ -2,14 +2,14 @@
 ### By Ricardo Nales, supervised by Saahil Ognawala
 ---------------------------------------
 ### Task list (18.05.2017)
-- [ ] Read papers for severity assessment
-- [x] Send docker link to thomas and saahil by email
+- [x] Read papers for severity assessment
+- [x] Send docker link to thomas and saahil by email (ricardonales/macke:0.6)
 - [x] Run KLEE on all Kaleidoscope programs
 - [x] Install macke from tum-i22 github page
-- [ ] Run all kaleidoscope programs with Macke
-  - [ ] Play around with all options
-  - [ ] Run with multiple time limits (per function)
-  - [ ] Look at the outputs, and compare to KLEE outputs
+- [x] Run all kaleidoscope programs with Macke
+  - [x] Play around with all options
+  - [x] Run with multiple time limits (per function)
+  - [x] Look at the outputs, and compare to KLEE outputs
 
 ### Task list (15.05.2017)
 - [x] Create Bitbucket repo and grant me (“saahil") access.
