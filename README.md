@@ -2,8 +2,8 @@
 ### By Ricardo Nales, supervised by Saahil Ognawala
 ---------------------------------------
 ### Task list (26.05.2017)
-- [ ] Read papers regarding CVSS (https://www.first.org/cvss/calculator/3.0)
-- [ ] Solve a maze using KLEE (https://feliam.wordpress.com/2010/10/07/the-symbolic-maze/)
+- [x] Read papers regarding CVSS (https://www.first.org/cvss/calculator/3.0)
+- [x] Solve a maze using KLEE (https://feliam.wordpress.com/2010/10/07/the-symbolic-maze/)
 
 ### Task list (18.05.2017)
 - [x] Read papers for severity assessment
