@@ -2,13 +2,34 @@
 ### By Ricardo Nales, supervised by Saahil Ognawala
 ---------------------------------------
 ### Task list (08.06.2017)
-- [ ] How to extract callgraphs using LLVM Opt.
-- [ ] Get NVD bugs for 15 years ( for the ones that have CVSS3 available )
-  - [ ] Filter entries by CVSS3 and CVE_probelmtype_data = CWE-119
-  - [ ] Description must value must have "function" and ".c"
-- [ ] For all filtered bugs get program name, version and link
-- [ ] Download sources of filtered porgrams.
+- [x] How to extract callgraphs using LLVM Opt.
+- [x] Get NVD bugs for 15 years ( for the ones that have CVSS3 available )
+  - [x] Filter entries by CVSS3 and CVE_probelmtype_data = CWE-119
+  - [x] Description must value must have "function" and ".c"
+- [x] For all filtered bugs get program name, version and link
+- [x] Download sources of filtered programs.
 - [ ] Google Sheets link to Saahil. Create a tuple for each individual program.  
+
+- Programs to Download
+  * ytnef 1.9.2
+    - lib/ytnef.c-> DecompressRTF, SwapDWord, SwapWord
+  * ImageMagick 7.0.5-5
+    - coders/psd.c -> ReadPDBImage
+    - coders/pdb.c -> ReadPDBImage
+    - mpc.c        -> ReadMPCImage
+    - palm.c       -> ReadPALMImage
+    - icon.c:452   -> ReadICONImage
+  * LibTIFF 4.0.7
+    - tif_dirread.c -> TIFFReadDirEntryLong8Array
+    - tif_ojpeg.c   -> OJPEGReadHeaderInfoSecTablesQTable
+  * AutoTrace 0.31.1
+   - input-tga.c:620:27 -> ReadImage ( in pretty much all functions )
+   - input-tga.c:252:15 -> rle_fread
+ * LibRaw versions before 0.18.2
+ * Gnulib before 2017-04-26
+ * libimobiledevice/libplist before 2017-04-19
+ * libosip2 in GNU oSIP 4.1.0 and 5.0.0
+ * elfutils 0.168
 
 ### Task list (01.06.2017)
 - [x] Proposal on user interface for assessment tool. (Wireframe only)
