@@ -1,6 +1,19 @@
 ## Impact	factors	for	severity	assessment	of	bugs	discovered	via compositional	symbolic	execution
 ### By Ricardo Nales, supervised by Saahil Ognawala
 ---------------------------------------
+### Task list (30.06.2017)
+- [ ] Read : https://www.cs.purdue.edu/mlg2011/papers/paper_1.pdf
+  - [ ] Create function that parses through a JSON and generates the values for each of the relevant attributes mentioned in this paper.
+- [ ] Read about the severity function from: https://mediatum.ub.tum.de/doc/1329071/1329071.pdf
+- [ ] Transform .dot graphs to .json (https://stackoverflow.com/questions/40262441/how-to-transform-a-dot-graph-to-json-graph )
+- [ ] Learn to use the correlation function (https://docs.scipy.org/doc/numpy/reference/generated/numpy.corrcoef.html)
+
+### Task list (22.06.2017)
+- [x]  Compile all programs with make+llvm.
+  - [x] Check for dependencies, and install them
+- [x] Create callgraphs for all of them.
+- [x] Mark functions that have the vulnerabilities.
+
 ### Task list (08.06.2017)
 - [x] How to extract callgraphs using LLVM Opt.
 - [x] Get NVD bugs for 15 years ( for the ones that have CVSS3 available )
@@ -8,7 +21,7 @@
   - [x] Description must value must have "function" and ".c"
 - [x] For all filtered bugs get program name, version and link
 - [x] Download sources of filtered programs.
-- [ ] Google Sheets link to Saahil. Create a tuple for each individual program.  
+- [x] Google Sheets link to Saahil. Create a tuple for each individual program.  
 
 ### Task list (01.06.2017)
 - [x] Proposal on user interface for assessment tool. (Wireframe only)
