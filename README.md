@@ -4,7 +4,7 @@
 ### Task list (30.06.2017)
 - [x] Read : https://www.cs.purdue.edu/mlg2011/papers/paper_1.pdf
   - [x] Create function that parses through a JSON and generates the values for each of the relevant attributes mentioned in this paper.
-- [ ] Read about the severity function from: https://mediatum.ub.tum.de/doc/1329071/1329071.pdf
+- [x] Read about the severity function from: https://mediatum.ub.tum.de/doc/1329071/1329071.pdf
 - [ ] Learn to use the correlation function (https://docs.scipy.org/doc/numpy/reference/generated/numpy.corrcoef.html)
 - [x] Transform .dot graphs to .json (dot_to_json.py)
 
