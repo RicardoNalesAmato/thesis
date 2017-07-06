@@ -62,18 +62,20 @@ def node_path_length(tree):
 
 # TODO - Ask Saahil
 # For a node u, the clustering coefficient c(u) represents the likelihood that any two neighbors of u are connected.
+# Step 1: Get list, L, of all connected (sources or targets, anything) nodes to "node". 
+# Step 2: For all pairs (a, b) of nodes in L:
+#   Step 2a: If a!=b and a and b are connected (a->b or b->a), then add to clustering coefficient
 def clustering_coefficient(node, data):
     return
 
-
-# TODO - Ask Saahil
+# Might not be useful for directed graph -- eccentricity of most nodes is infinity
 # The eccentricity of a node u is defined as e(u) = max{d(u, v) : v ∈ V },
 # where the distance d(u, v) is the length of the shortest path from u to v.
 def effective_eccentricity(node, data):
     return
 
 
-# TODO - Ask Saahil
+# Might not be useful for graphs with unique labels. 
 # We define the impurity degree of a node u as: ImpurityDeg(u) = |L(v) : v ∈ N(u), L(u) 6= L(v)|
 # where L(u) is the label, and N(u) is the neighborhood of (the nodes adjacent to) node u.
 def neighborhood_impurity(node, data):
