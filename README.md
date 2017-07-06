@@ -1,6 +1,16 @@
 ## Impact	factors	for	severity	assessment	of	bugs	discovered	via compositional	symbolic	execution
 ### By Ricardo Nales, supervised by Saahil Ognawala
 ---------------------------------------
+### Task list (06.07.2017)
+- [ ] Fix all the node attributes
+  - [ ] Use instructions from graph-attributes.md and node_attributes.py
+- [ ] Run Macke on all "relevant" bc files. 
+  - [ ] Get a list of all vulnerabilities reported by Macke.
+  - [ ] Compare to the existing list from CVSS database.
+    - [ ] See if you can find the line of code described in the bug report from CVSS
+  - [ ] After the above is complete, calculate the other graph features as well. 
+- [ ] Investigate for a prototype for converting json file to javascript representation. 
+
 ### Task list (30.06.2017)
 - [x] Read : https://www.cs.purdue.edu/mlg2011/papers/paper_1.pdf
   - [x] Create function that parses through a JSON and generates the values for each of the relevant attributes mentioned in this paper.

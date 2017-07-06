@@ -50,6 +50,8 @@ def node_degree(node, data):
 
 
 # Looks for the shortest path to the requested node
+# Add parameter for node instead of parsing from command line - node_path_length(node, tree)
+# See the definition of centrality from the paper, fix it
 def node_path_length(tree):
     resolver = Resolver('name')
     start = '*'
