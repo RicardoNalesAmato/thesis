@@ -1,13 +1,14 @@
 import json
 import sys
 from anytree import Node, RenderTree, Resolver
+from anytree.dotexport import RenderTreeGraph
 
 
 # Find a specific node by name
 def find_node(data, node_label):
     for node in data["nodes"]:
         if "label" in node:
-            if node_label + "}" in node["label"]:
+            if node_label in node["label"]:
                 return node["id"]
 
 
@@ -46,23 +47,29 @@ def node_degree(node, data):
             counter_source += 1
         if node in link["target"]:
             counter_target += 1
-    return counter_source, counter_target
+    return counter_source, counter_target, counter_source + counter_target
 
 
 # Looks for the shortest path to the requested node
-# Add parameter for node instead of parsing from command line - node_path_length(node, tree)
-# See the definition of centrality from the paper, fix it
-def node_path_length(tree):
+# Have the root be the node, and average the distance to its children nodes
+def node_path_length(tree, node_name):
     resolver = Resolver('name')
+    total = 0
+    children_number = 0
     start = '*'
     for i in range(tree.height):
-        node = resolver.glob(tree, start + '{' + sys.argv[2] + '}')
+        node = resolver.glob(tree, start + node_name)
         if node != []:
-            return node[0].depth
+            for child in node[0].children:
+                total += child.height
+                children_number += 1
+            if children_number != 0:
+                total = total / children_number
         else:
             start += '/*'
+    return total
 
-# TODO - Ask Saahil
+
 # For a node u, the clustering coefficient c(u) represents the likelihood that any two neighbors of u are connected.
 # Step 1: Get list, L, of all connected (sources or targets, anything) nodes to "node". 
 # Step 2: For all pairs (a, b) of nodes in L:
@@ -70,6 +77,20 @@ def node_path_length(tree):
 def clustering_coefficient(node, data):
     return
 
+
+# Distance from the node to the entry node.
+def distance_to_interface(tree, node_name):
+    resolver = Resolver('name')
+    start = '*'
+    for i in range(tree.height):
+        node = resolver.glob(tree, start + node_name)
+        if node != []:
+            return node[0].depth
+        else:
+            start += '/*'
+
+
+# -- NO LONGER IN DEV --
 # Might not be useful for directed graph -- eccentricity of most nodes is infinity
 # The eccentricity of a node u is defined as e(u) = max{d(u, v) : v ∈ V },
 # where the distance d(u, v) is the length of the shortest path from u to v.
@@ -77,6 +98,7 @@ def effective_eccentricity(node, data):
     return
 
 
+# -- NO LONGER IN DEV --
 # Might not be useful for graphs with unique labels. 
 # We define the impurity degree of a node u as: ImpurityDeg(u) = |L(v) : v ∈ N(u), L(u) 6= L(v)|
 # where L(u) is the label, and N(u) is the neighborhood of (the nodes adjacent to) node u.
@@ -84,26 +106,37 @@ def neighborhood_impurity(node, data):
     return
 
 
-# Main program
-if len(sys.argv) < 3:
+# Print results out.
+def print_results(node_name):
+    requested_node = find_node(data, node_name)
+
+    print("\nThe results for node \"" + node_name + "\" with interface \"" + interface + "\" are:\n")
+    print("\tNode degree (out, in, total):", node_degree(requested_node, data))
+    print("\tNode distance to interface:", distance_to_interface(tree, node_name))
+    print("\tNode path length:", node_path_length(tree, node_name))  # fix
+    # print("\tNode clustering coefficient:", node_path_length(tree, node_name))  # fix
+
+# Main
+if len(sys.argv) < 1:
     sys.stderr.write("Syntax : python %s json_file function_name\n" % sys.argv[0])
 else:
     with open(sys.argv[1]) as data_file:
         data = json.load(data_file)
-    requested_node = find_node(data, sys.argv[2])
-    entry_node = find_node(data, "external node")
-
-    root = Node("Entry node")
+    interface = sys.argv[3] if len(sys.argv) > 3 else "external node"
+    entry_node = find_node(data, interface)
+    root = Node(interface)
     tree = generate_tree(entry_node, data, root)
+    RenderTreeGraph(tree).to_picture("Callgraph.png")
 
     for pre, fill, node in RenderTree(tree):
         print("%s%s" % (pre, node.name))
 
-    from anytree.dotexport import RenderTreeGraph
-
-    RenderTreeGraph(tree).to_picture("Callgraph.png")
-
-    print("\nThe results for node", sys.argv[2], "are:")
-    print("Node degree (out, in):", node_degree(requested_node, data))
-
-    print("Node path length:", node_path_length(tree))
+    if len(sys.argv) > 2:
+        node_name = '{' + sys.argv[2] + '}'
+        requested_node = find_node(data, node_name)
+        print_results(node_name)
+    else:
+        for node in data["nodes"]:
+            if "label" in node:
+                node_name = node['label']
+                print_results(node_name)
