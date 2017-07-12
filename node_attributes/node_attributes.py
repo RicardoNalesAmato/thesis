@@ -76,23 +76,34 @@ def node_path_length(tree, node_name):
 #   Step 2a: If a!=b and a and b are connected (a->b or b->a), then add to clustering coefficient
 def clustering_coefficient(list, degree):
     triangles = 0
-    ru = ((degree ^ 2) - degree) / 2
+    ru = ((degree ** 2) - degree) / 2
     for a in list:
         for b in list:
             if a['source'] != b['source']:
-                if(a['target'] == b['source']):
+                if a['target'] == b['source']:
                     triangles += 1
-                if (b['source'] == a['target']):
+                if b['target'] == a['source']:
                     triangles += 1
-    return triangles / ru
+    return triangles / ru if ru != 0 else 0
 
 
 def generate_connected_list(requested_node, data):
-    list = []
+    visited = set()
+    list_nodes = []
+    final_list = []
     for link in data["links"]:
-        if requested_node in link["source"] or requested_node in link["target"]:
-            list.append(link)
-    return list
+        if requested_node in link["source"]:
+            list_nodes.append(link['target'])
+        if requested_node in link["target"]:
+            list_nodes.append(link['source'])
+    for related_node in list_nodes:
+        for link in data["links"]:
+            if related_node in link["source"]:
+                key = hash(entry_node + link["source"] + link["target"])
+                if key not in visited:
+                    visited.add(key)
+                    final_list.append(link)
+    return final_list
 
 
 # Distance from the node to the entry node.
