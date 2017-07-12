@@ -40,14 +40,14 @@ def generate_tree(entry_node, data, root, visited=None):
 
 # The degree of a node is defined as the number of its neighboring edges
 def node_degree(node, data):
-    counter_source = 0
-    counter_target = 0
+    counter_out = 0
+    counter_in = 0
     for link in data["links"]:
         if node in link["source"]:
-            counter_source += 1
+            counter_out += 1
         if node in link["target"]:
-            counter_target += 1
-    return counter_source, counter_target, counter_source + counter_target
+            counter_in += 1
+    return counter_out, counter_in, counter_out + counter_in
 
 
 # Looks for the shortest path to the requested node
@@ -74,8 +74,25 @@ def node_path_length(tree, node_name):
 # Step 1: Get list, L, of all connected (sources or targets, anything) nodes to "node". 
 # Step 2: For all pairs (a, b) of nodes in L:
 #   Step 2a: If a!=b and a and b are connected (a->b or b->a), then add to clustering coefficient
-def clustering_coefficient(node, data):
-    return
+def clustering_coefficient(list, degree):
+    triangles = 0
+    ru = ((degree ^ 2) - degree) / 2
+    for a in list:
+        for b in list:
+            if a['source'] != b['source']:
+                if(a['target'] == b['source']):
+                    triangles += 1
+                if (b['source'] == a['target']):
+                    triangles += 1
+    return triangles / ru
+
+
+def generate_connected_list(requested_node, data):
+    list = []
+    for link in data["links"]:
+        if requested_node in link["source"] or requested_node in link["target"]:
+            list.append(link)
+    return list
 
 
 # Distance from the node to the entry node.
@@ -107,14 +124,17 @@ def neighborhood_impurity(node, data):
 
 
 # Print results out.
-def print_results(node_name):
+def print_results():
     requested_node = find_node(data, node_name)
+    connected_list = generate_connected_list(requested_node, data)
 
+    degree = node_degree(requested_node, data)
     print("\nThe results for node \"" + node_name + "\" with interface \"" + interface + "\" are:\n")
-    print("\tNode degree (out, in, total):", node_degree(requested_node, data))
+    print("\tNode degree (out, in, total):", degree)
     print("\tNode distance to interface:", distance_to_interface(tree, node_name))
     print("\tNode path length:", node_path_length(tree, node_name))  # fix
-    # print("\tNode clustering coefficient:", node_path_length(tree, node_name))  # fix
+    print("\tNode clustering coefficient:", clustering_coefficient(connected_list, degree[2]))  # fix
+
 
 # Main
 if len(sys.argv) < 1:
@@ -133,10 +153,9 @@ else:
 
     if len(sys.argv) > 2:
         node_name = '{' + sys.argv[2] + '}'
-        requested_node = find_node(data, node_name)
-        print_results(node_name)
+        print_results()
     else:
         for node in data["nodes"]:
             if "label" in node:
                 node_name = node['label']
-                print_results(node_name)
+                print_results()
