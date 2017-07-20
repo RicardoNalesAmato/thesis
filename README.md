@@ -2,10 +2,10 @@
 ### By Ricardo Nales, supervised by Saahil Ognawala
 ---------------------------------------
 ### Task list (17.07.2017)
-- [ ] Run Macke on all "relevant" bc files.
-  - [ ] Get a list of all vulnerabilities reported by Macke.
-    - [ ] Separate list into found-only-by-macke, not-found-by-macke, found-by-both-macke-and-cvss-database
-  - [ ] Compare to the existing list from CVSS database.
+- [x] Run Macke on all "relevant" bc files.
+  - [x] Get a list of all vulnerabilities reported by Macke.
+    - [x] Separate list into found-only-by-macke, not-found-by-macke, found-by-both-macke-and-cvss-database
+  - [x] Compare to the existing list from CVSS database.
     - [ ] See if you can find the line of code described in the bug report from CVSS
   - [ ] After the above is complete, calculate the other graph features as well.
 - [ ] Format the output of node_attributes as structured JSON
