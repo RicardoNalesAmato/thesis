@@ -3,21 +3,18 @@
 ---------------------------------------
 
 ### Task list (20.07.2017)
-- [ ] Extract dot files for all compiled programs. 
-- [ ] Format the output of node_attributes+CVSS scores as structured JSON. 
+- [x] Extract dot files for all compiled programs.
+- [ ] Format the output of node_attributes+CVSS scores as structured JSON.
 - [x] Compare to the existing list from CVSS database.
   - [ ] See if you can find the line of code described in the bug report from CVSS
 - [ ] Co-relation between node attributes (including everything) and CVSS base score
-  - [ ] For each node attribute (eg. centrality, path-length) calculate co-relation to each CVSS base score metric. 
+  - [ ] For each node attribute (eg. centrality, path-length) calculate co-relation to each CVSS base score metric.
 
 ### Task list (17.07.2017)
 - [x] Run Macke on all "relevant" bc files.
   - [x] Get a list of all vulnerabilities reported by Macke.
     - [x] Separate list into found-only-by-macke, not-found-by-macke, found-by-both-macke-and-cvss-database
   - [x] Compare to the existing list from CVSS database.
-    - [ ] See if you can find the line of code described in the bug report from CVSS
-  - [ ] After the above is complete, calculate the other graph features as well.
-- [ ] Format the output of node_attributes as structured JSON
 
 ### Task list (06.07.2017)
 - [x] Fix all the node attributes
