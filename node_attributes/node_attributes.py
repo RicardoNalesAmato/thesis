@@ -139,17 +139,20 @@ def distance_to_interface(tree, node_name):
 
 
 # Print results out.
-def print_results():
+def generate_json():
     requested_node = find_node(data, node_name)
     connected_list = generate_connected_list(requested_node)
 
     degree = node_degree(requested_node)
-    print("\nThe results for node \"" + node_name + "\" with interface \"" + interface + "\" are:\n")
-    print("\tNode degree (out, in, total):", degree)
-    print("\tNode distance to interface:", distance_to_interface(tree, node_name))
-    print("\tNode path length:", node_path_length(tree, node_name))  # fix
-    print("\tNode clustering coefficient:", clustering_coefficient(connected_list, degree[2]))  # fix
 
+    results_json[node_name] = {"node_degree": degree,
+                               "distance_to_interface": distance_to_interface(tree, node_name),
+                               "node_path_length": node_path_length(tree, node_name),
+                               "clustering_coefficient": clustering_coefficient(connected_list, degree[2])}
+    for cvss3_entry in cvss3_data:
+        if node_name in cvss3_entry:
+            results_json[node_name]["faulty"] = True
+            results_json[node_name]["cvss3"] = cvss3_data[node_name]
 
 # Main
 if len(sys.argv) < 1:
@@ -157,20 +160,26 @@ if len(sys.argv) < 1:
 else:
     with open(sys.argv[1]) as data_file:
         data = json.load(data_file)
+    with open(sys.argv[2]) as cvss3_file:
+        cvss3_data = json.load(cvss3_file)
     interface = sys.argv[3] if len(sys.argv) > 3 else "external node"
     entry_node = find_node(data, interface)
     root = Node(interface)
     tree = generate_tree(entry_node, root)
-    RenderTreeGraph(tree).to_picture("Callgraph.png")
+    results_json = {}
+    RenderTreeGraph(tree).to_picture(sys.argv[1] + "_callgraph.png")
 
     for pre, fill, node in RenderTree(tree):
         print("%s%s" % (pre, node.name))
 
-    if len(sys.argv) > 2:
-        node_name = '{' + sys.argv[2] + '}'
-        print_results()
-    else:
-        for node in data["nodes"]:
-            if "label" in node:
-                node_name = node['label']
-                print_results()
+    # if len(sys.argv) > 2:
+    #     node_name = '{' + sys.argv[2] + '}'
+    #     generate_json()
+    #     print(results_json)
+    # else:
+    for node in data["nodes"]:
+        if "label" in node:
+            node_name = node['label']
+            generate_json()
+    with open(sys.argv[1] + '_node_attributes.json', 'w') as fp:
+        json.dump(results_json, fp)

@@ -4,7 +4,7 @@
 
 ### Task list (20.07.2017)
 - [x] Extract dot files for all compiled programs.
-- [ ] Format the output of node_attributes+CVSS scores as structured JSON.
+- [x] Format the output of node_attributes+CVSS scores as structured JSON.
 - [x] Compare to the existing list from CVSS database.
   - [ ] See if you can find the line of code described in the bug report from CVSS
 - [ ] Co-relation between node attributes (including everything) and CVSS base score
@@ -20,11 +20,11 @@
 - [x] Fix all the node attributes
   - [x] Use instructions from graph-attributes.md and node_attributes.py
 - [x] Investigate for a prototype for converting json file to javascript representation.
-- [ ] Run Macke on all "relevant" bc files.
-  - [ ] Get a list of all vulnerabilities reported by Macke.
-  - [ ] Compare to the existing list from CVSS database.
-    - [ ] See if you can find the line of code described in the bug report from CVSS
-  - [ ] After the above is complete, calculate the other graph features as well.
+- [x] Run Macke on all "relevant" bc files.
+  - [x] Get a list of all vulnerabilities reported by Macke.
+  - [x] Compare to the existing list from CVSS database.
+    - [x] See if you can find the line of code described in the bug report from CVSS
+  - [x] After the above is complete, calculate the other graph features as well.
 
 ### Task list (30.06.2017)
 - [x] Read : https://www.cs.purdue.edu/mlg2011/papers/paper_1.pdf
