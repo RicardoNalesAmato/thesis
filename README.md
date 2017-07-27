@@ -1,12 +1,20 @@
 ## Impact	factors	for	severity	assessment	of	bugs	discovered	via compositional	symbolic	execution
 ### By Ricardo Nales, supervised by Saahil Ognawala
 ---------------------------------------
+### Task list (27.07.2017)
+- [ ] Add Macke attributes to the attribute list (JSON)
+  - [ ] Bug chain length
+  - [ ] Number of vulnerabilities inside the function
+- [ ] Co-relation between node attributes (including everything) and CVSS base score
+  - [ ] For each node attribute (eg. centrality, path-length) calculate co-relation to each CVSS base score metric.
+- [ ] For user presentation, use the line number given by Macke, and not the one given by CVSS scores. 
+- [ ] HTML frontend for displaying vulnerability report. 
 
 ### Task list (20.07.2017)
 - [x] Extract dot files for all compiled programs.
 - [x] Format the output of node_attributes+CVSS scores as structured JSON.
 - [x] Compare to the existing list from CVSS database.
-  - [ ] See if you can find the line of code described in the bug report from CVSS
+  - [x] See if you can find the line of code described in the bug report from CVSS
 - [ ] Co-relation between node attributes (including everything) and CVSS base score
   - [ ] For each node attribute (eg. centrality, path-length) calculate co-relation to each CVSS base score metric.
 
