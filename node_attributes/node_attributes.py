@@ -145,7 +145,7 @@ def generate_json():
 
     degree = node_degree(requested_node)
 
-    results_json[node_name] = {"node_degree": degree,
+    results_json[node_name] = {"faulty": False,"node_degree": degree,
                                "distance_to_interface": distance_to_interface(tree, node_name),
                                "node_path_length": node_path_length(tree, node_name),
                                "clustering_coefficient": clustering_coefficient(connected_list, degree[2])}
