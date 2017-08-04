@@ -2,13 +2,13 @@
 ### By Ricardo Nales, supervised by Saahil Ognawala
 ---------------------------------------
 ### Task list (27.07.2017)
-- [ ] Add Macke attributes to the attribute list (JSON)
-  - [ ] Bug chain length
-  - [ ] Number of vulnerabilities inside the function
+- [x] Add Macke attributes to the attribute list (JSON)
+  - [x] Bug chain length
+  - [x] Number of vulnerabilities inside the function
 - [ ] Co-relation between node attributes (including everything) and CVSS base score
   - [ ] For each node attribute (eg. centrality, path-length) calculate co-relation to each CVSS base score metric.
-- [ ] For user presentation, use the line number given by Macke, and not the one given by CVSS scores. 
-- [ ] HTML frontend for displaying vulnerability report. 
+- [ ] For user presentation, use the line number given by Macke, and not the one given by CVSS scores. **This can't be done for all, since ptr.err are not generated 100% of the time**
+- [ ] HTML front-end for displaying vulnerability report.
 
 ### Task list (20.07.2017)
 - [x] Extract dot files for all compiled programs.

@@ -145,14 +145,36 @@ def generate_json():
 
     degree = node_degree(requested_node)
 
-    results_json[node_name] = {"faulty": False,"node_degree": degree,
+    results_json[node_name] = {"faulty": False, "node_degree": degree,
                                "distance_to_interface": distance_to_interface(tree, node_name),
                                "node_path_length": node_path_length(tree, node_name),
                                "clustering_coefficient": clustering_coefficient(connected_list, degree[2])}
     for cvss3_entry in cvss3_data:
         if node_name in cvss3_entry:
+            macke_results = macke_attributes(node_name)
             results_json[node_name]["faulty"] = True
             results_json[node_name]["cvss3"] = cvss3_data[node_name]
+            results_json[node_name]["macke_vulnerabilities_found"] = macke_results[0]
+            results_json[node_name]["macke_bug_chain_length"] = macke_results[1]
+
+
+# Macke functions
+#  Number of vulnerabilities inside the function
+def macke_attributes(node_name):
+    directory = sys.argv[1].rsplit('/', 1)[0]
+    number_of_bugs_found = 0
+    bug_chain_length = 0
+    with open(directory + "/klee.json") as klee_json:
+        klee_json_data = json.load(klee_json)
+    for key, value in sorted(klee_json_data.items()):
+        if "function" in value:
+            if '{' + value['function'] + '}' == node_name:
+                number_of_bugs_found += 1
+                bug_chain_length = value['phase']
+        if "caller" in value:
+            bug_chain_length = value['phase']
+    return number_of_bugs_found, bug_chain_length
+
 
 # Main
 if len(sys.argv) < 1:
@@ -172,11 +194,6 @@ else:
     for pre, fill, node in RenderTree(tree):
         print("%s%s" % (pre, node.name))
 
-    # if len(sys.argv) > 2:
-    #     node_name = '{' + sys.argv[2] + '}'
-    #     generate_json()
-    #     print(results_json)
-    # else:
     for node in data["nodes"]:
         if "label" in node:
             node_name = node['label']
