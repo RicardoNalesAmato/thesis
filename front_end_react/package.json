@@ -1,28 +1,14 @@
 {
-  "name": "react-server-boilerplate",
-  "version": "1.0.2",
-  "description": "React server side rendering boilerplate",
+  "name": "react-frontend",
+  "version": "1.0",
+  "description": "React server side rendering",
   "main": "index.js",
   "scripts": {
     "start": "cd dist && node server",
     "build": "webpack",
     "lint": "functionhappy | snazzy"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Roilan/react-server-boilerplate"
-  },
-  "keywords": [
-    "react",
-    "react server",
-    "reactjs"
-  ],
-  "author": "Roilan <roilan14@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Roilan/react-server-boilerplate/issues"
-  },
-  "homepage": "https://github.com/Roilan/react-server-boilerplate",
+  "author": "Ricardo Nales",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.10.4",
