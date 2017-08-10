@@ -1,17 +1,21 @@
-import React, { Component, PropTypes } from 'react';
+import React, {Component, PropTypes} from 'react';
+import {createGraph} from './graphs'
+// import './App.scss'
 
 export default class App extends Component {
-  render() {
-    const { isMobile } = this.props;
+    render() {
 
-    return (
-      <div>
-        <h1>Application starting point</h1>
-      </div>
-    );
-  }
+        return (
+            <div>
+
+                <h1> Fully implemented on React with SSR!!!</h1>
+                <svg width="960" height="600"></svg>
+
+            </div>
+        );
+    }
+
+    componentDidMount() {
+        createGraph();
+    }
 }
-
-App.propTypes = {
-  isMobile: PropTypes.bool.isRequired
-};
