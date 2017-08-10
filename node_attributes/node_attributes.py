@@ -177,7 +177,7 @@ def macke_attributes(node_name):
 
 
 # Main
-if len(sys.argv) < 1:
+if len(sys.argv) < 2:
     sys.stderr.write("Syntax : python %s json_file function_name\n" % sys.argv[0])
 else:
     with open(sys.argv[1]) as data_file:

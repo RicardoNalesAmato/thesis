@@ -85,7 +85,7 @@ def prep_data(function_data):
 
 
 # Main
-if len(sys.argv) < 1:
+if len(sys.argv) < 2:
     sys.stderr.write('Syntax : python3 %s /node_attributes_directory\n' % sys.argv[0])
 else:
     files = os.listdir(sys.argv[1])
