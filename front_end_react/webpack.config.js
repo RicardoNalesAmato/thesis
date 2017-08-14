@@ -44,6 +44,10 @@ module.exports = [
                 {
                     test: /\.js$/,
                     loader: 'babel'
+                },
+                {
+                    test: /\.css|scss$/,
+                    loader: 'ignore-loader'
                 }
             ].concat(commonLoaders)
         }

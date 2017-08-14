@@ -1,6 +1,6 @@
 import express from 'express';
 import React from 'react';
-import { renderToString } from 'react-dom/server';
+import {renderToString} from 'react-dom/server';
 import App from './app';
 import template from './template';
 
@@ -9,17 +9,14 @@ const server = express();
 server.use('/assets', express.static('assets'));
 
 server.get('/', (req, res) => {
-  const isMobile = true;
-  const initialState = { isMobile };
-  const appString = renderToString(<App {...initialState} />);
+    const appString = renderToString(<App />);
 
-  res.send(template({
-    body: appString,
-    title: 'Front-end',
-    initialState: JSON.stringify(initialState)
-  }));
+    res.send(template({
+        body: appString,
+        title: 'Front-end'
+    }));
 });
 
-let port = 8000;
+let port = 8080;
 server.listen(port);
 console.log('listening on port:', port);

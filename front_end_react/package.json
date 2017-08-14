@@ -6,6 +6,7 @@
   "scripts": {
     "start": "cd dist && node server",
     "build": "webpack",
+    "dev": "webpack --watch --debug",
     "lint": "functionhappy | snazzy"
   },
   "author": "Ricardo Nales",
@@ -30,6 +31,7 @@
   "dependencies": {
     "d3": "^4.10.0",
     "express": "^4.14.0",
+    "ignore-loader": "^0.1.2",
     "react": "^15.2.0",
     "react-dom": "^15.2.0"
   }

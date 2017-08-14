@@ -5,20 +5,20 @@ let graph = require('./data.json');
 
 export function createGraph() {
 
-    var svg = d3.select("svg"),
+    let svg = d3.select("svg"),
         width = +svg.attr("width"),
         height = +svg.attr("height");
 
-    var color = d3.scaleOrdinal(d3.schemeCategory20);
+    let color = d3.scaleOrdinal(d3.schemeCategory20);
 
-    var simulation = d3.forceSimulation()
+    let simulation = d3.forceSimulation()
         .force("link", d3.forceLink().id(function (d) {
             return d.id;
         }))
         .force("charge", d3.forceManyBody())
         .force("center", d3.forceCenter(width / 2, height / 2));
 
-    var link = svg.append("g")
+    let link = svg.append("g")
         .attr("class", "links")
         .selectAll("line")
         .data(graph.links)
@@ -29,7 +29,7 @@ export function createGraph() {
 
     console.log(link);
 
-    var node = svg.append("g")
+    let node = svg.append("g")
         .attr("class", "nodes")
         .selectAll("circle")
         .data(graph.nodes)
