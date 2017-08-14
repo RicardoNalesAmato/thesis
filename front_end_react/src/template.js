@@ -1,8 +1,9 @@
-export default ({ body, title }) => {
+export default ({body, title}) => {
   return `
     <!DOCTYPE html>
     <html>
       <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
         <title>${title}</title>
         <link rel="stylesheet" href="/assets/index.css" />
       </head>
@@ -13,5 +14,5 @@ export default ({ body, title }) => {
       
       <script src="/assets/bundle.js"></script>
     </html>
-  `;
-};
+  `
+}
