@@ -80,7 +80,7 @@ module.exports = [
           loader: 'babel'
         },
         {
-          test: /\.scss$/,
+          test: /\.scss|.css$/,
           loader: ExtractTextPlugin.extract('css!sass')
         },
         {
