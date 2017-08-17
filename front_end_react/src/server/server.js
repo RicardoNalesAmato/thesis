@@ -1,7 +1,7 @@
 import express from 'express'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
-import App from './app/app'
+import App from '../client/app'
 import template from './template'
 
 const server = express()

@@ -1,8 +1,15 @@
 import * as d3 from 'd3'
-import $ from 'jQuery'
 import './styles.css'
 
-let data = require('./data.json')
+let canUseDOM = !!(
+  typeof window !== 'undefined' &&
+  window.document &&
+  window.document.createElement
+)
+
+let $
+
+let data = require('../resources/data.json')
 
 export function createGraph () {
   let svg = d3.select('svg')
@@ -68,8 +75,12 @@ export function createGraph () {
       .text(function (d) { return d.id })
 
     node.on('click', function (d) {
-      $('#cvssScore').text(d.id)
-      $('#nodeData').text(JSON.stringify(d, null, 2))
+      console.log(canUseDOM)
+      if (canUseDOM) {
+        $ = require('jquery')
+        $('#cvssScore').text(d.id)
+        $('#nodeData').text(JSON.stringify(d, null, 2))
+      }
     })
 
     node.append('title')

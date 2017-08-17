@@ -11,6 +11,10 @@ const nodeData = (
 )
 
 export default class App extends Component {
+
+  // componentWillMount () {
+//
+//  }
   render () {
     return (
       <Grid>

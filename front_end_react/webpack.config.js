@@ -21,7 +21,7 @@ let commonLoaders = [
 
 module.exports = [
   {
-    entry: './src/server.js',
+    entry: './src/server/server.js',
     output: {
       path: './dist',
       filename: 'server.js',
@@ -53,7 +53,7 @@ module.exports = [
     }
   },
   {
-    entry: './src/app/browser.js',
+    entry: './src/client/browser.js',
     output: {
       path: './dist/assets',
       publicPath: '/',

@@ -103,7 +103,9 @@ else:
 
     covariance = numpy.cov(structure_data, rowvar=False)
     correlation = numpy.corrcoef(structure_data, rowvar=False)
-    print('Covariance:\n', covariance)
+    print('Covariance of CVSS3 Scores:\n')
+    for i in range(5, 14):
+        print(covariance[i])
     print('Correlation of CVSS3 Scores:\n')
     for i in range(5, 14):
         print(correlation[i])
