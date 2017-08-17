@@ -1,14 +1,20 @@
 ## Impact	factors	for	severity	assessment	of	bugs	discovered	via compositional	symbolic	execution
 ### By Ricardo Nales, supervised by Saahil Ognawala
 ---------------------------------------
+### Task list (17.08.2017)
+- [ ] Send title and abstract of mid-term presentation. 
+- [ ] Check how distance_to_interface calculates the distance and what is None (should be infinite or a very big number). 
+- [ ] Fix macke_bug_chain_length function, according to the comments in node_attributes.py.  
+- [ ] Generate covariance and correlation matrices again. 
+
 ### Task list (27.07.2017)
 - [x] Add Macke attributes to the attribute list (JSON)
   - [x] Bug chain length
   - [x] Number of vulnerabilities inside the function
-- [ ] Co-relation between node attributes (including everything) and CVSS base score
-  - [ ] For each node attribute (eg. centrality, path-length) calculate co-relation to each CVSS base score metric.
-- [ ] For user presentation, use the line number given by Macke, and not the one given by CVSS scores. **This can't be done for all, since ptr.err are not generated 100% of the time**
-- [ ] HTML front-end for displaying vulnerability report.
+- [x] Co-relation between node attributes (including everything) and CVSS base score
+  - [x] For each node attribute (eg. centrality, path-length) calculate co-relation to each CVSS base score metric.
+- [x] For user presentation, use the line number given by Macke, and not the one given by CVSS scores. **This can't be done for all, since ptr.err are not generated 100% of the time**
+- [x] HTML front-end for displaying vulnerability report.
 
 ### Task list (20.07.2017)
 - [x] Extract dot files for all compiled programs.

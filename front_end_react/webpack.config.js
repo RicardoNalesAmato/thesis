@@ -21,9 +21,9 @@ let commonLoaders = [
 
 module.exports = [
   {
-    entry: './src/server/server.js',
+    entry: '/Users/ognawala/Documents/ricardo-thesis/thesis/front_end_react/src/server/server.js',
     output: {
-      path: './dist',
+      path: '/Users/ognawala/Documents/ricardo-thesis/thesis/front_end_react/dist',
       filename: 'server.js',
       libraryTarget: 'commonjs2',
       publicPath: '/'
@@ -53,9 +53,9 @@ module.exports = [
     }
   },
   {
-    entry: './src/client/browser.js',
+    entry: '/Users/ognawala/Documents/ricardo-thesis/thesis/front_end_react/src/client/browser.js',
     output: {
-      path: './dist/assets',
+      path: '/Users/ognawala/Documents/ricardo-thesis/thesis/front_end_react/dist/assets',
       publicPath: '/',
       filename: 'bundle.js'
     },
