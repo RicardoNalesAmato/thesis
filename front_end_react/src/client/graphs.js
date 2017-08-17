@@ -11,9 +11,9 @@ let canUseDOM = !!(
 if (canUseDOM) {
   $ = require('jquery')
   feedback = $('#feedbackPanel')
+  // Hide the Panel
+  feedback.addClass('hidden')
 }
-// Hide the Panel
-feedback.addClass('hidden')
 
 let data = require('../resources/data.json')
 

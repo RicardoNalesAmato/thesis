@@ -12,3 +12,7 @@
 .hidden {
     display: none;
 }
+
+.frame {
+    outline: 1px solid black;
+}

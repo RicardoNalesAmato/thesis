@@ -23,7 +23,7 @@ export default class App extends Component {
           <Col xs={12} md={8}>
             <svg width='700' height='700' />
           </Col>
-          <Col xs={6} md={4}>
+          <Col xs={6} md={4} >
             <Panel header={nodeData} bsStyle='info'>
               <p id='nodeData' />
             </Panel>
