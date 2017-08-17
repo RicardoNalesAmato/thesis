@@ -1,4 +1,5 @@
 let webpack = require('webpack')
+const {resolve, join} = require('path')
 let ExtractTextPlugin = require('extract-text-webpack-plugin')
 let nodeExternals = require('webpack-node-externals')
 
@@ -21,9 +22,9 @@ let commonLoaders = [
 
 module.exports = [
   {
-    entry: './src/server/server.js',
+    entry: resolve(join('src', 'server', 'server.js')),
     output: {
-      path: './dist',
+      path: resolve('dist'),
       filename: 'server.js',
       libraryTarget: 'commonjs2',
       publicPath: '/'
@@ -43,7 +44,7 @@ module.exports = [
       loaders: [
         {
           test: /\.js$/,
-          loader: 'babel'
+          loader: 'babel-loader'
         },
         {
           test: /\.css|scss$/,
@@ -53,9 +54,9 @@ module.exports = [
     }
   },
   {
-    entry: './src/client/browser.js',
+    entry: resolve(join('src', 'client', 'browser.js')),
     output: {
-      path: './dist/assets',
+      path: resolve(join('dist', 'assets')),
       publicPath: '/',
       filename: 'bundle.js'
     },
@@ -67,10 +68,23 @@ module.exports = [
     module: {
       rules: [
         {
+          include: resolve('src'),
+          test: /\.js$/,
+          loader: 'babel-loader',
+          exclude: '/node_modules'
+        },
+        {
           enforce: 'pre',
           test: /\.js$/,
           loader: 'eslint-loader',
           exclude: /node_modules/
+        },
+        {
+          test: /\.css$/,
+          use: ExtractTextPlugin.extract({
+            fallback: 'style-loader',
+            use: 'css-loader'
+          })
         }
       ],
       loaders: [
@@ -78,19 +92,11 @@ module.exports = [
           test: /\.js$/,
           exclude: /node_modules/,
           loader: 'babel'
-        },
-        {
-          test: /\.scss|.css$/,
-          loader: ExtractTextPlugin.extract('css!sass')
-        },
-        {
-          test: /\.json$/,
-          loader: 'json'
         }
-      ]
+      ].concat(commonLoaders)
     },
     resolve: {
-      extensions: ['', '.js', '.jsx', '.json']
+      extensions: ['.js', '.jsx', '.json']
     }
   }
 ]
