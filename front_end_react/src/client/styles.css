@@ -8,3 +8,7 @@
     stroke: #333;
     stroke-width: 1.5px;
 }
+
+.hidden {
+    display: none;
+}

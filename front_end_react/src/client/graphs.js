@@ -1,13 +1,19 @@
 import * as d3 from 'd3'
 import './styles.css'
 
+let $, feedback
 let canUseDOM = !!(
   typeof window !== 'undefined' &&
   window.document &&
   window.document.createElement
 )
 
-let $
+if (canUseDOM) {
+  $ = require('jquery')
+  feedback = $('#feedbackPanel')
+}
+// Hide the Panel
+feedback.addClass('hidden')
 
 let data = require('../resources/data.json')
 
@@ -80,6 +86,7 @@ export function createGraph () {
         $ = require('jquery')
         $('#cvssScore').text(d.id)
         $('#nodeData').text(JSON.stringify(d, null, 2))
+        feedback.removeClass('hidden')
       }
     })
 
