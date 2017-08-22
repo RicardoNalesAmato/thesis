@@ -110,7 +110,6 @@ def clustering_coefficient(list, degree):
                 if (related_node in link["source"]) and (link["target"] in list) and (link["source"] != link["target"]):
                     visited.add(key)
                     triangles += 1
-                    # print("from:", find_label(link["source"]), "to:", find_label(link["target"]))
     return triangles / ru if ru != 0 else 0
 
 
@@ -149,14 +148,16 @@ def generate_json():
     disposable_tree = copy.deepcopy(tree)
 
     degree = node_degree(requested_node)
+    macke_results = macke_attributes(node_name)
 
     results_json[node_name] = {"faulty": False, "node_degree": degree,
                                "distance_to_interface": distance_to_interface(disposable_tree, node_name),
                                "node_path_length": node_path_length(disposable_tree, node_name),
-                               "clustering_coefficient": clustering_coefficient(connected_list, degree[2])}
+                               "clustering_coefficient": clustering_coefficient(connected_list, degree[2]),
+                               "macke_vulnerabilities_found": macke_results[0],
+                               "macke_bug_chain_length": macke_results[1]}
     for cvss3_entry in cvss3_data:
         if node_name in cvss3_entry:
-            macke_results = macke_attributes(node_name)
             results_json[node_name]["faulty"] = True
             results_json[node_name]["cvss3"] = cvss3_data[node_name]
             results_json[node_name]["macke_vulnerabilities_found"] = macke_results[0]
@@ -175,9 +176,11 @@ def macke_attributes(node_name):
         if "function" in value:
             if '{' + value['function'] + '}' == node_name:
                 number_of_bugs_found += 1
-                bug_chain_length = value['phase']
+                bug_chain_length = 1
         if "caller" in value:
-            bug_chain_length = value['phase']
+            if '{' + value['caller'] + '}' == node_name:
+                print(node_name)
+                bug_chain_length = value['phase']
     return number_of_bugs_found, bug_chain_length
 
 
@@ -223,8 +226,8 @@ else:
     results_json = {}
     RenderTreeGraph(tree).to_picture(sys.argv[1] + "_callgraph.png")
 
-    for pre, fill, node in RenderTree(tree):
-        print("%s%s" % (pre, node.name))
+    # for pre, fill, node in RenderTree(tree):
+    #     print("%s%s" % (pre, node.name))
 
     for node in data["nodes"]:
         if "label" in node:
