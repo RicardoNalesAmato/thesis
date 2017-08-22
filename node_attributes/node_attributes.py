@@ -1,5 +1,6 @@
 import json
 import sys
+import copy
 from anytree import Node, RenderTree, Resolver
 from anytree.dotexport import RenderTreeGraph
 
@@ -133,21 +134,25 @@ def distance_to_interface(tree, node_name):
     for i in range(tree.height):
         node = resolver.glob(tree, start + node_name)
         if node != []:
-            return node[0].depth
+            depth = node[0].depth
+            return depth
         else:
             start += '/*'
+    # In case it is the external node
+    return 999
 
 
 # Print results out.
 def generate_json():
     requested_node = find_node(data, node_name)
     connected_list = generate_connected_list(requested_node)
+    disposable_tree = copy.deepcopy(tree)
 
     degree = node_degree(requested_node)
 
     results_json[node_name] = {"faulty": False, "node_degree": degree,
-                               "distance_to_interface": distance_to_interface(tree, node_name),
-                               "node_path_length": node_path_length(tree, node_name),
+                               "distance_to_interface": distance_to_interface(disposable_tree, node_name),
+                               "node_path_length": node_path_length(disposable_tree, node_name),
                                "clustering_coefficient": clustering_coefficient(connected_list, degree[2])}
     for cvss3_entry in cvss3_data:
         if node_name in cvss3_entry:
