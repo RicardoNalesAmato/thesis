@@ -15,7 +15,7 @@ if (canUseDOM) {
   feedback.addClass('hidden')
 }
 
-let data = require('../resources/data.json')
+let data = require('../resources/test.json')
 
 export function createGraph () {
   let svg = d3.select('svg')

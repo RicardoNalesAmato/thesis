@@ -20,7 +20,7 @@ def find_label(node_id):
                 if "label" in node:
                     return node["label"]
                 else:
-                    return "No name"
+                    return node["id"]
 
 
 # Tested
@@ -176,6 +176,33 @@ def macke_attributes(node_name):
     return number_of_bugs_found, bug_chain_length
 
 
+# Generate JSON for the frontend
+def front_end_json():
+    nodes = []
+    links = []
+    from random import randint
+    for link in data["links"]:
+        del link["key"]
+        link["source"] = find_label(link["source"])
+        link["target"] = find_label(link["target"])
+        link["type"] = randint(0, 3)
+        links.append(link)
+    for node in data["nodes"]:
+        if "label" in node:
+            node["id"] = node["label"]
+            del node["label"]
+        if "shape" in node:
+            del node["shape"]
+        node["type"] = randint(0, 5)
+        nodes.append(node)
+    formatted_json = {
+        'nodes': nodes,
+        'links': links,
+    }
+    with open(sys.argv[1] + '__Test.json', 'w') as frontend_json:
+        json.dump(formatted_json, frontend_json)
+
+
 # Main
 if len(sys.argv) < 2:
     sys.stderr.write("Syntax : python %s json_file function_name\n" % sys.argv[0])
@@ -200,3 +227,5 @@ else:
             generate_json()
     with open(sys.argv[1] + '_node_attributes.json', 'w') as fp:
         json.dump(results_json, fp)
+
+    front_end_json()
