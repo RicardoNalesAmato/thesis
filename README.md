@@ -5,7 +5,7 @@
 - [x] Send title and abstract of mid-term presentation.
 - [x] Check how distance_to_interface calculates the distance and what is None (should be infinite or a very big number).
 - [x] Fix macke_bug_chain_length function, according to the comments in node_attributes.py.  
-- [ ] Generate covariance and correlation matrices again.
+- [x] Generate covariance and correlation matrices again.
 
 ### Task list (27.07.2017)
 - [x] Add Macke attributes to the attribute list (JSON)
