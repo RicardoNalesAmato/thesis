@@ -164,6 +164,16 @@ def generate_json():
             results_json[node_name]["macke_bug_chain_length"] = macke_results[1]
 
 
+def find_bug_chain_length(child_function, klee_json_data, bug_chain_length):
+    for key, value in sorted(klee_json_data.items()):
+        if "caller" in value:
+            if '{' + value['caller'] + '}' == child_function:
+                callee = '{' + value['callee'] + '}'
+                bug_chain_length += 1
+                bug_chain_length = find_bug_chain_length(callee, klee_json_data, bug_chain_length)
+    return bug_chain_length
+
+
 # Macke functions
 #  Number of vulnerabilities inside the function
 def macke_attributes(node_name):
@@ -179,8 +189,8 @@ def macke_attributes(node_name):
                 bug_chain_length = 1
         if "caller" in value:
             if '{' + value['caller'] + '}' == node_name:
-                print(node_name)
-                bug_chain_length = value['phase']
+                callee = '{' + value['callee'] + '}'
+                bug_chain_length = find_bug_chain_length(callee, klee_json_data, bug_chain_length)
     return number_of_bugs_found, bug_chain_length
 
 
@@ -226,6 +236,7 @@ else:
     results_json = {}
     RenderTreeGraph(tree).to_picture(sys.argv[1] + "_callgraph.png")
 
+    # For testing purposes only -- Displays the current tree
     # for pre, fill, node in RenderTree(tree):
     #     print("%s%s" % (pre, node.name))
 
@@ -237,3 +248,4 @@ else:
         json.dump(results_json, fp)
 
     front_end_json()
+    print('Done with:', sys.argv[1])
