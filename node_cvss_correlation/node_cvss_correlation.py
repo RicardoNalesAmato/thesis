@@ -14,10 +14,7 @@ def prep_data(function_data):
         elif key == 'cvss3':
             cvss3_data = value
         elif key == 'distance_to_interface':
-            if value is None:
-                result.append(0)
-            else:
-                result.append(1)
+            result.append(value)
         elif key == 'macke_bug_chain_length':
             result.append(value)
         elif key == 'macke_vulnerabilities_found':
