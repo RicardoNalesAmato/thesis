@@ -4,7 +4,7 @@
   "description": "React server side rendering",
   "main": "index.js",
   "scripts": {
-    "server": "cd dist && node server",
+    "start": "cd dist && node server",
     "build": "webpack",
     "dev": "webpack --watch --debug",
     "lint": "eslint --fix"

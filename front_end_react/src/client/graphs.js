@@ -1,7 +1,6 @@
 import * as d3 from 'd3'
-import './styles.css'
 
-let $, feedback
+let $, feedbackPanel, cvssPanel
 let canUseDOM = !!(
   typeof window !== 'undefined' &&
   window.document &&
@@ -10,9 +9,8 @@ let canUseDOM = !!(
 
 if (canUseDOM) {
   $ = require('jquery')
-  feedback = $('#feedbackPanel')
-  // Hide the Panel
-  feedback.addClass('hidden')
+  feedbackPanel = $('#feedbackPanel').addClass('hidden')
+  cvssPanel = $('#cvssPanel').addClass('hidden')
 }
 
 let data = require('../resources/test.json')
@@ -81,12 +79,9 @@ export function createGraph () {
       .text(function (d) { return d.id })
 
     node.on('click', function (d) {
-      console.log(canUseDOM)
       if (canUseDOM) {
-        $ = require('jquery')
-        $('#cvssScore').text(d.id)
-        $('#nodeData').text(JSON.stringify(d, null, 2))
-        feedback.removeClass('hidden')
+        // Handle on click of nodes
+        nodeData(d)
       }
     })
 
@@ -138,4 +133,23 @@ export function createGraph () {
   }
 
   createGraph(false, data)
+}
+
+function nodeData (node) {
+  // Displaying the data
+  $('#nodeName').text(node.id)
+  $('#nodeClustering').text(node.data.clustering_coefficient)
+  $('#nodeDistance').text(node.data.distance_to_interface)
+  $('#nodeMackeVul').text(node.data.macke_vulnerabilities_found)
+  $('#nodeMackeChain').text(node.data.macke_bug_chain_length)
+  $('#nodeDegree').text(node.data.node_degree[2])
+  $('#nodePathLength').text(node.data.node_path_length)
+  $('#nodeHasCvss').text(node.data.faulty)
+  if (node.data.faulty) {
+    cvssPanel.removeClass('hidden')
+    $('#N').prop('checked', true)
+    feedbackPanel.removeClass('hidden')
+  }
+  // Display the node data
+  $('#nodeData').removeClass('hidden')
 }

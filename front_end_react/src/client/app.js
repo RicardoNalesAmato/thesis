@@ -1,6 +1,18 @@
 import React, { Component } from 'react'
 import { createGraph } from './graphs'
-import { Grid, Row, Col, PageHeader, Panel, FormGroup, Radio, ControlLabel, FormControl, Button } from 'react-bootstrap'
+import {
+  Grid,
+  Row,
+  Col,
+  PageHeader,
+  Panel,
+  FormGroup,
+  Radio,
+  ControlLabel,
+  FormControl,
+  Button,
+  Label
+} from 'react-bootstrap'
 
 const cvss3 = (
   <h4>CVSS3 Base Scores</h4>
@@ -23,33 +35,68 @@ export default class App extends Component {
           <Col xs={12} md={8}>
             <svg width='700' height='700' />
           </Col>
-          <Col xs={6} md={4} >
+          <Col xs={6} md={4}>
             <Panel header={nodeData} bsStyle='info'>
-              <p id='nodeData' />
+              <div id='nodeData' className='hidden'>
+                <Col xs={6} md={4}>
+                  <Row>
+                    <Label>Name</Label>
+                    <div id='nodeName' style={{marginLeft: 20}} />
+                  </Row>
+                  <Row>
+                    <Label>Clustering Coefficient</Label>
+                    <div id='nodeClustering' style={{marginLeft: 20}} />
+                  </Row>
+                  <Row>
+                    <Label>Distance to interface</Label>
+                    <div id='nodeDistance' style={{marginLeft: 20}} />
+                  </Row>
+                  <Row>
+                    <Label>Vulnerabilities found by Macke</Label>
+                    <div id='nodeMackeVul' style={{marginLeft: 20}} />
+                  </Row>
+                  <Row>
+                    <Label>Macke bug chain length</Label>
+                    <div id='nodeMackeChain' style={{marginLeft: 20}} />
+                  </Row>
+                  <Row>
+                    <Label>Node degree</Label>
+                    <div id='nodeDegree' style={{marginLeft: 20}} />
+                  </Row>
+                  <Row>
+                    <Label>Node path length</Label>
+                    <div id='nodePathLength' style={{marginLeft: 20}} />
+                  </Row>
+                  <Row>
+                    <Label>CVSS3 Data available</Label>
+                    <div id='nodeHasCvss' style={{marginLeft: 20}} />
+                  </Row>
+                </Col>
+              </div>
             </Panel>
           </Col>
         </Row>
         <Row className='show-grid'>
           <form>
             <Row>
-              <Panel header={cvss3} bsStyle='primary'>
+              <Panel header={cvss3} bsStyle='primary' id='cvssPanel'>
                 {/* First Row*/}
                 <Row className='show-grid'>
                   <Col md={6}>
                     <h4>Attack Vector (AV)</h4>
                     <FormGroup>
-                      <Radio name='AV' inline>
+                      <Radio name='AV' inline id='N' value='N'>
                         Network (N)
                       </Radio>
                       {''}
-                      <Radio name='AV' inline>
+                      <Radio name='AV' inline id='A' value='A'>
                         Adjacent (A)
                       </Radio>
                       {' '}
-                      <Radio name='AV' inline>
+                      <Radio name='AV' inline id='L' value='L'>
                         Local (L)
                       </Radio>
-                      <Radio name='AV' inline>
+                      <Radio name='AV' inline id='P' value='P'>
                         Physical (P)
                       </Radio>
                     </FormGroup>

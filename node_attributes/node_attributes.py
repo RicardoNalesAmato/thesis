@@ -209,6 +209,7 @@ def front_end_json():
         if "label" in node:
             node["id"] = node["label"]
             del node["label"]
+            node["data"] = results_json[node['id']]
         if "shape" in node:
             del node["shape"]
         node["type"] = randint(0, 5)
@@ -217,7 +218,7 @@ def front_end_json():
         'nodes': nodes,
         'links': links,
     }
-    with open(sys.argv[1] + '__Test.json', 'w') as frontend_json:
+    with open(sys.argv[1] + '_frontend.json', 'w') as frontend_json:
         json.dump(formatted_json, frontend_json)
 
 
@@ -247,5 +248,6 @@ else:
     with open(sys.argv[1] + '_node_attributes.json', 'w') as fp:
         json.dump(results_json, fp)
 
+    # Prepare a JSON file to be used in our ReactJS front-end
     front_end_json()
     print('Done with:', sys.argv[1])
