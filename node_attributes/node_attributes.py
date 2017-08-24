@@ -165,13 +165,23 @@ def generate_json():
 
 
 def find_bug_chain_length(child_function, klee_json_data, bug_chain_length):
+    caller_list = []
+    bug_chain_length_new = 0
     for key, value in sorted(klee_json_data.items()):
         if "caller" in value:
-            if '{' + value['caller'] + '}' == child_function:
-                callee = '{' + value['callee'] + '}'
-                bug_chain_length += 1
-                bug_chain_length = find_bug_chain_length(callee, klee_json_data, bug_chain_length)
-    return bug_chain_length
+            if '{' + value['caller'] + '}' == child_function: # TODO: Change to callee, because we are looking for callee's parent (caller)
+                caller_list.append('{' + value['caller'] + '}')
+                # bug_chain_length += 1         
+    
+    max_bug_chain_length = 0
+    for callee in caller_list:
+        bug_chain_length_new = bug_chain_length + 1
+        bug_chain_length_new = find_bug_chain_length(callee, klee_json_data, bug_chain_length_new)
+
+        if bug_chain_length_new>max_bug_chain_length:
+            max_bug_chain_length = bug_chain_length_new
+    
+    return max_bug_chain_length
 
 
 # Macke functions
@@ -188,8 +198,8 @@ def macke_attributes(node_name):
                 number_of_bugs_found += 1
                 bug_chain_length = 1
         if "caller" in value:
-            if '{' + value['caller'] + '}' == node_name:
-                callee = '{' + value['callee'] + '}'
+            if '{' + value['caller'] + '}' == node_name: # TODO: In fact check if value['callee']==node_name
+                callee = '{' + node_name + '}'
                 bug_chain_length = find_bug_chain_length(callee, klee_json_data, bug_chain_length)
     return number_of_bugs_found, bug_chain_length
 
