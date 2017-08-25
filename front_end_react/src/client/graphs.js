@@ -137,6 +137,7 @@ export function createGraph () {
 
 function nodeData (node) {
   // Displaying the data
+  // TODO Add the node.id to a list of selected nodes
   $('#nodeName').text(node.id)
   $('#nodeClustering').text(node.data.clustering_coefficient)
   $('#nodeDistance').text(node.data.distance_to_interface)
@@ -146,6 +147,7 @@ function nodeData (node) {
   $('#nodePathLength').text(node.data.node_path_length)
   $('#nodeHasCvss').text(node.data.faulty)
   if (node.data.faulty) {
+    // TODO if the code snippet exists, open up another collapsed Panel, that expands upon request
     cvssPanel.removeClass('hidden')
     $('#N').prop('checked', true)
     feedbackPanel.removeClass('hidden')

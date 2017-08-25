@@ -136,8 +136,11 @@ def distance_to_interface(tree, node_name):
             depth = node[0].depth
             return depth
         else:
-            start += '/*'
-    # In case it is the external node
+            if node_name == '{external node}':
+                return 0
+            else:
+                start += '/*'
+    # When a node is not connected
     return 999
 
 
@@ -187,10 +190,10 @@ def find_bug_chain_length(child_function, klee_json_data, bug_chain_length):
 # Macke functions
 #  Number of vulnerabilities inside the function
 def macke_attributes(node_name):
-    directory = sys.argv[1].rsplit('/', 1)[0]
+    directory = sys.argv[1].rsplit('\\', 1)[0]
     number_of_bugs_found = 0
     bug_chain_length = 0
-    with open(directory + "/klee.json") as klee_json:
+    with open(directory + "\\klee.json") as klee_json:
         klee_json_data = json.load(klee_json)
     for key, value in sorted(klee_json_data.items()):
         if "function" in value:
@@ -213,6 +216,7 @@ def front_end_json():
         del link["key"]
         link["source"] = find_label(link["source"])
         link["target"] = find_label(link["target"])
+        # TODO Do away with the link type
         link["type"] = randint(0, 3)
         links.append(link)
     for node in data["nodes"]:
@@ -222,6 +226,8 @@ def front_end_json():
             node["data"] = results_json[node['id']]
         if "shape" in node:
             del node["shape"]
+        # TODO Use Distance to interface, number of vuln. Macke, length of bug chain, node degree, clustering coef.
+        # type =  multiply all
         node["type"] = randint(0, 5)
         nodes.append(node)
     formatted_json = {
@@ -245,11 +251,11 @@ else:
     root = Node(interface)
     tree = generate_tree(entry_node, root)
     results_json = {}
-    RenderTreeGraph(tree).to_picture(sys.argv[1] + "_callgraph.png")
+    # RenderTreeGraph(tree).to_picture(sys.argv[1] + "_callgraph.png")
 
     # For testing purposes only -- Displays the current tree
-    # for pre, fill, node in RenderTree(tree):
-    #     print("%s%s" % (pre, node.name))
+    for pre, fill, node in RenderTree(tree):
+        print("%s%s" % (pre, node.name))
 
     for node in data["nodes"]:
         if "label" in node:
