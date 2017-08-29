@@ -172,28 +172,29 @@ def find_bug_chain_length(child_function, klee_json_data, bug_chain_length):
     bug_chain_length_new = 0
     for key, value in sorted(klee_json_data.items()):
         if "caller" in value:
-            if '{' + value['caller'] + '}' == child_function: # TODO: Change to callee, because we are looking for callee's parent (caller)
+            if '{' + value[
+                'caller'] + '}' == child_function:  # TODO: Change to callee, because we are looking for callee's parent (caller)
                 caller_list.append('{' + value['caller'] + '}')
                 # bug_chain_length += 1         
-    
+
     max_bug_chain_length = 0
     for callee in caller_list:
         bug_chain_length_new = bug_chain_length + 1
         bug_chain_length_new = find_bug_chain_length(callee, klee_json_data, bug_chain_length_new)
 
-        if bug_chain_length_new>max_bug_chain_length:
+        if bug_chain_length_new > max_bug_chain_length:
             max_bug_chain_length = bug_chain_length_new
-    
+
     return max_bug_chain_length
 
 
 # Macke functions
 #  Number of vulnerabilities inside the function
 def macke_attributes(node_name):
-    directory = sys.argv[1].rsplit('\\', 1)[0]
+    directory = sys.argv[1].rsplit('/', 1)[0]
     number_of_bugs_found = 0
     bug_chain_length = 0
-    with open(directory + "\\klee.json") as klee_json:
+    with open(directory + "/klee.json") as klee_json:
         klee_json_data = json.load(klee_json)
     for key, value in sorted(klee_json_data.items()):
         if "function" in value:
@@ -201,7 +202,7 @@ def macke_attributes(node_name):
                 number_of_bugs_found += 1
                 bug_chain_length = 1
         if "caller" in value:
-            if '{' + value['caller'] + '}' == node_name: # TODO: In fact check if value['callee']==node_name
+            if '{' + value['caller'] + '}' == node_name:  # TODO: In fact check if value['callee']==node_name
                 callee = '{' + node_name + '}'
                 bug_chain_length = find_bug_chain_length(callee, klee_json_data, bug_chain_length)
     return number_of_bugs_found, bug_chain_length
@@ -216,19 +217,20 @@ def front_end_json():
         del link["key"]
         link["source"] = find_label(link["source"])
         link["target"] = find_label(link["target"])
-        # TODO Do away with the link type
-        link["type"] = randint(0, 3)
         links.append(link)
     for node in data["nodes"]:
+        type = 0
         if "label" in node:
             node["id"] = node["label"]
             del node["label"]
             node["data"] = results_json[node['id']]
+            type = results_json[node['id']]['distance_to_interface'] * results_json[node['id']][
+                'macke_vulnerabilities_found'] * results_json[node['id']]['macke_bug_chain_length'] * \
+                   results_json[node['id']]['node_degree'][2] * results_json[node['id']]['clustering_coefficient'] if not results_json[node['id']]['faulty'] else 999
         if "shape" in node:
             del node["shape"]
-        # TODO Use Distance to interface, number of vuln. Macke, length of bug chain, node degree, clustering coef.
-        # type =  multiply all
-        node["type"] = randint(0, 5)
+
+        node["type"] = type
         nodes.append(node)
     formatted_json = {
         'nodes': nodes,

@@ -1,5841 +1,5099 @@
 {
   "nodes": [
     {
+      "type": 0.0,
       "id": "{_TIFFCheckRealloc}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           2,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckedLong}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           7,
           8
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFSetField}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.26666666666666666,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.26666666666666666,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           5,
           6
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
-      "id": "{TIFFReadDirEntryCheckRangeSlongLong}",
       "type": 0,
+      "id": "{TIFFReadDirEntryCheckRangeSlongLong}",
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryByteArray}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.054945054945054944,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.054945054945054944,
+        "faulty": false,
+        "distance_to_interface": 4,
+        "node_path_length": 1.3541666666666667,
         "node_degree": [
           13,
           1,
           14
         ],
-        "node_path_length": 1.3541666666666667
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeByteSlong}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 2.4000000000000004,
       "id": "{ChopUpSingleUncompressedStrip}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.2,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.2,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 1.125,
         "node_degree": [
           5,
           1,
           6
         ],
-        "node_path_length": 1.125
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{__assert_fail}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.28888888888888886,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.28888888888888886,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           9,
           10
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryByte}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 4,
+        "node_path_length": 1.3227091633466135,
         "node_degree": [
           15,
           1,
           16
         ],
-        "node_path_length": 1.3227091633466135
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryFloatArray}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.1388888888888889,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.1388888888888889,
+        "faulty": false,
+        "distance_to_interface": 4,
+        "node_path_length": 1.0833333333333333,
         "node_degree": [
           8,
           1,
           9
         ],
-        "node_path_length": 1.0833333333333333
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadDirEntryCheckRangeSshortSlong}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeByteSlong8}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFNumberOfTiles}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.6666666666666666,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.6666666666666666,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           2,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFDataWidth}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.16666666666666666,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.16666666666666666,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           3,
           4
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeLongLong8}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 999,
       "id": "{TIFFReadDirEntryLong8}",
-      "type": 4,
       "data": {
-        "faulty": true,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
         "cvss3": {
+          "baseScore": 6.5,
           "baseSeverity": "MEDIUM",
-          "userInteraction": "REQUIRED",
-          "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
           "availabilityImpact": "HIGH",
-          "privilegesRequired": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "attackComplexity": "LOW",
+          "attackVector": "NETWORK",
           "integrityImpact": "NONE",
           "scope": "UNCHANGED",
-          "baseScore": 6.5,
-          "attackVector": "NETWORK",
+          "userInteraction": "REQUIRED",
           "confidentialityImpact": "NONE",
-          "attackComplexity": "LOW"
+          "privilegesRequired": "NONE"
         },
+        "clustering_coefficient": 0.0,
+        "faulty": true,
+        "distance_to_interface": 4,
+        "node_path_length": 1.0,
         "node_degree": [
           12,
           1,
           13
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFFetchStripThing}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.14285714285714285,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.14285714285714285,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 1.0,
         "node_degree": [
           7,
           1,
           8
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryArray}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.19883040935672514,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.19883040935672514,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 1.0,
         "node_degree": [
           8,
           11,
           19
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckedSbyte}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           6,
           6
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadDirEntryCheckRangeSbyteSlong}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{_TIFFGetExifFields}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.3333333333333333,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           2,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeLongSlong8}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckedShort}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           6,
           7
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{_TIFFCreateAnonField}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.5,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.5,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           3,
           4
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{_TIFFFillStrilesInternal}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadDirEntryCheckRangeSbyteLong}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryIfd8}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 4,
+        "node_path_length": 1.0,
         "node_degree": [
           2,
           1,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{external node}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.042042042042042045,
-        "distance_to_interface": 999,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.042042042042042045,
+        "faulty": false,
+        "distance_to_interface": 0,
+        "node_path_length": 0,
         "node_degree": [
           37,
           0,
           37
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeLong8Slong8}",
-      "type": 0,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryDouble}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 4,
+        "node_path_length": 1.0,
         "node_degree": [
           12,
           1,
           13
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckedByte}",
-      "type": 0,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           6,
           6
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryLongArray}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0641025641025641,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.0641025641025641,
+        "faulty": false,
+        "distance_to_interface": 4,
+        "node_path_length": 1.0,
         "node_degree": [
           12,
           1,
           13
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFSwabArrayOfLong}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           8,
           9
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadDirEntryCheckRangeSlongSlong8}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{_TIFFMergeFields}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.5,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.5,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           3,
           4
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryShortArray}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.075,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.075,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 1.0,
         "node_degree": [
           13,
           3,
           16
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckedSlong8}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 1.0,
         "node_degree": [
           3,
           6,
           9
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFSwabLong}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.043478260869565216,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.043478260869565216,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           23,
           24
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFErrorExt}",
-      "type": 0,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.3111111111111111,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.3111111111111111,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           9,
           10
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 4.0,
       "id": "{TIFFReadDirectoryCheckOrder}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.6666666666666666,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.6666666666666666,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           2,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{_TIFFfree}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.16883116883116883,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.16883116883116883,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           21,
           22
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFSwabShort}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.009523809523809525,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.009523809523809525,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           14,
           15
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
-      "id": "Node0x1f84030",
-      "type": 0
+      "type": 0,
+      "id": "Node0x1f84030"
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckedLong8}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 1.0,
         "node_degree": [
           3,
           7,
           10
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeShortLong8}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeLong8Sshort}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 1.0,
       "id": "{_TIFFFillStriles}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.3333333333333333,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.3333333333333333,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           2,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntrySlong8Array}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.1388888888888889,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.1388888888888889,
+        "faulty": false,
+        "distance_to_interface": 4,
+        "node_path_length": 1.0,
         "node_degree": [
           8,
           1,
           9
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeLong8Sbyte}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeLongSshort}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeShortLong}",
-      "type": 0,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntrySbyteArray}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.054945054945054944,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.054945054945054944,
+        "faulty": false,
+        "distance_to_interface": 4,
+        "node_path_length": 1.0,
         "node_degree": [
           13,
           1,
           14
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeLongSbyte}",
-      "type": 0,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadDirEntryCheckRangeSbyteLong8}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckedDouble}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 1.0,
         "node_degree": [
           3,
           2,
           5
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFVTileSize64}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           2,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeByteSbyte}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeByteLong}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{_TIFFmemset}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.16666666666666666,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.16666666666666666,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           3,
           4
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckedRational}",
-      "type": 0,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 1.0,
         "node_degree": [
           3,
           2,
           5
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFSwabArrayOfShort}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           3,
           4
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntrySlongArray}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.09090909090909091,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.09090909090909091,
+        "faulty": false,
+        "distance_to_interface": 4,
+        "node_path_length": 1.0,
         "node_degree": [
           10,
           1,
           11
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 4.0,
       "id": "{TIFFReadDirectoryFindFieldInfo}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.6666666666666666,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.6666666666666666,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 0,
         "node_degree": [
           0,
           3,
           3
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFFetchDirectory}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.22727272727272727,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.22727272727272727,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 1.1,
         "node_degree": [
           10,
           2,
           12
         ],
-        "node_path_length": 1.1
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 2.0,
       "id": "{TIFFCheckDirOffset}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.3333333333333333,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.3333333333333333,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 1.0,
         "node_degree": [
           2,
           1,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadDirEntryCheckRangeSbyteShort}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeLongSlong}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFFieldWithTag}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.3,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.3,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           4,
           5
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 6.0,
       "id": "{TIFFReadDirEntryPersampleShort}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 1.0,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 1.0,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 1.0,
         "node_degree": [
           2,
           1,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadDirEntryCheckRangeSshortSlong8}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 3.555555555555556,
       "id": "{TIFFReadDirEntryData}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.08888888888888889,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.08888888888888889,
+        "faulty": false,
+        "distance_to_interface": 4,
+        "node_path_length": 1.25,
         "node_degree": [
           3,
           7,
           10
         ],
-        "node_path_length": 1.25
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadDirEntryCheckRangeSlong8Long8}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadUInt64}",
-      "type": 2,
       "data": {
-        "faulty": false,
+        "macke_vulnerabilities_found": 1,
         "clustering_coefficient": 0,
+        "faulty": false,
         "distance_to_interface": 4,
-        "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadDirEntryCheckRangeSshortLong}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{_TIFFCheckMalloc}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.09523809523809523,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.09523809523809523,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           6,
           7
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeShortSshort}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckedFloat}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           2,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadCustomDirectory}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.14705882352941177,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 2,
+        "clustering_coefficient": 0.14705882352941177,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 2.207730932070613,
         "node_degree": [
           15,
           2,
           17
         ],
-        "node_path_length": 2.207730932070613
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryDoubleArray}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.15555555555555556,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.15555555555555556,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 1.0,
         "node_degree": [
           8,
           2,
           10
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFSwabLong8}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.08088235294117647,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.08088235294117647,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           16,
           17
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 3.0,
       "id": "{CheckDirCount}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.3333333333333333,
-        "distance_to_interface": 3,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.3333333333333333,
+        "faulty": false,
+        "distance_to_interface": 3,
+        "node_path_length": 1.5,
         "node_degree": [
           2,
           1,
           3
         ],
-        "node_path_length": 1.5
+        "macke_bug_chain_length": 1
       }
     },
     {
-      "id": "{llvm.dbg.declare}",
       "type": 0,
+      "id": "{llvm.dbg.declare}",
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFNumberOfStrips}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.6666666666666666,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.6666666666666666,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           2,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckedSrational}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 1.0,
         "node_degree": [
           3,
           2,
           5
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFTileSize64}",
-      "type": 0,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.3333333333333333,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           2,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
-      "id": "{TIFFReadDirEntryCheckRangeSbyteByte}",
       "type": 0,
+      "id": "{TIFFReadDirEntryCheckRangeSbyteByte}",
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFSwabArrayOfLong8}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           6,
           7
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFWarningExt}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.35714285714285715,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.35714285714285715,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 0,
         "node_degree": [
           1,
           7,
           8
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFScanlineSize}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.6666666666666666,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.6666666666666666,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           2,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckedSshort}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           6,
           7
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFDefaultDirectory}",
-      "type": 0,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.6666666666666666,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.6666666666666666,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           2,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFFreeDirectory}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.5,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.5,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           3,
           4
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{_TIFFmalloc}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.12087912087912088,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.12087912087912088,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 0,
         "node_degree": [
           1,
           13,
           14
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeShortSlong8}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 5.333333333333333,
       "id": "{TIFFReadDirEntryOutputErr}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.38095238095238093,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.38095238095238093,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 1.0,
         "node_degree": [
           3,
           4,
           7
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeShortSbyte}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadDirectoryFindEntry}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryIfd8Array}",
-      "type": 0,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.26666666666666666,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.26666666666666666,
+        "faulty": false,
+        "distance_to_interface": 4,
+        "node_path_length": 1.0,
         "node_degree": [
           5,
           1,
           6
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeLong8Slong}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeByteLong8}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadDirEntryCheckRangeSlongLong8}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntrySshortArray}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0641025641025641,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.0641025641025641,
+        "faulty": false,
+        "distance_to_interface": 4,
+        "node_path_length": 1.0588235294117647,
         "node_degree": [
           12,
           1,
           13
         ],
-        "node_path_length": 1.0588235294117647
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryLong}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 4,
+        "node_path_length": 1.0,
         "node_degree": [
           13,
           1,
           14
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadDirEntryCheckRangeSbyteSshort}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFFetchSubjectDistance}",
-      "type": 0,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 3,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 3,
+        "node_path_length": 1.6444444444444444,
         "node_degree": [
           5,
           1,
           6
         ],
-        "node_path_length": 1.6444444444444444
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 4.0,
       "id": "{MissingRequired}",
-      "type": 0,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 1.0,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 1.0,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           1,
           2
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeByteSshort}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadDirEntryCheckRangeSbyteSlong8}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeShortSlong}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirectory}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.11942959001782531,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 2,
+        "clustering_coefficient": 0.11942959001782531,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.361044784811601,
         "node_degree": [
           33,
           1,
           34
         ],
-        "node_path_length": 1.361044784811601
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFFetchNormalTag}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.09852216748768473,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.09852216748768473,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 2.085793434034573,
         "node_degree": [
           27,
           2,
           29
         ],
-        "node_path_length": 2.085793434034573
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckRangeByteShort}",
-      "type": 5,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           2,
           2
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
-      "id": "{TIFFReadDirEntryCheckRangeSshortLong8}",
       "type": 0,
+      "id": "{TIFFReadDirEntryCheckRangeSshortLong8}",
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.26666666666666666,
       "id": "{TIFFReadDirEntryShort}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.008333333333333333,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.008333333333333333,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 1.0,
         "node_degree": [
           14,
           2,
           16
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryFloat}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 4,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 4,
+        "node_path_length": 1.3553719008264462,
         "node_degree": [
           12,
           1,
           13
         ],
-        "node_path_length": 1.3553719008264462
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{_TIFFSetupFields}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.3333333333333333,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           2,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 5.0,
       "id": "{EstimateStripByteCounts}",
-      "type": 0,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.2777777777777778,
-        "distance_to_interface": 2,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.2777777777777778,
+        "faulty": false,
+        "distance_to_interface": 2,
+        "node_path_length": 1.0714285714285714,
         "node_degree": [
           8,
           1,
           9
         ],
-        "node_path_length": 1.0714285714285714
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 2.0,
       "id": "{TIFFReadEXIFDirectory}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.6666666666666666,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.6666666666666666,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 3.207730932070454,
         "node_degree": [
           2,
           1,
           3
         ],
-        "node_path_length": 3.207730932070454
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0,
       "id": "{TIFFReadDirEntryCheckRangeSshortShort}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 0,
         "node_degree": [
           0,
           1,
           1
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFStripSize}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.6666666666666666,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.6666666666666666,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           2,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFTileSize}",
-      "type": 3,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.6666666666666666,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.6666666666666666,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           2,
           3
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFScanlineSize64}",
-      "type": 4,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.6666666666666666,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.6666666666666666,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           3,
           4
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryCheckedSlong}",
-      "type": 1,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.0,
-        "distance_to_interface": 5,
         "macke_vulnerabilities_found": 1,
-        "macke_bug_chain_length": 1,
+        "clustering_coefficient": 0.0,
+        "faulty": false,
+        "distance_to_interface": 5,
+        "node_path_length": 1.0,
         "node_degree": [
           1,
           6,
           7
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 1
       }
     },
     {
+      "type": 0.0,
       "id": "{_TIFFmemcpy}",
-      "type": 0,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.14285714285714285,
-        "distance_to_interface": 1,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.14285714285714285,
+        "faulty": false,
+        "distance_to_interface": 1,
+        "node_path_length": 0,
         "node_degree": [
           1,
           6,
           7
         ],
-        "node_path_length": 0
+        "macke_bug_chain_length": 0
       }
     },
     {
+      "type": 0.0,
       "id": "{TIFFReadDirEntryLong8Array}",
-      "type": 2,
       "data": {
-        "faulty": false,
-        "clustering_coefficient": 0.07692307692307693,
-        "distance_to_interface": 3,
         "macke_vulnerabilities_found": 0,
-        "macke_bug_chain_length": 0,
+        "clustering_coefficient": 0.07692307692307693,
+        "faulty": false,
+        "distance_to_interface": 3,
+        "node_path_length": 1.0,
         "node_degree": [
           11,
           2,
           13
         ],
-        "node_path_length": 1.0
+        "macke_bug_chain_length": 0
       }
     }
   ],
   "links": [
     {
       "target": "Node0x1f84030",
-      "source": "{_TIFFCheckRealloc}",
-      "type": 0
+      "source": "{_TIFFCheckRealloc}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryCheckedLong}",
-      "type": 1
+      "source": "{TIFFReadDirEntryCheckedLong}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFSetField}",
-      "type": 2
+      "source": "{TIFFSetField}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeByteShort}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeByteLong}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeByteSlong}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{TIFFReadDirEntryArray}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeByteLong8}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeByteSlong8}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeByteSbyte}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeByteSshort}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{_TIFFmalloc}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntryByteArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryByteArray}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{ChopUpSingleUncompressedStrip}",
-      "type": 1
+      "source": "{ChopUpSingleUncompressedStrip}"
     },
     {
       "target": "{_TIFFCheckMalloc}",
-      "source": "{ChopUpSingleUncompressedStrip}",
-      "type": 3
+      "source": "{ChopUpSingleUncompressedStrip}"
     },
     {
       "target": "{_TIFFCheckMalloc}",
-      "source": "{ChopUpSingleUncompressedStrip}",
-      "type": 0
+      "source": "{ChopUpSingleUncompressedStrip}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{ChopUpSingleUncompressedStrip}",
-      "type": 3
+      "source": "{ChopUpSingleUncompressedStrip}"
     },
     {
       "target": "{TIFFVTileSize64}",
-      "source": "{ChopUpSingleUncompressedStrip}",
-      "type": 1
+      "source": "{ChopUpSingleUncompressedStrip}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{ChopUpSingleUncompressedStrip}",
-      "type": 3
+      "source": "{ChopUpSingleUncompressedStrip}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{ChopUpSingleUncompressedStrip}",
-      "type": 2
+      "source": "{ChopUpSingleUncompressedStrip}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{ChopUpSingleUncompressedStrip}",
-      "type": 2
+      "source": "{ChopUpSingleUncompressedStrip}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{ChopUpSingleUncompressedStrip}",
-      "type": 2
+      "source": "{ChopUpSingleUncompressedStrip}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{__assert_fail}",
-      "type": 0
+      "source": "{__assert_fail}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeByteShort}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 3
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeByteSlong}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 0
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedLong}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 1
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeByteLong}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 1
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedShort}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 2
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedLong8}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 2
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSlong}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 1
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSshort}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 0
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeByteLong8}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 3
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSbyte}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 3
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedByte}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 0
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeByteSshort}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 0
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSlong8}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 3
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeByteSlong8}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 0
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeByteSbyte}",
-      "source": "{TIFFReadDirEntryByte}",
-      "type": 2
+      "source": "{TIFFReadDirEntryByte}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{TIFFReadDirEntryArray}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{TIFFSwabArrayOfLong8}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{TIFFSwabArrayOfLong}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{_TIFFmalloc}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntryFloatArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryFloatArray}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFNumberOfTiles}",
-      "type": 2
+      "source": "{TIFFNumberOfTiles}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFDataWidth}",
-      "type": 1
+      "source": "{TIFFDataWidth}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedLong}",
-      "source": "{TIFFReadDirEntryLong8}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLong8}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLong8Slong8}",
-      "source": "{TIFFReadDirEntryLong8}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLong8}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedShort}",
-      "source": "{TIFFReadDirEntryLong8}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLong8}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedLong8}",
-      "source": "{TIFFReadDirEntryLong8}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLong8}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSlong}",
-      "source": "{TIFFReadDirEntryLong8}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLong8}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLong8Sbyte}",
-      "source": "{TIFFReadDirEntryLong8}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLong8}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLong8Sshort}",
-      "source": "{TIFFReadDirEntryLong8}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLong8}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSshort}",
-      "source": "{TIFFReadDirEntryLong8}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLong8}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSbyte}",
-      "source": "{TIFFReadDirEntryLong8}",
-      "type": 2
+      "source": "{TIFFReadDirEntryLong8}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedByte}",
-      "source": "{TIFFReadDirEntryLong8}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLong8}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLong8Slong}",
-      "source": "{TIFFReadDirEntryLong8}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLong8}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSlong8}",
-      "source": "{TIFFReadDirEntryLong8}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLong8}"
     },
     {
       "target": "{TIFFReadDirEntryOutputErr}",
-      "source": "{TIFFFetchStripThing}",
-      "type": 1
+      "source": "{TIFFFetchStripThing}"
     },
     {
       "target": "{_TIFFmemset}",
-      "source": "{TIFFFetchStripThing}",
-      "type": 2
+      "source": "{TIFFFetchStripThing}"
     },
     {
       "target": "{TIFFReadDirEntryLong8Array}",
-      "source": "{TIFFFetchStripThing}",
-      "type": 1
+      "source": "{TIFFFetchStripThing}"
     },
     {
       "target": "{TIFFFieldWithTag}",
-      "source": "{TIFFFetchStripThing}",
-      "type": 1
+      "source": "{TIFFFetchStripThing}"
     },
     {
       "target": "{_TIFFCheckMalloc}",
-      "source": "{TIFFFetchStripThing}",
-      "type": 2
+      "source": "{TIFFFetchStripThing}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchStripThing}",
-      "type": 3
+      "source": "{TIFFFetchStripThing}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchStripThing}",
-      "type": 0
+      "source": "{TIFFFetchStripThing}"
     },
     {
       "target": "{_TIFFmemcpy}",
-      "source": "{TIFFFetchStripThing}",
-      "type": 2
+      "source": "{TIFFFetchStripThing}"
     },
     {
       "target": "{_TIFFmemcpy}",
-      "source": "{TIFFFetchStripThing}",
-      "type": 0
+      "source": "{TIFFFetchStripThing}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryArray}"
     },
     {
       "target": "{TIFFDataWidth}",
-      "source": "{TIFFReadDirEntryArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryArray}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFReadDirEntryArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryArray}"
     },
     {
       "target": "{_TIFFCheckMalloc}",
-      "source": "{TIFFReadDirEntryArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryArray}"
     },
     {
       "target": "{TIFFReadDirEntryData}",
-      "source": "{TIFFReadDirEntryArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryArray}"
     },
     {
       "target": "{TIFFReadDirEntryData}",
-      "source": "{TIFFReadDirEntryArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryArray}"
     },
     {
       "target": "{_TIFFmemcpy}",
-      "source": "{TIFFReadDirEntryArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryArray}"
     },
     {
       "target": "{_TIFFmemcpy}",
-      "source": "{TIFFReadDirEntryArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryArray}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{_TIFFGetExifFields}",
-      "type": 0
+      "source": "{_TIFFGetExifFields}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntryCheckedShort}",
-      "type": 3
+      "source": "{TIFFReadDirEntryCheckedShort}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{_TIFFCreateAnonField}",
-      "type": 1
+      "source": "{_TIFFCreateAnonField}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedLong}",
-      "source": "{TIFFReadDirEntryIfd8}",
-      "type": 0
+      "source": "{TIFFReadDirEntryIfd8}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedLong8}",
-      "source": "{TIFFReadDirEntryIfd8}",
-      "type": 3
+      "source": "{TIFFReadDirEntryIfd8}"
     },
     {
       "target": "{_TIFFCheckRealloc}",
-      "source": "{external node}",
-      "type": 3
+      "source": "{external node}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{external node}",
-      "type": 0
+      "source": "{external node}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{external node}",
-      "type": 1
+      "source": "{external node}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{external node}",
-      "type": 2
+      "source": "{external node}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{external node}",
-      "type": 0
+      "source": "{external node}"
     },
     {
       "target": "{TIFFFieldWithTag}",
-      "source": "{external node}",
-      "type": 3
+      "source": "{external node}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{external node}",
-      "type": 2
+      "source": "{external node}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{external node}",
-      "type": 0
+      "source": "{external node}"
     },
     {
       "target": "{TIFFNumberOfTiles}",
-      "source": "{external node}",
-      "type": 0
+      "source": "{external node}"
     },
     {
       "target": "{TIFFDataWidth}",
-      "source": "{external node}",
-      "type": 0
+      "source": "{external node}"
     },
     {
       "target": "{TIFFScanlineSize64}",
-      "source": "{external node}",
-      "type": 1
+      "source": "{external node}"
     },
     {
       "target": "{_TIFFFillStriles}",
-      "source": "{external node}",
-      "type": 0
+      "source": "{external node}"
     },
     {
       "target": "{_TIFFCheckMalloc}",
-      "source": "{external node}",
-      "type": 1
+      "source": "{external node}"
     },
     {
       "target": "{TIFFReadEXIFDirectory}",
-      "source": "{external node}",
-      "type": 3
+      "source": "{external node}"
     },
     {
       "target": "{_TIFFGetExifFields}",
-      "source": "{external node}",
-      "type": 3
+      "source": "{external node}"
     },
     {
       "target": "{TIFFReadDirectory}",
-      "source": "{external node}",
-      "type": 0
+      "source": "{external node}"
     },
     {
       "target": "{TIFFReadCustomDirectory}",
-      "source": "{external node}",
-      "type": 1
+      "source": "{external node}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{external node}",
-      "type": 3
+      "source": "{external node}"
     },
     {
       "target": "{_TIFFCreateAnonField}",
-      "source": "{external node}",
-      "type": 0
+      "source": "{external node}"
     },
     {
       "target": "{llvm.dbg.declare}",
-      "source": "{external node}",
-      "type": 2
+      "source": "{external node}"
     },
     {
       "target": "{TIFFNumberOfStrips}",
-      "source": "{external node}",
-      "type": 2
+      "source": "{external node}"
     },
     {
       "target": "{TIFFTileSize64}",
-      "source": "{external node}",
-      "type": 3
+      "source": "{external node}"
     },
     {
       "target": "{TIFFSwabArrayOfLong8}",
-      "source": "{external node}",
-      "type": 0
+      "source": "{external node}"
     },
     {
       "target": "{_TIFFSetupFields}",
-      "source": "{external node}",
-      "type": 2
+      "source": "{external node}"
     },
     {
       "target": "{_TIFFmemset}",
-      "source": "{external node}",
-      "type": 2
+      "source": "{external node}"
     },
     {
       "target": "{TIFFVTileSize64}",
-      "source": "{external node}",
-      "type": 2
+      "source": "{external node}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{external node}",
-      "type": 3
+      "source": "{external node}"
     },
     {
       "target": "{TIFFStripSize}",
-      "source": "{external node}",
-      "type": 3
+      "source": "{external node}"
     },
     {
       "target": "{TIFFScanlineSize}",
-      "source": "{external node}",
-      "type": 0
+      "source": "{external node}"
     },
     {
       "target": "{TIFFTileSize}",
-      "source": "{external node}",
-      "type": 3
+      "source": "{external node}"
     },
     {
       "target": "{TIFFSwabArrayOfShort}",
-      "source": "{external node}",
-      "type": 2
+      "source": "{external node}"
     },
     {
       "target": "{TIFFSwabArrayOfLong}",
-      "source": "{external node}",
-      "type": 0
+      "source": "{external node}"
     },
     {
       "target": "{TIFFDefaultDirectory}",
-      "source": "{external node}",
-      "type": 2
+      "source": "{external node}"
     },
     {
       "target": "{TIFFFreeDirectory}",
-      "source": "{external node}",
-      "type": 2
+      "source": "{external node}"
     },
     {
       "target": "{_TIFFmalloc}",
-      "source": "{external node}",
-      "type": 2
+      "source": "{external node}"
     },
     {
       "target": "{_TIFFmemcpy}",
-      "source": "{external node}",
-      "type": 0
+      "source": "{external node}"
     },
     {
       "target": "{_TIFFMergeFields}",
-      "source": "{external node}",
-      "type": 1
+      "source": "{external node}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedLong}",
-      "source": "{TIFFReadDirEntryDouble}",
-      "type": 2
+      "source": "{TIFFReadDirEntryDouble}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedShort}",
-      "source": "{TIFFReadDirEntryDouble}",
-      "type": 2
+      "source": "{TIFFReadDirEntryDouble}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedLong8}",
-      "source": "{TIFFReadDirEntryDouble}",
-      "type": 1
+      "source": "{TIFFReadDirEntryDouble}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSlong}",
-      "source": "{TIFFReadDirEntryDouble}",
-      "type": 3
+      "source": "{TIFFReadDirEntryDouble}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedRational}",
-      "source": "{TIFFReadDirEntryDouble}",
-      "type": 3
+      "source": "{TIFFReadDirEntryDouble}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSshort}",
-      "source": "{TIFFReadDirEntryDouble}",
-      "type": 1
+      "source": "{TIFFReadDirEntryDouble}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSrational}",
-      "source": "{TIFFReadDirEntryDouble}",
-      "type": 0
+      "source": "{TIFFReadDirEntryDouble}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedDouble}",
-      "source": "{TIFFReadDirEntryDouble}",
-      "type": 3
+      "source": "{TIFFReadDirEntryDouble}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSbyte}",
-      "source": "{TIFFReadDirEntryDouble}",
-      "type": 2
+      "source": "{TIFFReadDirEntryDouble}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedByte}",
-      "source": "{TIFFReadDirEntryDouble}",
-      "type": 2
+      "source": "{TIFFReadDirEntryDouble}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSlong8}",
-      "source": "{TIFFReadDirEntryDouble}",
-      "type": 1
+      "source": "{TIFFReadDirEntryDouble}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedFloat}",
-      "source": "{TIFFReadDirEntryDouble}",
-      "type": 0
+      "source": "{TIFFReadDirEntryDouble}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{TIFFReadDirEntryArray}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLongSlong8}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLongSbyte}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLongLong8}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLongSshort}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLongSlong}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{TIFFSwabArrayOfLong}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{_TIFFmalloc}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntryLongArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryLongArray}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFSwabArrayOfLong}",
-      "type": 2
+      "source": "{TIFFSwabArrayOfLong}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{_TIFFMergeFields}",
-      "type": 3
+      "source": "{_TIFFMergeFields}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeShortSbyte}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeShortLong8}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{TIFFReadDirEntryArray}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{TIFFSwabArrayOfShort}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeShortSshort}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeShortSlong8}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeShortLong}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeShortSlong}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{_TIFFmalloc}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntryShortArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryShortArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryCheckedSlong8}",
-      "type": 1
+      "source": "{TIFFReadDirEntryCheckedSlong8}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryCheckedSlong8}",
-      "type": 3
+      "source": "{TIFFReadDirEntryCheckedSlong8}"
     },
     {
       "target": "{TIFFReadDirEntryData}",
-      "source": "{TIFFReadDirEntryCheckedSlong8}",
-      "type": 2
+      "source": "{TIFFReadDirEntryCheckedSlong8}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFSwabLong}",
-      "type": 1
+      "source": "{TIFFSwabLong}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFErrorExt}",
-      "type": 3
+      "source": "{TIFFErrorExt}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirectoryCheckOrder}",
-      "type": 2
+      "source": "{TIFFReadDirectoryCheckOrder}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{_TIFFfree}",
-      "type": 3
+      "source": "{_TIFFfree}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFSwabShort}",
-      "type": 2
+      "source": "{TIFFSwabShort}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryCheckedLong8}",
-      "type": 0
+      "source": "{TIFFReadDirEntryCheckedLong8}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryCheckedLong8}",
-      "type": 0
+      "source": "{TIFFReadDirEntryCheckedLong8}"
     },
     {
       "target": "{TIFFReadDirEntryData}",
-      "source": "{TIFFReadDirEntryCheckedLong8}",
-      "type": 0
+      "source": "{TIFFReadDirEntryCheckedLong8}"
     },
     {
       "target": "{_TIFFFillStrilesInternal}",
-      "source": "{_TIFFFillStriles}",
-      "type": 3
+      "source": "{_TIFFFillStriles}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntrySlong8Array}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySlong8Array}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntrySlong8Array}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySlong8Array}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntrySlong8Array}",
-      "type": 2
+      "source": "{TIFFReadDirEntrySlong8Array}"
     },
     {
       "target": "{TIFFReadDirEntryArray}",
-      "source": "{TIFFReadDirEntrySlong8Array}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySlong8Array}"
     },
     {
       "target": "{TIFFSwabArrayOfLong8}",
-      "source": "{TIFFReadDirEntrySlong8Array}",
-      "type": 2
+      "source": "{TIFFReadDirEntrySlong8Array}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySlong8Array}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySlong8Array}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySlong8Array}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySlong8Array}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySlong8Array}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySlong8Array}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSlong8Long8}",
-      "source": "{TIFFReadDirEntrySlong8Array}",
-      "type": 2
+      "source": "{TIFFReadDirEntrySlong8Array}"
     },
     {
       "target": "{_TIFFmalloc}",
-      "source": "{TIFFReadDirEntrySlong8Array}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySlong8Array}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntrySlong8Array}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySlong8Array}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntrySlong8Array}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySlong8Array}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSbyteLong8}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSbyteShort}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{TIFFReadDirEntryArray}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSbyteLong}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSbyteByte}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSbyteSlong}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSbyteSlong8}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSbyteSshort}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{_TIFFmalloc}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntrySbyteArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySbyteArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryCheckedDouble}",
-      "type": 3
+      "source": "{TIFFReadDirEntryCheckedDouble}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryCheckedDouble}",
-      "type": 2
+      "source": "{TIFFReadDirEntryCheckedDouble}"
     },
     {
       "target": "{TIFFReadDirEntryData}",
-      "source": "{TIFFReadDirEntryCheckedDouble}",
-      "type": 3
+      "source": "{TIFFReadDirEntryCheckedDouble}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFVTileSize64}",
-      "type": 0
+      "source": "{TIFFVTileSize64}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{_TIFFmemset}",
-      "type": 3
+      "source": "{_TIFFmemset}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryCheckedRational}",
-      "type": 2
+      "source": "{TIFFReadDirEntryCheckedRational}"
     },
     {
       "target": "{TIFFReadDirEntryData}",
-      "source": "{TIFFReadDirEntryCheckedRational}",
-      "type": 3
+      "source": "{TIFFReadDirEntryCheckedRational}"
     },
     {
       "target": "{TIFFSwabArrayOfLong}",
-      "source": "{TIFFReadDirEntryCheckedRational}",
-      "type": 2
+      "source": "{TIFFReadDirEntryCheckedRational}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFSwabArrayOfShort}",
-      "type": 2
+      "source": "{TIFFSwabArrayOfShort}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{TIFFReadDirEntryArray}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSlongLong}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSlongSlong8}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSlongLong8}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{TIFFSwabArrayOfLong}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{_TIFFmalloc}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntrySlongArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySlongArray}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 1
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 1
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 3
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFReadUInt64}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 3
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFReadUInt64}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 2
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 3
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 2
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 1
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 1
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 1
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 1
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 1
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 2
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 3
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 1
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 2
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 1
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{_TIFFCheckMalloc}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{_TIFFCheckMalloc}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 1
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{_TIFFCheckMalloc}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 3
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 3
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 2
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{_TIFFmemcpy}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{_TIFFmemcpy}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 1
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{_TIFFmemcpy}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 3
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{_TIFFmemcpy}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 3
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{_TIFFmemcpy}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 2
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFFetchDirectory}",
-      "type": 3
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFFetchDirectory}",
-      "type": 1
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFFetchDirectory}",
-      "type": 1
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFFetchDirectory}",
-      "type": 1
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFFetchDirectory}",
-      "type": 0
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFFetchDirectory}",
-      "type": 3
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFFetchDirectory}",
-      "type": 3
+      "source": "{TIFFFetchDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFCheckDirOffset}",
-      "type": 2
+      "source": "{TIFFCheckDirOffset}"
     },
     {
       "target": "{_TIFFCheckRealloc}",
-      "source": "{TIFFCheckDirOffset}",
-      "type": 0
+      "source": "{TIFFCheckDirOffset}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFFieldWithTag}",
-      "type": 1
+      "source": "{TIFFFieldWithTag}"
     },
     {
       "target": "{TIFFReadDirEntryShortArray}",
-      "source": "{TIFFReadDirEntryPersampleShort}",
-      "type": 2
+      "source": "{TIFFReadDirEntryPersampleShort}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryPersampleShort}",
-      "type": 1
+      "source": "{TIFFReadDirEntryPersampleShort}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFReadDirEntryData}",
-      "type": 0
+      "source": "{TIFFReadDirEntryData}"
     },
     {
       "target": "{_TIFFmemcpy}",
-      "source": "{TIFFReadDirEntryData}",
-      "type": 0
+      "source": "{TIFFReadDirEntryData}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFReadDirEntryData}",
-      "type": 0
+      "source": "{TIFFReadDirEntryData}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFReadDirEntryData}",
-      "type": 3
+      "source": "{TIFFReadDirEntryData}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{_TIFFCheckMalloc}",
-      "type": 1
+      "source": "{_TIFFCheckMalloc}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryCheckedFloat}",
-      "type": 0
+      "source": "{TIFFReadDirEntryCheckedFloat}"
     },
     {
       "target": "{_TIFFmemset}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 2
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{_TIFFCreateAnonField}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 1
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{CheckDirCount}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 3
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{TIFFFetchSubjectDistance}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 2
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 0
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 2
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{TIFFFetchDirectory}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 1
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{TIFFReadDirectoryCheckOrder}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 0
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{TIFFReadDirectoryFindFieldInfo}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 3
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{TIFFReadDirectoryFindFieldInfo}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 1
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{_TIFFSetupFields}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 0
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 1
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{TIFFFreeDirectory}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 1
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 2
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 3
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 0
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{_TIFFMergeFields}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 3
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{TIFFFetchNormalTag}",
-      "source": "{TIFFReadCustomDirectory}",
-      "type": 1
+      "source": "{TIFFReadCustomDirectory}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{TIFFReadDirEntryArray}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{TIFFSwabArrayOfLong8}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{TIFFSwabArrayOfLong}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{_TIFFmalloc}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntryDoubleArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntryDoubleArray}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFSwabLong8}",
-      "type": 3
+      "source": "{TIFFSwabLong8}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{CheckDirCount}",
-      "type": 3
+      "source": "{CheckDirCount}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{CheckDirCount}",
-      "type": 1
+      "source": "{CheckDirCount}"
     },
     {
       "target": "{TIFFFieldWithTag}",
-      "source": "{CheckDirCount}",
-      "type": 1
+      "source": "{CheckDirCount}"
     },
     {
       "target": "{TIFFFieldWithTag}",
-      "source": "{CheckDirCount}",
-      "type": 0
+      "source": "{CheckDirCount}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFNumberOfStrips}",
-      "type": 2
+      "source": "{TIFFNumberOfStrips}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryCheckedSrational}",
-      "type": 0
+      "source": "{TIFFReadDirEntryCheckedSrational}"
     },
     {
       "target": "{TIFFReadDirEntryData}",
-      "source": "{TIFFReadDirEntryCheckedSrational}",
-      "type": 0
+      "source": "{TIFFReadDirEntryCheckedSrational}"
     },
     {
       "target": "{TIFFSwabArrayOfLong}",
-      "source": "{TIFFReadDirEntryCheckedSrational}",
-      "type": 2
+      "source": "{TIFFReadDirEntryCheckedSrational}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFTileSize64}",
-      "type": 1
+      "source": "{TIFFTileSize64}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFSwabArrayOfLong8}",
-      "type": 0
+      "source": "{TIFFSwabArrayOfLong8}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFWarningExt}",
-      "type": 1
+      "source": "{TIFFWarningExt}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFScanlineSize}",
-      "type": 2
+      "source": "{TIFFScanlineSize}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntryCheckedSshort}",
-      "type": 0
+      "source": "{TIFFReadDirEntryCheckedSshort}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFDefaultDirectory}",
-      "type": 1
+      "source": "{TIFFDefaultDirectory}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFFreeDirectory}",
-      "type": 1
+      "source": "{TIFFFreeDirectory}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{_TIFFmalloc}",
-      "type": 1
+      "source": "{_TIFFmalloc}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 0
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 2
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 0
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 2
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 2
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 2
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 2
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 0
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 3
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 0
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 2
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 1
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 0
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 2
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 2
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirEntryOutputErr}",
-      "type": 1
+      "source": "{TIFFReadDirEntryOutputErr}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryIfd8Array}",
-      "type": 1
+      "source": "{TIFFReadDirEntryIfd8Array}"
     },
     {
       "target": "{TIFFReadDirEntryArray}",
-      "source": "{TIFFReadDirEntryIfd8Array}",
-      "type": 2
+      "source": "{TIFFReadDirEntryIfd8Array}"
     },
     {
       "target": "{_TIFFmalloc}",
-      "source": "{TIFFReadDirEntryIfd8Array}",
-      "type": 0
+      "source": "{TIFFReadDirEntryIfd8Array}"
     },
     {
       "target": "{TIFFSwabArrayOfLong8}",
-      "source": "{TIFFReadDirEntryIfd8Array}",
-      "type": 2
+      "source": "{TIFFReadDirEntryIfd8Array}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryIfd8Array}",
-      "type": 0
+      "source": "{TIFFReadDirEntryIfd8Array}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryIfd8Array}",
-      "type": 0
+      "source": "{TIFFReadDirEntryIfd8Array}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSshortLong8}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{TIFFReadDirEntryArray}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSshortLong}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{TIFFSwabArrayOfShort}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSshortShort}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 1
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 0
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSshortSlong8}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeSshortSlong}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 3
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{_TIFFmalloc}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntrySshortArray}",
-      "type": 2
+      "source": "{TIFFReadDirEntrySshortArray}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLongSbyte}",
-      "source": "{TIFFReadDirEntryLong}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLong}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedLong}",
-      "source": "{TIFFReadDirEntryLong}",
-      "type": 2
+      "source": "{TIFFReadDirEntryLong}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLongLong8}",
-      "source": "{TIFFReadDirEntryLong}",
-      "type": 3
+      "source": "{TIFFReadDirEntryLong}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedShort}",
-      "source": "{TIFFReadDirEntryLong}",
-      "type": 3
+      "source": "{TIFFReadDirEntryLong}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedLong8}",
-      "source": "{TIFFReadDirEntryLong}",
-      "type": 3
+      "source": "{TIFFReadDirEntryLong}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSlong}",
-      "source": "{TIFFReadDirEntryLong}",
-      "type": 2
+      "source": "{TIFFReadDirEntryLong}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSshort}",
-      "source": "{TIFFReadDirEntryLong}",
-      "type": 2
+      "source": "{TIFFReadDirEntryLong}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSbyte}",
-      "source": "{TIFFReadDirEntryLong}",
-      "type": 3
+      "source": "{TIFFReadDirEntryLong}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedByte}",
-      "source": "{TIFFReadDirEntryLong}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLong}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLongSshort}",
-      "source": "{TIFFReadDirEntryLong}",
-      "type": 2
+      "source": "{TIFFReadDirEntryLong}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLongSlong8}",
-      "source": "{TIFFReadDirEntryLong}",
-      "type": 2
+      "source": "{TIFFReadDirEntryLong}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLongSlong}",
-      "source": "{TIFFReadDirEntryLong}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLong}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSlong8}",
-      "source": "{TIFFReadDirEntryLong}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLong}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFFetchSubjectDistance}",
-      "type": 0
+      "source": "{TIFFFetchSubjectDistance}"
     },
     {
       "target": "{TIFFReadDirEntryOutputErr}",
-      "source": "{TIFFFetchSubjectDistance}",
-      "type": 3
+      "source": "{TIFFFetchSubjectDistance}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchSubjectDistance}",
-      "type": 1
+      "source": "{TIFFFetchSubjectDistance}"
     },
     {
       "target": "{TIFFReadDirEntryData}",
-      "source": "{TIFFFetchSubjectDistance}",
-      "type": 0
+      "source": "{TIFFFetchSubjectDistance}"
     },
     {
       "target": "{TIFFSwabArrayOfLong}",
-      "source": "{TIFFFetchSubjectDistance}",
-      "type": 1
+      "source": "{TIFFFetchSubjectDistance}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{MissingRequired}",
-      "type": 0
+      "source": "{MissingRequired}"
     },
     {
       "target": "{TIFFCheckDirOffset}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirEntryOutputErr}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirEntryOutputErr}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirEntryOutputErr}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirEntryOutputErr}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirectoryFindEntry}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirectoryFindEntry}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirectoryFindEntry}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirectoryFindEntry}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFFieldWithTag}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFFieldWithTag}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFFieldWithTag}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFFieldWithTag}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFFieldWithTag}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirectoryCheckOrder}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirEntryPersampleShort}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirEntryPersampleShort}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFNumberOfTiles}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFScanlineSize64}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFFetchStripThing}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFFetchStripThing}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{_TIFFFillStriles}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{_TIFFFillStriles}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{_TIFFFillStriles}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{MissingRequired}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{MissingRequired}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{MissingRequired}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{MissingRequired}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirEntryDoubleArray}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFFetchNormalTag}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFFetchNormalTag}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFFetchNormalTag}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{ChopUpSingleUncompressedStrip}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{_TIFFCreateAnonField}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFNumberOfStrips}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirEntryShort}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirEntryShort}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirEntryShort}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{EstimateStripByteCounts}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{EstimateStripByteCounts}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{EstimateStripByteCounts}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 1
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFStripSize}",
-      "source": "{TIFFReadDirectory}",
-      "type": 3
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFScanlineSize}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFTileSize}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirectoryFindFieldInfo}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirectoryFindFieldInfo}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFFetchDirectory}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFDefaultDirectory}",
-      "source": "{TIFFReadDirectory}",
-      "type": 2
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFFreeDirectory}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{_TIFFMergeFields}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirEntryShortArray}",
-      "source": "{TIFFReadDirectory}",
-      "type": 0
+      "source": "{TIFFReadDirectory}"
     },
     {
       "target": "{TIFFReadDirEntryOutputErr}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFSetField}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryByteArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryByteArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryByteArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryByteArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryByteArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryByteArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{__assert_fail}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntrySshortArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryByte}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryLong}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryFloatArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryFloatArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryFloatArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryLong8}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntrySlong8Array}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryDoubleArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryDoubleArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryIfd8Array}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryIfd8Array}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntrySbyteArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryShort}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryFloat}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryIfd8}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFWarningExt}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFmemcpy}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryDouble}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntrySlongArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirectoryFindFieldInfo}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryLongArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 2
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryLongArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryLongArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{_TIFFmalloc}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryLong8Array}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 1
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryLong8Array}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryShortArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 0
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryShortArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryShortArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryShortArray}",
-      "source": "{TIFFFetchNormalTag}",
-      "type": 3
+      "source": "{TIFFFetchNormalTag}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeShortSbyte}",
-      "source": "{TIFFReadDirEntryShort}",
-      "type": 3
+      "source": "{TIFFReadDirEntryShort}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedShort}",
-      "source": "{TIFFReadDirEntryShort}",
-      "type": 0
+      "source": "{TIFFReadDirEntryShort}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedLong8}",
-      "source": "{TIFFReadDirEntryShort}",
-      "type": 0
+      "source": "{TIFFReadDirEntryShort}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeShortLong8}",
-      "source": "{TIFFReadDirEntryShort}",
-      "type": 2
+      "source": "{TIFFReadDirEntryShort}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSshort}",
-      "source": "{TIFFReadDirEntryShort}",
-      "type": 1
+      "source": "{TIFFReadDirEntryShort}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedLong}",
-      "source": "{TIFFReadDirEntryShort}",
-      "type": 2
+      "source": "{TIFFReadDirEntryShort}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSbyte}",
-      "source": "{TIFFReadDirEntryShort}",
-      "type": 1
+      "source": "{TIFFReadDirEntryShort}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSlong8}",
-      "source": "{TIFFReadDirEntryShort}",
-      "type": 3
+      "source": "{TIFFReadDirEntryShort}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeShortSshort}",
-      "source": "{TIFFReadDirEntryShort}",
-      "type": 2
+      "source": "{TIFFReadDirEntryShort}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeShortLong}",
-      "source": "{TIFFReadDirEntryShort}",
-      "type": 1
+      "source": "{TIFFReadDirEntryShort}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSlong}",
-      "source": "{TIFFReadDirEntryShort}",
-      "type": 0
+      "source": "{TIFFReadDirEntryShort}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeShortSlong}",
-      "source": "{TIFFReadDirEntryShort}",
-      "type": 2
+      "source": "{TIFFReadDirEntryShort}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedByte}",
-      "source": "{TIFFReadDirEntryShort}",
-      "type": 1
+      "source": "{TIFFReadDirEntryShort}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeShortSlong8}",
-      "source": "{TIFFReadDirEntryShort}",
-      "type": 3
+      "source": "{TIFFReadDirEntryShort}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedLong}",
-      "source": "{TIFFReadDirEntryFloat}",
-      "type": 0
+      "source": "{TIFFReadDirEntryFloat}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedShort}",
-      "source": "{TIFFReadDirEntryFloat}",
-      "type": 0
+      "source": "{TIFFReadDirEntryFloat}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedLong8}",
-      "source": "{TIFFReadDirEntryFloat}",
-      "type": 2
+      "source": "{TIFFReadDirEntryFloat}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSlong}",
-      "source": "{TIFFReadDirEntryFloat}",
-      "type": 3
+      "source": "{TIFFReadDirEntryFloat}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedRational}",
-      "source": "{TIFFReadDirEntryFloat}",
-      "type": 3
+      "source": "{TIFFReadDirEntryFloat}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSshort}",
-      "source": "{TIFFReadDirEntryFloat}",
-      "type": 3
+      "source": "{TIFFReadDirEntryFloat}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSrational}",
-      "source": "{TIFFReadDirEntryFloat}",
-      "type": 2
+      "source": "{TIFFReadDirEntryFloat}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedDouble}",
-      "source": "{TIFFReadDirEntryFloat}",
-      "type": 2
+      "source": "{TIFFReadDirEntryFloat}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSbyte}",
-      "source": "{TIFFReadDirEntryFloat}",
-      "type": 1
+      "source": "{TIFFReadDirEntryFloat}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedByte}",
-      "source": "{TIFFReadDirEntryFloat}",
-      "type": 3
+      "source": "{TIFFReadDirEntryFloat}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedSlong8}",
-      "source": "{TIFFReadDirEntryFloat}",
-      "type": 2
+      "source": "{TIFFReadDirEntryFloat}"
     },
     {
       "target": "{TIFFReadDirEntryCheckedFloat}",
-      "source": "{TIFFReadDirEntryFloat}",
-      "type": 2
+      "source": "{TIFFReadDirEntryFloat}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{_TIFFSetupFields}",
-      "type": 2
+      "source": "{_TIFFSetupFields}"
     },
     {
       "target": "{TIFFDataWidth}",
-      "source": "{EstimateStripByteCounts}",
-      "type": 3
+      "source": "{EstimateStripByteCounts}"
     },
     {
       "target": "{TIFFScanlineSize64}",
-      "source": "{EstimateStripByteCounts}",
-      "type": 2
+      "source": "{EstimateStripByteCounts}"
     },
     {
       "target": "{TIFFErrorExt}",
-      "source": "{EstimateStripByteCounts}",
-      "type": 2
+      "source": "{EstimateStripByteCounts}"
     },
     {
       "target": "{_TIFFCheckMalloc}",
-      "source": "{EstimateStripByteCounts}",
-      "type": 0
+      "source": "{EstimateStripByteCounts}"
     },
     {
       "target": "{_TIFFFillStrilesInternal}",
-      "source": "{EstimateStripByteCounts}",
-      "type": 0
+      "source": "{EstimateStripByteCounts}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{EstimateStripByteCounts}",
-      "type": 2
+      "source": "{EstimateStripByteCounts}"
     },
     {
       "target": "{TIFFTileSize64}",
-      "source": "{EstimateStripByteCounts}",
-      "type": 0
+      "source": "{EstimateStripByteCounts}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{EstimateStripByteCounts}",
-      "type": 2
+      "source": "{EstimateStripByteCounts}"
     },
     {
       "target": "{TIFFReadCustomDirectory}",
-      "source": "{TIFFReadEXIFDirectory}",
-      "type": 2
+      "source": "{TIFFReadEXIFDirectory}"
     },
     {
       "target": "{_TIFFGetExifFields}",
-      "source": "{TIFFReadEXIFDirectory}",
-      "type": 2
+      "source": "{TIFFReadEXIFDirectory}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFStripSize}",
-      "type": 1
+      "source": "{TIFFStripSize}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFTileSize}",
-      "type": 0
+      "source": "{TIFFTileSize}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{TIFFScanlineSize64}",
-      "type": 2
+      "source": "{TIFFScanlineSize64}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryCheckedSlong}",
-      "type": 2
+      "source": "{TIFFReadDirEntryCheckedSlong}"
     },
     {
       "target": "Node0x1f84030",
-      "source": "{_TIFFmemcpy}",
-      "type": 2
+      "source": "{_TIFFmemcpy}"
     },
     {
       "target": "{TIFFSwabLong8}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 3
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLong8Slong8}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 2
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{TIFFSwabLong}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLong8Sshort}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 2
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{TIFFReadDirEntryArray}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLong8Slong}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{TIFFSwabArrayOfLong8}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 1
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 2
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{_TIFFfree}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 2
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{TIFFReadDirEntryCheckRangeLong8Sbyte}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 3
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{_TIFFmalloc}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 0
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 3
+      "source": "{TIFFReadDirEntryLong8Array}"
     },
     {
       "target": "{TIFFSwabShort}",
-      "source": "{TIFFReadDirEntryLong8Array}",
-      "type": 2
+      "source": "{TIFFReadDirEntryLong8Array}"
     }
   ]
 }
