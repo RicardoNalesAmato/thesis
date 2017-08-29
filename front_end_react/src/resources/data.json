@@ -1,1584 +1,5841 @@
 {
   "nodes": [
     {
-      "id": "Myriel",
-      "type": 1
+      "id": "{_TIFFCheckRealloc}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Napoleon",
-      "type": 1
+      "id": "{TIFFReadDirEntryCheckedLong}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          1,
+          7,
+          8
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Mlle.Baptistine",
-      "type": 1
+      "id": "{TIFFSetField}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.26666666666666666,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          5,
+          6
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Mme.Magloire",
-      "type": 1
+      "id": "{TIFFReadDirEntryCheckRangeSlongLong}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "CountessdeLo",
-      "type": 1
+      "id": "{TIFFReadDirEntryByteArray}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.054945054945054944,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          13,
+          1,
+          14
+        ],
+        "node_path_length": 1.3541666666666667
+      }
     },
     {
-      "id": "Geborand",
-      "type": 1
+      "id": "{TIFFReadDirEntryCheckRangeByteSlong}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Champtercier",
-      "type": 1
+      "id": "{ChopUpSingleUncompressedStrip}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.2,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          5,
+          1,
+          6
+        ],
+        "node_path_length": 1.125
+      }
     },
     {
-      "id": "Cravatte",
-      "type": 1
+      "id": "{__assert_fail}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.28888888888888886,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          9,
+          10
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Count",
-      "type": 1
+      "id": "{TIFFReadDirEntryByte}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          15,
+          1,
+          16
+        ],
+        "node_path_length": 1.3227091633466135
+      }
     },
     {
-      "id": "OldMan",
-      "type": 1
+      "id": "{TIFFReadDirEntryFloatArray}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.1388888888888889,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          8,
+          1,
+          9
+        ],
+        "node_path_length": 1.0833333333333333
+      }
     },
     {
-      "id": "Labarre",
-      "type": 2
+      "id": "{TIFFReadDirEntryCheckRangeSshortSlong}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Valjean",
-      "type": 2
+      "id": "{TIFFReadDirEntryCheckRangeByteSlong8}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Marguerite",
-      "type": 3
+      "id": "{TIFFNumberOfTiles}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Mme.deR",
-      "type": 2
+      "id": "{TIFFDataWidth}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.16666666666666666,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          3,
+          4
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Isabeau",
-      "type": 2
+      "id": "{TIFFReadDirEntryCheckRangeLongLong8}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Gervais",
-      "type": 2
+      "id": "{TIFFReadDirEntryLong8}",
+      "type": 4,
+      "data": {
+        "faulty": true,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "cvss3": {
+          "baseSeverity": "MEDIUM",
+          "userInteraction": "REQUIRED",
+          "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "availabilityImpact": "HIGH",
+          "privilegesRequired": "NONE",
+          "integrityImpact": "NONE",
+          "scope": "UNCHANGED",
+          "baseScore": 6.5,
+          "attackVector": "NETWORK",
+          "confidentialityImpact": "NONE",
+          "attackComplexity": "LOW"
+        },
+        "node_degree": [
+          12,
+          1,
+          13
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Tholomyes",
-      "type": 3
+      "id": "{TIFFFetchStripThing}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.14285714285714285,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          7,
+          1,
+          8
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Listolier",
-      "type": 3
+      "id": "{TIFFReadDirEntryArray}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.19883040935672514,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          8,
+          11,
+          19
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Fameuil",
-      "type": 3
+      "id": "{TIFFReadDirEntryCheckedSbyte}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          6,
+          6
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Blacheville",
-      "type": 3
+      "id": "{TIFFReadDirEntryCheckRangeSbyteSlong}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Favourite",
-      "type": 3
+      "id": "{_TIFFGetExifFields}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Dahlia",
-      "type": 3
+      "id": "{TIFFReadDirEntryCheckRangeLongSlong8}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Zephine",
-      "type": 3
+      "id": "{TIFFReadDirEntryCheckedShort}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          1,
+          6,
+          7
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Fantine",
-      "type": 3
+      "id": "{_TIFFCreateAnonField}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.5,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          3,
+          4
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Mme.Thenardier",
-      "type": 4
+      "id": "{_TIFFFillStrilesInternal}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Thenardier",
-      "type": 4
+      "id": "{TIFFReadDirEntryCheckRangeSbyteLong}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Cosette",
-      "type": 5
+      "id": "{TIFFReadDirEntryIfd8}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Javert",
-      "type": 4
+      "id": "{external node}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.042042042042042045,
+        "distance_to_interface": 999,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          37,
+          0,
+          37
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Fauchelevent",
+      "id": "{TIFFReadDirEntryCheckRangeLong8Slong8}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryDouble}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          12,
+          1,
+          13
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckedByte}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          6,
+          6
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryLongArray}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0641025641025641,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          12,
+          1,
+          13
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFSwabArrayOfLong}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          8,
+          9
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckRangeSlongSlong8}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{_TIFFMergeFields}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.5,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          3,
+          4
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryShortArray}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.075,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          13,
+          3,
+          16
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckedSlong8}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          3,
+          6,
+          9
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFSwabLong}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.043478260869565216,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          23,
+          24
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFErrorExt}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.3111111111111111,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          9,
+          10
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFReadDirectoryCheckOrder}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{_TIFFfree}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.16883116883116883,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          21,
+          22
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFSwabShort}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.009523809523809525,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          14,
+          15
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "Node0x1f84030",
       "type": 0
     },
     {
-      "id": "Bamatabois",
-      "type": 2
+      "id": "{TIFFReadDirEntryCheckedLong8}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          3,
+          7,
+          10
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Perpetue",
-      "type": 3
+      "id": "{TIFFReadDirEntryCheckRangeShortLong8}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Simplice",
-      "type": 2
+      "id": "{TIFFReadDirEntryCheckRangeLong8Sshort}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Scaufflaire",
-      "type": 2
+      "id": "{_TIFFFillStriles}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Woman1",
-      "type": 2
+      "id": "{TIFFReadDirEntrySlong8Array}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.1388888888888889,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          8,
+          1,
+          9
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Judge",
-      "type": 2
+      "id": "{TIFFReadDirEntryCheckRangeLong8Sbyte}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Champmathieu",
-      "type": 2
+      "id": "{TIFFReadDirEntryCheckRangeLongSshort}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Brevet",
-      "type": 2
+      "id": "{TIFFReadDirEntryCheckRangeShortLong}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Chenildieu",
-      "type": 2
+      "id": "{TIFFReadDirEntrySbyteArray}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.054945054945054944,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          13,
+          1,
+          14
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Cochepaille",
-      "type": 2
+      "id": "{TIFFReadDirEntryCheckRangeLongSbyte}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Pontmercy",
-      "type": 4
+      "id": "{TIFFReadDirEntryCheckRangeSbyteLong8}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Boulatruelle",
-      "type": 6
+      "id": "{TIFFReadDirEntryCheckedDouble}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          3,
+          2,
+          5
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Eponine",
-      "type": 4
+      "id": "{TIFFVTileSize64}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Anzelma",
-      "type": 4
+      "id": "{TIFFReadDirEntryCheckRangeByteSbyte}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Woman2",
-      "type": 5
+      "id": "{TIFFReadDirEntryCheckRangeByteLong}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "MotherInnocent",
-      "type": 0
+      "id": "{_TIFFmemset}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.16666666666666666,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          3,
+          4
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Gribier",
-      "type": 0
+      "id": "{TIFFReadDirEntryCheckedRational}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          3,
+          2,
+          5
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Jondrette",
-      "type": 7
+      "id": "{TIFFSwabArrayOfShort}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          3,
+          4
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Mme.Burgon",
-      "type": 7
+      "id": "{TIFFReadDirEntrySlongArray}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.09090909090909091,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          10,
+          1,
+          11
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Gavroche",
-      "type": 8
+      "id": "{TIFFReadDirectoryFindFieldInfo}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          3,
+          3
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Gillenormand",
-      "type": 5
+      "id": "{TIFFFetchDirectory}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.22727272727272727,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          10,
+          2,
+          12
+        ],
+        "node_path_length": 1.1
+      }
     },
     {
-      "id": "Magnon",
-      "type": 5
+      "id": "{TIFFCheckDirOffset}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Mlle.Gillenormand",
-      "type": 5
+      "id": "{TIFFReadDirEntryCheckRangeSbyteShort}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Mme.Pontmercy",
-      "type": 5
+      "id": "{TIFFReadDirEntryCheckRangeLongSlong}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Mlle.Vaubois",
-      "type": 5
+      "id": "{TIFFFieldWithTag}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.3,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          4,
+          5
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Lt.Gillenormand",
-      "type": 5
+      "id": "{TIFFReadDirEntryPersampleShort}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 1.0,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Marius",
-      "type": 8
+      "id": "{TIFFReadDirEntryCheckRangeSshortSlong8}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "BaronessT",
-      "type": 5
+      "id": "{TIFFReadDirEntryData}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.08888888888888889,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          3,
+          7,
+          10
+        ],
+        "node_path_length": 1.25
+      }
     },
     {
-      "id": "Mabeuf",
-      "type": 8
+      "id": "{TIFFReadDirEntryCheckRangeSlong8Long8}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Enjolras",
-      "type": 8
+      "id": "{TIFFReadUInt64}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Combeferre",
-      "type": 8
+      "id": "{TIFFReadDirEntryCheckRangeSshortLong}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Prouvaire",
-      "type": 8
+      "id": "{_TIFFCheckMalloc}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.09523809523809523,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          6,
+          7
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Feuilly",
-      "type": 8
+      "id": "{TIFFReadDirEntryCheckRangeShortSshort}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Courfeyrac",
-      "type": 8
+      "id": "{TIFFReadDirEntryCheckedFloat}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Bahorel",
-      "type": 8
+      "id": "{TIFFReadCustomDirectory}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.14705882352941177,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 2,
+        "node_degree": [
+          15,
+          2,
+          17
+        ],
+        "node_path_length": 2.207730932070613
+      }
     },
     {
-      "id": "Bossuet",
-      "type": 8
+      "id": "{TIFFReadDirEntryDoubleArray}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.15555555555555556,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          8,
+          2,
+          10
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Joly",
-      "type": 8
+      "id": "{TIFFSwabLong8}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.08088235294117647,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          16,
+          17
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Grantaire",
-      "type": 8
+      "id": "{CheckDirCount}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 3,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "node_path_length": 1.5
+      }
     },
     {
-      "id": "MotherPlutarch",
-      "type": 9
+      "id": "{llvm.dbg.declare}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Gueulemer",
-      "type": 4
+      "id": "{TIFFNumberOfStrips}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Babet",
-      "type": 4
+      "id": "{TIFFReadDirEntryCheckedSrational}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          3,
+          2,
+          5
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Claquesous",
-      "type": 4
+      "id": "{TIFFTileSize64}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Montparnasse",
-      "type": 4
+      "id": "{TIFFReadDirEntryCheckRangeSbyteByte}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Toussaint",
-      "type": 5
+      "id": "{TIFFSwabArrayOfLong8}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          6,
+          7
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Child1",
-      "type": 10
+      "id": "{TIFFWarningExt}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.35714285714285715,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          7,
+          8
+        ],
+        "node_path_length": 0
+      }
     },
     {
-      "id": "Child2",
-      "type": 10
+      "id": "{TIFFScanlineSize}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Brujon",
-      "type": 4
+      "id": "{TIFFReadDirEntryCheckedSshort}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          1,
+          6,
+          7
+        ],
+        "node_path_length": 1.0
+      }
     },
     {
-      "id": "Mme.Hucheloup",
-      "type": 8
+      "id": "{TIFFDefaultDirectory}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFFreeDirectory}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.5,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          3,
+          4
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{_TIFFmalloc}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.12087912087912088,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          13,
+          14
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckRangeShortSlong8}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryOutputErr}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.38095238095238093,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          3,
+          4,
+          7
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckRangeShortSbyte}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirectoryFindEntry}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryIfd8Array}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.26666666666666666,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          5,
+          1,
+          6
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckRangeLong8Slong}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckRangeByteLong8}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckRangeSlongLong8}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntrySshortArray}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0641025641025641,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          12,
+          1,
+          13
+        ],
+        "node_path_length": 1.0588235294117647
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryLong}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          13,
+          1,
+          14
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckRangeSbyteSshort}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFFetchSubjectDistance}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 3,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          5,
+          1,
+          6
+        ],
+        "node_path_length": 1.6444444444444444
+      }
+    },
+    {
+      "id": "{MissingRequired}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 1.0,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          1,
+          1,
+          2
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckRangeByteSshort}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckRangeSbyteSlong8}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckRangeShortSlong}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirectory}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.11942959001782531,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 2,
+        "node_degree": [
+          33,
+          1,
+          34
+        ],
+        "node_path_length": 1.361044784811601
+      }
+    },
+    {
+      "id": "{TIFFFetchNormalTag}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.09852216748768473,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          27,
+          2,
+          29
+        ],
+        "node_path_length": 2.085793434034573
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckRangeByteShort}",
+      "type": 5,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckRangeSshortLong8}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryShort}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.008333333333333333,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          14,
+          2,
+          16
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryFloat}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 4,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          12,
+          1,
+          13
+        ],
+        "node_path_length": 1.3553719008264462
+      }
+    },
+    {
+      "id": "{_TIFFSetupFields}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{EstimateStripByteCounts}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.2777777777777778,
+        "distance_to_interface": 2,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          8,
+          1,
+          9
+        ],
+        "node_path_length": 1.0714285714285714
+      }
+    },
+    {
+      "id": "{TIFFReadEXIFDirectory}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "node_path_length": 3.207730932070454
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckRangeSshortShort}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFStripSize}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFTileSize}",
+      "type": 3,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFScanlineSize64}",
+      "type": 4,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          3,
+          4
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryCheckedSlong}",
+      "type": 1,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 5,
+        "macke_vulnerabilities_found": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          1,
+          6,
+          7
+        ],
+        "node_path_length": 1.0
+      }
+    },
+    {
+      "id": "{_TIFFmemcpy}",
+      "type": 0,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.14285714285714285,
+        "distance_to_interface": 1,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          6,
+          7
+        ],
+        "node_path_length": 0
+      }
+    },
+    {
+      "id": "{TIFFReadDirEntryLong8Array}",
+      "type": 2,
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.07692307692307693,
+        "distance_to_interface": 3,
+        "macke_vulnerabilities_found": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          11,
+          2,
+          13
+        ],
+        "node_path_length": 1.0
+      }
     }
   ],
   "links": [
     {
-      "source": "Napoleon",
-      "target": "Myriel",
+      "target": "Node0x1f84030",
+      "source": "{_TIFFCheckRealloc}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryCheckedLong}",
       "type": 1
     },
     {
-      "source": "Mlle.Baptistine",
-      "target": "Myriel",
-      "type": 8
-    },
-    {
-      "source": "Mme.Magloire",
-      "target": "Myriel",
-      "type": 10
-    },
-    {
-      "source": "Mme.Magloire",
-      "target": "Mlle.Baptistine",
-      "type": 6
-    },
-    {
-      "source": "CountessdeLo",
-      "target": "Myriel",
-      "type": 1
-    },
-    {
-      "source": "Geborand",
-      "target": "Myriel",
-      "type": 1
-    },
-    {
-      "source": "Champtercier",
-      "target": "Myriel",
-      "type": 1
-    },
-    {
-      "source": "Cravatte",
-      "target": "Myriel",
-      "type": 1
-    },
-    {
-      "source": "Count",
-      "target": "Myriel",
+      "target": "Node0x1f84030",
+      "source": "{TIFFSetField}",
       "type": 2
     },
     {
-      "source": "OldMan",
-      "target": "Myriel",
-      "type": 1
-    },
-    {
-      "source": "Valjean",
-      "target": "Labarre",
-      "type": 1
-    },
-    {
-      "source": "Valjean",
-      "target": "Mme.Magloire",
+      "target": "{TIFFReadDirEntryCheckRangeByteShort}",
+      "source": "{TIFFReadDirEntryByteArray}",
       "type": 3
     },
     {
-      "source": "Valjean",
-      "target": "Mlle.Baptistine",
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryByteArray}",
       "type": 3
     },
     {
-      "source": "Valjean",
-      "target": "Myriel",
-      "type": 5
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryByteArray}",
+      "type": 2
     },
     {
-      "source": "Marguerite",
-      "target": "Valjean",
-      "type": 1
-    },
-    {
-      "source": "Mme.deR",
-      "target": "Valjean",
-      "type": 1
-    },
-    {
-      "source": "Isabeau",
-      "target": "Valjean",
-      "type": 1
-    },
-    {
-      "source": "Gervais",
-      "target": "Valjean",
-      "type": 1
-    },
-    {
-      "source": "Listolier",
-      "target": "Tholomyes",
-      "type": 4
-    },
-    {
-      "source": "Fameuil",
-      "target": "Tholomyes",
-      "type": 4
-    },
-    {
-      "source": "Fameuil",
-      "target": "Listolier",
-      "type": 4
-    },
-    {
-      "source": "Blacheville",
-      "target": "Tholomyes",
-      "type": 4
-    },
-    {
-      "source": "Blacheville",
-      "target": "Listolier",
-      "type": 4
-    },
-    {
-      "source": "Blacheville",
-      "target": "Fameuil",
-      "type": 4
-    },
-    {
-      "source": "Favourite",
-      "target": "Tholomyes",
+      "target": "{TIFFReadDirEntryCheckRangeByteLong}",
+      "source": "{TIFFReadDirEntryByteArray}",
       "type": 3
     },
     {
-      "source": "Favourite",
-      "target": "Listolier",
+      "target": "{TIFFReadDirEntryCheckRangeByteSlong}",
+      "source": "{TIFFReadDirEntryByteArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryByteArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryByteArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryArray}",
+      "source": "{TIFFReadDirEntryByteArray}",
       "type": 3
     },
     {
-      "source": "Favourite",
-      "target": "Fameuil",
+      "target": "{TIFFReadDirEntryCheckRangeByteLong8}",
+      "source": "{TIFFReadDirEntryByteArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeByteSlong8}",
+      "source": "{TIFFReadDirEntryByteArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeByteSbyte}",
+      "source": "{TIFFReadDirEntryByteArray}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeByteSshort}",
+      "source": "{TIFFReadDirEntryByteArray}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryByteArray}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryByteArray}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryByteArray}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryByteArray}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFmalloc}",
+      "source": "{TIFFReadDirEntryByteArray}",
       "type": 3
     },
     {
-      "source": "Favourite",
-      "target": "Blacheville",
-      "type": 4
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntryByteArray}",
+      "type": 0
     },
     {
-      "source": "Dahlia",
-      "target": "Tholomyes",
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntryByteArray}",
       "type": 3
     },
     {
-      "source": "Dahlia",
-      "target": "Listolier",
+      "target": "{__assert_fail}",
+      "source": "{ChopUpSingleUncompressedStrip}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFCheckMalloc}",
+      "source": "{ChopUpSingleUncompressedStrip}",
       "type": 3
     },
     {
-      "source": "Dahlia",
-      "target": "Fameuil",
+      "target": "{_TIFFCheckMalloc}",
+      "source": "{ChopUpSingleUncompressedStrip}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{ChopUpSingleUncompressedStrip}",
       "type": 3
     },
     {
-      "source": "Dahlia",
-      "target": "Blacheville",
+      "target": "{TIFFVTileSize64}",
+      "source": "{ChopUpSingleUncompressedStrip}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{ChopUpSingleUncompressedStrip}",
       "type": 3
     },
     {
-      "source": "Dahlia",
-      "target": "Favourite",
-      "type": 5
+      "target": "{_TIFFfree}",
+      "source": "{ChopUpSingleUncompressedStrip}",
+      "type": 2
     },
     {
-      "source": "Zephine",
-      "target": "Tholomyes",
+      "target": "{_TIFFfree}",
+      "source": "{ChopUpSingleUncompressedStrip}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{ChopUpSingleUncompressedStrip}",
+      "type": 2
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{__assert_fail}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeByteShort}",
+      "source": "{TIFFReadDirEntryByte}",
       "type": 3
     },
     {
-      "source": "Zephine",
-      "target": "Listolier",
+      "target": "{TIFFReadDirEntryCheckRangeByteSlong}",
+      "source": "{TIFFReadDirEntryByte}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedLong}",
+      "source": "{TIFFReadDirEntryByte}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeByteLong}",
+      "source": "{TIFFReadDirEntryByte}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedShort}",
+      "source": "{TIFFReadDirEntryByte}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedLong8}",
+      "source": "{TIFFReadDirEntryByte}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSlong}",
+      "source": "{TIFFReadDirEntryByte}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSshort}",
+      "source": "{TIFFReadDirEntryByte}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeByteLong8}",
+      "source": "{TIFFReadDirEntryByte}",
       "type": 3
     },
     {
-      "source": "Zephine",
-      "target": "Fameuil",
+      "target": "{TIFFReadDirEntryCheckedSbyte}",
+      "source": "{TIFFReadDirEntryByte}",
       "type": 3
     },
     {
-      "source": "Zephine",
-      "target": "Blacheville",
+      "target": "{TIFFReadDirEntryCheckedByte}",
+      "source": "{TIFFReadDirEntryByte}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeByteSshort}",
+      "source": "{TIFFReadDirEntryByte}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSlong8}",
+      "source": "{TIFFReadDirEntryByte}",
       "type": 3
     },
     {
-      "source": "Zephine",
-      "target": "Favourite",
-      "type": 4
+      "target": "{TIFFReadDirEntryCheckRangeByteSlong8}",
+      "source": "{TIFFReadDirEntryByte}",
+      "type": 0
     },
     {
-      "source": "Zephine",
-      "target": "Dahlia",
-      "type": 4
+      "target": "{TIFFReadDirEntryCheckRangeByteSbyte}",
+      "source": "{TIFFReadDirEntryByte}",
+      "type": 2
     },
     {
-      "source": "Fantine",
-      "target": "Tholomyes",
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryFloatArray}",
       "type": 3
     },
     {
-      "source": "Fantine",
-      "target": "Listolier",
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryFloatArray}",
       "type": 3
     },
     {
-      "source": "Fantine",
-      "target": "Fameuil",
+      "target": "{TIFFReadDirEntryArray}",
+      "source": "{TIFFReadDirEntryFloatArray}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryFloatArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryFloatArray}",
       "type": 3
     },
     {
-      "source": "Fantine",
-      "target": "Blacheville",
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryFloatArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryFloatArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryFloatArray}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryFloatArray}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryFloatArray}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryFloatArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabArrayOfLong8}",
+      "source": "{TIFFReadDirEntryFloatArray}",
       "type": 3
     },
     {
-      "source": "Fantine",
-      "target": "Favourite",
-      "type": 4
-    },
-    {
-      "source": "Fantine",
-      "target": "Dahlia",
-      "type": 4
-    },
-    {
-      "source": "Fantine",
-      "target": "Zephine",
-      "type": 4
-    },
-    {
-      "source": "Fantine",
-      "target": "Marguerite",
+      "target": "{TIFFSwabArrayOfLong}",
+      "source": "{TIFFReadDirEntryFloatArray}",
       "type": 2
     },
     {
-      "source": "Fantine",
-      "target": "Valjean",
-      "type": 9
+      "target": "{_TIFFmalloc}",
+      "source": "{TIFFReadDirEntryFloatArray}",
+      "type": 0
     },
     {
-      "source": "Mme.Thenardier",
-      "target": "Fantine",
-      "type": 2
-    },
-    {
-      "source": "Mme.Thenardier",
-      "target": "Valjean",
-      "type": 7
-    },
-    {
-      "source": "Thenardier",
-      "target": "Mme.Thenardier",
-      "type": 13
-    },
-    {
-      "source": "Thenardier",
-      "target": "Fantine",
-      "type": 1
-    },
-    {
-      "source": "Thenardier",
-      "target": "Valjean",
-      "type": 12
-    },
-    {
-      "source": "Cosette",
-      "target": "Mme.Thenardier",
-      "type": 4
-    },
-    {
-      "source": "Cosette",
-      "target": "Valjean",
-      "type": 31
-    },
-    {
-      "source": "Cosette",
-      "target": "Tholomyes",
-      "type": 1
-    },
-    {
-      "source": "Cosette",
-      "target": "Thenardier",
-      "type": 1
-    },
-    {
-      "source": "Javert",
-      "target": "Valjean",
-      "type": 17
-    },
-    {
-      "source": "Javert",
-      "target": "Fantine",
-      "type": 5
-    },
-    {
-      "source": "Javert",
-      "target": "Thenardier",
-      "type": 5
-    },
-    {
-      "source": "Javert",
-      "target": "Mme.Thenardier",
-      "type": 1
-    },
-    {
-      "source": "Javert",
-      "target": "Cosette",
-      "type": 1
-    },
-    {
-      "source": "Fauchelevent",
-      "target": "Valjean",
-      "type": 8
-    },
-    {
-      "source": "Fauchelevent",
-      "target": "Javert",
-      "type": 1
-    },
-    {
-      "source": "Bamatabois",
-      "target": "Fantine",
-      "type": 1
-    },
-    {
-      "source": "Bamatabois",
-      "target": "Javert",
-      "type": 1
-    },
-    {
-      "source": "Bamatabois",
-      "target": "Valjean",
-      "type": 2
-    },
-    {
-      "source": "Perpetue",
-      "target": "Fantine",
-      "type": 1
-    },
-    {
-      "source": "Simplice",
-      "target": "Perpetue",
-      "type": 2
-    },
-    {
-      "source": "Simplice",
-      "target": "Valjean",
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntryFloatArray}",
       "type": 3
     },
     {
-      "source": "Simplice",
-      "target": "Fantine",
-      "type": 2
-    },
-    {
-      "source": "Simplice",
-      "target": "Javert",
-      "type": 1
-    },
-    {
-      "source": "Scaufflaire",
-      "target": "Valjean",
-      "type": 1
-    },
-    {
-      "source": "Woman1",
-      "target": "Valjean",
-      "type": 2
-    },
-    {
-      "source": "Woman1",
-      "target": "Javert",
-      "type": 1
-    },
-    {
-      "source": "Judge",
-      "target": "Valjean",
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntryFloatArray}",
       "type": 3
     },
     {
-      "source": "Judge",
-      "target": "Bamatabois",
+      "target": "Node0x1f84030",
+      "source": "{TIFFNumberOfTiles}",
       "type": 2
     },
     {
-      "source": "Champmathieu",
-      "target": "Valjean",
+      "target": "Node0x1f84030",
+      "source": "{TIFFDataWidth}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedLong}",
+      "source": "{TIFFReadDirEntryLong8}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLong8Slong8}",
+      "source": "{TIFFReadDirEntryLong8}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedShort}",
+      "source": "{TIFFReadDirEntryLong8}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedLong8}",
+      "source": "{TIFFReadDirEntryLong8}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSlong}",
+      "source": "{TIFFReadDirEntryLong8}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLong8Sbyte}",
+      "source": "{TIFFReadDirEntryLong8}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLong8Sshort}",
+      "source": "{TIFFReadDirEntryLong8}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSshort}",
+      "source": "{TIFFReadDirEntryLong8}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSbyte}",
+      "source": "{TIFFReadDirEntryLong8}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedByte}",
+      "source": "{TIFFReadDirEntryLong8}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLong8Slong}",
+      "source": "{TIFFReadDirEntryLong8}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSlong8}",
+      "source": "{TIFFReadDirEntryLong8}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryOutputErr}",
+      "source": "{TIFFFetchStripThing}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFmemset}",
+      "source": "{TIFFFetchStripThing}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryLong8Array}",
+      "source": "{TIFFFetchStripThing}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFFieldWithTag}",
+      "source": "{TIFFFetchStripThing}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFCheckMalloc}",
+      "source": "{TIFFFetchStripThing}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchStripThing}",
       "type": 3
     },
     {
-      "source": "Champmathieu",
-      "target": "Judge",
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchStripThing}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFmemcpy}",
+      "source": "{TIFFFetchStripThing}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFmemcpy}",
+      "source": "{TIFFFetchStripThing}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFDataWidth}",
+      "source": "{TIFFReadDirEntryArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryArray}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFReadDirEntryArray}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFCheckMalloc}",
+      "source": "{TIFFReadDirEntryArray}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryArray}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryData}",
+      "source": "{TIFFReadDirEntryArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryData}",
+      "source": "{TIFFReadDirEntryArray}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFmemcpy}",
+      "source": "{TIFFReadDirEntryArray}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFmemcpy}",
+      "source": "{TIFFReadDirEntryArray}",
+      "type": 2
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{_TIFFGetExifFields}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntryCheckedShort}",
       "type": 3
     },
     {
-      "source": "Champmathieu",
-      "target": "Bamatabois",
-      "type": 2
-    },
-    {
-      "source": "Brevet",
-      "target": "Judge",
-      "type": 2
-    },
-    {
-      "source": "Brevet",
-      "target": "Champmathieu",
-      "type": 2
-    },
-    {
-      "source": "Brevet",
-      "target": "Valjean",
-      "type": 2
-    },
-    {
-      "source": "Brevet",
-      "target": "Bamatabois",
+      "target": "Node0x1f84030",
+      "source": "{_TIFFCreateAnonField}",
       "type": 1
     },
     {
-      "source": "Chenildieu",
-      "target": "Judge",
-      "type": 2
+      "target": "{TIFFReadDirEntryCheckedLong}",
+      "source": "{TIFFReadDirEntryIfd8}",
+      "type": 0
     },
     {
-      "source": "Chenildieu",
-      "target": "Champmathieu",
-      "type": 2
-    },
-    {
-      "source": "Chenildieu",
-      "target": "Brevet",
-      "type": 2
-    },
-    {
-      "source": "Chenildieu",
-      "target": "Valjean",
-      "type": 2
-    },
-    {
-      "source": "Chenildieu",
-      "target": "Bamatabois",
-      "type": 1
-    },
-    {
-      "source": "Cochepaille",
-      "target": "Judge",
-      "type": 2
-    },
-    {
-      "source": "Cochepaille",
-      "target": "Champmathieu",
-      "type": 2
-    },
-    {
-      "source": "Cochepaille",
-      "target": "Brevet",
-      "type": 2
-    },
-    {
-      "source": "Cochepaille",
-      "target": "Chenildieu",
-      "type": 2
-    },
-    {
-      "source": "Cochepaille",
-      "target": "Valjean",
-      "type": 2
-    },
-    {
-      "source": "Cochepaille",
-      "target": "Bamatabois",
-      "type": 1
-    },
-    {
-      "source": "Pontmercy",
-      "target": "Thenardier",
-      "type": 1
-    },
-    {
-      "source": "Boulatruelle",
-      "target": "Thenardier",
-      "type": 1
-    },
-    {
-      "source": "Eponine",
-      "target": "Mme.Thenardier",
-      "type": 2
-    },
-    {
-      "source": "Eponine",
-      "target": "Thenardier",
+      "target": "{TIFFReadDirEntryCheckedLong8}",
+      "source": "{TIFFReadDirEntryIfd8}",
       "type": 3
     },
     {
-      "source": "Anzelma",
-      "target": "Eponine",
-      "type": 2
-    },
-    {
-      "source": "Anzelma",
-      "target": "Thenardier",
-      "type": 2
-    },
-    {
-      "source": "Anzelma",
-      "target": "Mme.Thenardier",
-      "type": 1
-    },
-    {
-      "source": "Woman2",
-      "target": "Valjean",
+      "target": "{_TIFFCheckRealloc}",
+      "source": "{external node}",
       "type": 3
     },
     {
-      "source": "Woman2",
-      "target": "Cosette",
+      "target": "{TIFFSetField}",
+      "source": "{external node}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{external node}",
       "type": 1
     },
     {
-      "source": "Woman2",
-      "target": "Javert",
-      "type": 1
+      "target": "{TIFFErrorExt}",
+      "source": "{external node}",
+      "type": 2
     },
     {
-      "source": "MotherInnocent",
-      "target": "Fauchelevent",
+      "target": "{__assert_fail}",
+      "source": "{external node}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFFieldWithTag}",
+      "source": "{external node}",
       "type": 3
     },
     {
-      "source": "MotherInnocent",
-      "target": "Valjean",
-      "type": 1
-    },
-    {
-      "source": "Gribier",
-      "target": "Fauchelevent",
+      "target": "{_TIFFfree}",
+      "source": "{external node}",
       "type": 2
     },
     {
-      "source": "Mme.Burgon",
-      "target": "Jondrette",
+      "target": "{TIFFSwabShort}",
+      "source": "{external node}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFNumberOfTiles}",
+      "source": "{external node}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFDataWidth}",
+      "source": "{external node}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFScanlineSize64}",
+      "source": "{external node}",
       "type": 1
     },
     {
-      "source": "Gavroche",
-      "target": "Mme.Burgon",
-      "type": 2
+      "target": "{_TIFFFillStriles}",
+      "source": "{external node}",
+      "type": 0
     },
     {
-      "source": "Gavroche",
-      "target": "Thenardier",
+      "target": "{_TIFFCheckMalloc}",
+      "source": "{external node}",
       "type": 1
     },
     {
-      "source": "Gavroche",
-      "target": "Javert",
-      "type": 1
-    },
-    {
-      "source": "Gavroche",
-      "target": "Valjean",
-      "type": 1
-    },
-    {
-      "source": "Gillenormand",
-      "target": "Cosette",
+      "target": "{TIFFReadEXIFDirectory}",
+      "source": "{external node}",
       "type": 3
     },
     {
-      "source": "Gillenormand",
-      "target": "Valjean",
-      "type": 2
-    },
-    {
-      "source": "Magnon",
-      "target": "Gillenormand",
-      "type": 1
-    },
-    {
-      "source": "Magnon",
-      "target": "Mme.Thenardier",
-      "type": 1
-    },
-    {
-      "source": "Mlle.Gillenormand",
-      "target": "Gillenormand",
-      "type": 9
-    },
-    {
-      "source": "Mlle.Gillenormand",
-      "target": "Cosette",
-      "type": 2
-    },
-    {
-      "source": "Mlle.Gillenormand",
-      "target": "Valjean",
-      "type": 2
-    },
-    {
-      "source": "Mme.Pontmercy",
-      "target": "Mlle.Gillenormand",
-      "type": 1
-    },
-    {
-      "source": "Mme.Pontmercy",
-      "target": "Pontmercy",
-      "type": 1
-    },
-    {
-      "source": "Mlle.Vaubois",
-      "target": "Mlle.Gillenormand",
-      "type": 1
-    },
-    {
-      "source": "Lt.Gillenormand",
-      "target": "Mlle.Gillenormand",
-      "type": 2
-    },
-    {
-      "source": "Lt.Gillenormand",
-      "target": "Gillenormand",
-      "type": 1
-    },
-    {
-      "source": "Lt.Gillenormand",
-      "target": "Cosette",
-      "type": 1
-    },
-    {
-      "source": "Marius",
-      "target": "Mlle.Gillenormand",
-      "type": 6
-    },
-    {
-      "source": "Marius",
-      "target": "Gillenormand",
-      "type": 12
-    },
-    {
-      "source": "Marius",
-      "target": "Pontmercy",
-      "type": 1
-    },
-    {
-      "source": "Marius",
-      "target": "Lt.Gillenormand",
-      "type": 1
-    },
-    {
-      "source": "Marius",
-      "target": "Cosette",
-      "type": 21
-    },
-    {
-      "source": "Marius",
-      "target": "Valjean",
-      "type": 19
-    },
-    {
-      "source": "Marius",
-      "target": "Tholomyes",
-      "type": 1
-    },
-    {
-      "source": "Marius",
-      "target": "Thenardier",
-      "type": 2
-    },
-    {
-      "source": "Marius",
-      "target": "Eponine",
-      "type": 5
-    },
-    {
-      "source": "Marius",
-      "target": "Gavroche",
-      "type": 4
-    },
-    {
-      "source": "BaronessT",
-      "target": "Gillenormand",
-      "type": 1
-    },
-    {
-      "source": "BaronessT",
-      "target": "Marius",
-      "type": 1
-    },
-    {
-      "source": "Mabeuf",
-      "target": "Marius",
-      "type": 1
-    },
-    {
-      "source": "Mabeuf",
-      "target": "Eponine",
-      "type": 1
-    },
-    {
-      "source": "Mabeuf",
-      "target": "Gavroche",
-      "type": 1
-    },
-    {
-      "source": "Enjolras",
-      "target": "Marius",
-      "type": 7
-    },
-    {
-      "source": "Enjolras",
-      "target": "Gavroche",
-      "type": 7
-    },
-    {
-      "source": "Enjolras",
-      "target": "Javert",
-      "type": 6
-    },
-    {
-      "source": "Enjolras",
-      "target": "Mabeuf",
-      "type": 1
-    },
-    {
-      "source": "Enjolras",
-      "target": "Valjean",
-      "type": 4
-    },
-    {
-      "source": "Combeferre",
-      "target": "Enjolras",
-      "type": 15
-    },
-    {
-      "source": "Combeferre",
-      "target": "Marius",
-      "type": 5
-    },
-    {
-      "source": "Combeferre",
-      "target": "Gavroche",
-      "type": 6
-    },
-    {
-      "source": "Combeferre",
-      "target": "Mabeuf",
-      "type": 2
-    },
-    {
-      "source": "Prouvaire",
-      "target": "Gavroche",
-      "type": 1
-    },
-    {
-      "source": "Prouvaire",
-      "target": "Enjolras",
-      "type": 4
-    },
-    {
-      "source": "Prouvaire",
-      "target": "Combeferre",
-      "type": 2
-    },
-    {
-      "source": "Feuilly",
-      "target": "Gavroche",
-      "type": 2
-    },
-    {
-      "source": "Feuilly",
-      "target": "Enjolras",
-      "type": 6
-    },
-    {
-      "source": "Feuilly",
-      "target": "Prouvaire",
-      "type": 2
-    },
-    {
-      "source": "Feuilly",
-      "target": "Combeferre",
-      "type": 5
-    },
-    {
-      "source": "Feuilly",
-      "target": "Mabeuf",
-      "type": 1
-    },
-    {
-      "source": "Feuilly",
-      "target": "Marius",
-      "type": 1
-    },
-    {
-      "source": "Courfeyrac",
-      "target": "Marius",
-      "type": 9
-    },
-    {
-      "source": "Courfeyrac",
-      "target": "Enjolras",
-      "type": 17
-    },
-    {
-      "source": "Courfeyrac",
-      "target": "Combeferre",
-      "type": 13
-    },
-    {
-      "source": "Courfeyrac",
-      "target": "Gavroche",
-      "type": 7
-    },
-    {
-      "source": "Courfeyrac",
-      "target": "Mabeuf",
-      "type": 2
-    },
-    {
-      "source": "Courfeyrac",
-      "target": "Eponine",
-      "type": 1
-    },
-    {
-      "source": "Courfeyrac",
-      "target": "Feuilly",
-      "type": 6
-    },
-    {
-      "source": "Courfeyrac",
-      "target": "Prouvaire",
+      "target": "{_TIFFGetExifFields}",
+      "source": "{external node}",
       "type": 3
     },
     {
-      "source": "Bahorel",
-      "target": "Combeferre",
-      "type": 5
+      "target": "{TIFFReadDirectory}",
+      "source": "{external node}",
+      "type": 0
     },
     {
-      "source": "Bahorel",
-      "target": "Gavroche",
-      "type": 5
+      "target": "{TIFFReadCustomDirectory}",
+      "source": "{external node}",
+      "type": 1
     },
     {
-      "source": "Bahorel",
-      "target": "Courfeyrac",
-      "type": 6
-    },
-    {
-      "source": "Bahorel",
-      "target": "Mabeuf",
-      "type": 2
-    },
-    {
-      "source": "Bahorel",
-      "target": "Enjolras",
-      "type": 4
-    },
-    {
-      "source": "Bahorel",
-      "target": "Feuilly",
+      "target": "{TIFFSwabLong8}",
+      "source": "{external node}",
       "type": 3
     },
     {
-      "source": "Bahorel",
-      "target": "Prouvaire",
+      "target": "{_TIFFCreateAnonField}",
+      "source": "{external node}",
+      "type": 0
+    },
+    {
+      "target": "{llvm.dbg.declare}",
+      "source": "{external node}",
       "type": 2
     },
     {
-      "source": "Bahorel",
-      "target": "Marius",
-      "type": 1
-    },
-    {
-      "source": "Bossuet",
-      "target": "Marius",
-      "type": 5
-    },
-    {
-      "source": "Bossuet",
-      "target": "Courfeyrac",
-      "type": 12
-    },
-    {
-      "source": "Bossuet",
-      "target": "Gavroche",
-      "type": 5
-    },
-    {
-      "source": "Bossuet",
-      "target": "Bahorel",
-      "type": 4
-    },
-    {
-      "source": "Bossuet",
-      "target": "Enjolras",
-      "type": 10
-    },
-    {
-      "source": "Bossuet",
-      "target": "Feuilly",
-      "type": 6
-    },
-    {
-      "source": "Bossuet",
-      "target": "Prouvaire",
+      "target": "{TIFFNumberOfStrips}",
+      "source": "{external node}",
       "type": 2
     },
     {
-      "source": "Bossuet",
-      "target": "Combeferre",
-      "type": 9
-    },
-    {
-      "source": "Bossuet",
-      "target": "Mabeuf",
-      "type": 1
-    },
-    {
-      "source": "Bossuet",
-      "target": "Valjean",
-      "type": 1
-    },
-    {
-      "source": "Joly",
-      "target": "Bahorel",
-      "type": 5
-    },
-    {
-      "source": "Joly",
-      "target": "Bossuet",
-      "type": 7
-    },
-    {
-      "source": "Joly",
-      "target": "Gavroche",
+      "target": "{TIFFTileSize64}",
+      "source": "{external node}",
       "type": 3
     },
     {
-      "source": "Joly",
-      "target": "Courfeyrac",
-      "type": 5
+      "target": "{TIFFSwabArrayOfLong8}",
+      "source": "{external node}",
+      "type": 0
     },
     {
-      "source": "Joly",
-      "target": "Enjolras",
-      "type": 5
-    },
-    {
-      "source": "Joly",
-      "target": "Feuilly",
-      "type": 5
-    },
-    {
-      "source": "Joly",
-      "target": "Prouvaire",
+      "target": "{_TIFFSetupFields}",
+      "source": "{external node}",
       "type": 2
     },
     {
-      "source": "Joly",
-      "target": "Combeferre",
-      "type": 5
-    },
-    {
-      "source": "Joly",
-      "target": "Mabeuf",
-      "type": 1
-    },
-    {
-      "source": "Joly",
-      "target": "Marius",
+      "target": "{_TIFFmemset}",
+      "source": "{external node}",
       "type": 2
     },
     {
-      "source": "Grantaire",
-      "target": "Bossuet",
+      "target": "{TIFFVTileSize64}",
+      "source": "{external node}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{external node}",
       "type": 3
     },
     {
-      "source": "Grantaire",
-      "target": "Enjolras",
+      "target": "{TIFFStripSize}",
+      "source": "{external node}",
       "type": 3
     },
     {
-      "source": "Grantaire",
-      "target": "Combeferre",
-      "type": 1
+      "target": "{TIFFScanlineSize}",
+      "source": "{external node}",
+      "type": 0
     },
     {
-      "source": "Grantaire",
-      "target": "Courfeyrac",
-      "type": 2
-    },
-    {
-      "source": "Grantaire",
-      "target": "Joly",
-      "type": 2
-    },
-    {
-      "source": "Grantaire",
-      "target": "Gavroche",
-      "type": 1
-    },
-    {
-      "source": "Grantaire",
-      "target": "Bahorel",
-      "type": 1
-    },
-    {
-      "source": "Grantaire",
-      "target": "Feuilly",
-      "type": 1
-    },
-    {
-      "source": "Grantaire",
-      "target": "Prouvaire",
-      "type": 1
-    },
-    {
-      "source": "MotherPlutarch",
-      "target": "Mabeuf",
+      "target": "{TIFFTileSize}",
+      "source": "{external node}",
       "type": 3
     },
     {
-      "source": "Gueulemer",
-      "target": "Thenardier",
-      "type": 5
-    },
-    {
-      "source": "Gueulemer",
-      "target": "Valjean",
-      "type": 1
-    },
-    {
-      "source": "Gueulemer",
-      "target": "Mme.Thenardier",
-      "type": 1
-    },
-    {
-      "source": "Gueulemer",
-      "target": "Javert",
-      "type": 1
-    },
-    {
-      "source": "Gueulemer",
-      "target": "Gavroche",
-      "type": 1
-    },
-    {
-      "source": "Gueulemer",
-      "target": "Eponine",
-      "type": 1
-    },
-    {
-      "source": "Babet",
-      "target": "Thenardier",
-      "type": 6
-    },
-    {
-      "source": "Babet",
-      "target": "Gueulemer",
-      "type": 6
-    },
-    {
-      "source": "Babet",
-      "target": "Valjean",
-      "type": 1
-    },
-    {
-      "source": "Babet",
-      "target": "Mme.Thenardier",
-      "type": 1
-    },
-    {
-      "source": "Babet",
-      "target": "Javert",
+      "target": "{TIFFSwabArrayOfShort}",
+      "source": "{external node}",
       "type": 2
     },
     {
-      "source": "Babet",
-      "target": "Gavroche",
-      "type": 1
+      "target": "{TIFFSwabArrayOfLong}",
+      "source": "{external node}",
+      "type": 0
     },
     {
-      "source": "Babet",
-      "target": "Eponine",
-      "type": 1
-    },
-    {
-      "source": "Claquesous",
-      "target": "Thenardier",
-      "type": 4
-    },
-    {
-      "source": "Claquesous",
-      "target": "Babet",
-      "type": 4
-    },
-    {
-      "source": "Claquesous",
-      "target": "Gueulemer",
-      "type": 4
-    },
-    {
-      "source": "Claquesous",
-      "target": "Valjean",
-      "type": 1
-    },
-    {
-      "source": "Claquesous",
-      "target": "Mme.Thenardier",
-      "type": 1
-    },
-    {
-      "source": "Claquesous",
-      "target": "Javert",
-      "type": 1
-    },
-    {
-      "source": "Claquesous",
-      "target": "Eponine",
-      "type": 1
-    },
-    {
-      "source": "Claquesous",
-      "target": "Enjolras",
-      "type": 1
-    },
-    {
-      "source": "Montparnasse",
-      "target": "Javert",
-      "type": 1
-    },
-    {
-      "source": "Montparnasse",
-      "target": "Babet",
+      "target": "{TIFFDefaultDirectory}",
+      "source": "{external node}",
       "type": 2
     },
     {
-      "source": "Montparnasse",
-      "target": "Gueulemer",
+      "target": "{TIFFFreeDirectory}",
+      "source": "{external node}",
       "type": 2
     },
     {
-      "source": "Montparnasse",
-      "target": "Claquesous",
+      "target": "{_TIFFmalloc}",
+      "source": "{external node}",
       "type": 2
     },
     {
-      "source": "Montparnasse",
-      "target": "Valjean",
+      "target": "{_TIFFmemcpy}",
+      "source": "{external node}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFMergeFields}",
+      "source": "{external node}",
       "type": 1
     },
     {
-      "source": "Montparnasse",
-      "target": "Gavroche",
-      "type": 1
-    },
-    {
-      "source": "Montparnasse",
-      "target": "Eponine",
-      "type": 1
-    },
-    {
-      "source": "Montparnasse",
-      "target": "Thenardier",
-      "type": 1
-    },
-    {
-      "source": "Toussaint",
-      "target": "Cosette",
+      "target": "{TIFFReadDirEntryCheckedLong}",
+      "source": "{TIFFReadDirEntryDouble}",
       "type": 2
     },
     {
-      "source": "Toussaint",
-      "target": "Javert",
-      "type": 1
-    },
-    {
-      "source": "Toussaint",
-      "target": "Valjean",
-      "type": 1
-    },
-    {
-      "source": "Child1",
-      "target": "Gavroche",
+      "target": "{TIFFReadDirEntryCheckedShort}",
+      "source": "{TIFFReadDirEntryDouble}",
       "type": 2
     },
     {
-      "source": "Child2",
-      "target": "Gavroche",
-      "type": 2
+      "target": "{TIFFReadDirEntryCheckedLong8}",
+      "source": "{TIFFReadDirEntryDouble}",
+      "type": 1
     },
     {
-      "source": "Child2",
-      "target": "Child1",
+      "target": "{TIFFReadDirEntryCheckedSlong}",
+      "source": "{TIFFReadDirEntryDouble}",
       "type": 3
     },
     {
-      "source": "Brujon",
-      "target": "Babet",
+      "target": "{TIFFReadDirEntryCheckedRational}",
+      "source": "{TIFFReadDirEntryDouble}",
       "type": 3
     },
     {
-      "source": "Brujon",
-      "target": "Gueulemer",
+      "target": "{TIFFReadDirEntryCheckedSshort}",
+      "source": "{TIFFReadDirEntryDouble}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSrational}",
+      "source": "{TIFFReadDirEntryDouble}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedDouble}",
+      "source": "{TIFFReadDirEntryDouble}",
       "type": 3
     },
     {
-      "source": "Brujon",
-      "target": "Thenardier",
+      "target": "{TIFFReadDirEntryCheckedSbyte}",
+      "source": "{TIFFReadDirEntryDouble}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedByte}",
+      "source": "{TIFFReadDirEntryDouble}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSlong8}",
+      "source": "{TIFFReadDirEntryDouble}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedFloat}",
+      "source": "{TIFFReadDirEntryDouble}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryLongArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryLongArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryArray}",
+      "source": "{TIFFReadDirEntryLongArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLongSlong8}",
+      "source": "{TIFFReadDirEntryLongArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLongSbyte}",
+      "source": "{TIFFReadDirEntryLongArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryLongArray}",
       "type": 3
     },
     {
-      "source": "Brujon",
-      "target": "Gavroche",
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryLongArray}",
       "type": 1
     },
     {
-      "source": "Brujon",
-      "target": "Eponine",
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryLongArray}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryLongArray}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryLongArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLongLong8}",
+      "source": "{TIFFReadDirEntryLongArray}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLongSshort}",
+      "source": "{TIFFReadDirEntryLongArray}",
       "type": 1
     },
     {
-      "source": "Brujon",
-      "target": "Claquesous",
+      "target": "{TIFFReadDirEntryCheckRangeLongSlong}",
+      "source": "{TIFFReadDirEntryLongArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabArrayOfLong}",
+      "source": "{TIFFReadDirEntryLongArray}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFmalloc}",
+      "source": "{TIFFReadDirEntryLongArray}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntryLongArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntryLongArray}",
+      "type": 3
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFSwabArrayOfLong}",
+      "type": 2
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{_TIFFMergeFields}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeShortSbyte}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeShortLong8}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryShortArray}",
       "type": 1
     },
     {
-      "source": "Brujon",
-      "target": "Montparnasse",
+      "target": "{TIFFReadDirEntryArray}",
+      "source": "{TIFFReadDirEntryShortArray}",
       "type": 1
     },
     {
-      "source": "Mme.Hucheloup",
-      "target": "Bossuet",
+      "target": "{TIFFSwabArrayOfShort}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeShortSshort}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeShortSlong8}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeShortLong}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeShortSlong}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFmalloc}",
+      "source": "{TIFFReadDirEntryShortArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntryShortArray}",
       "type": 1
     },
     {
-      "source": "Mme.Hucheloup",
-      "target": "Joly",
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryCheckedSlong8}",
       "type": 1
     },
     {
-      "source": "Mme.Hucheloup",
-      "target": "Grantaire",
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryCheckedSlong8}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryData}",
+      "source": "{TIFFReadDirEntryCheckedSlong8}",
+      "type": 2
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFSwabLong}",
       "type": 1
     },
     {
-      "source": "Mme.Hucheloup",
-      "target": "Bahorel",
+      "target": "Node0x1f84030",
+      "source": "{TIFFErrorExt}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirectoryCheckOrder}",
+      "type": 2
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{_TIFFfree}",
+      "type": 3
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFSwabShort}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryCheckedLong8}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryCheckedLong8}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryData}",
+      "source": "{TIFFReadDirEntryCheckedLong8}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFFillStrilesInternal}",
+      "source": "{_TIFFFillStriles}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntrySlong8Array}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntrySlong8Array}",
       "type": 1
     },
     {
-      "source": "Mme.Hucheloup",
-      "target": "Courfeyrac",
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntrySlong8Array}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryArray}",
+      "source": "{TIFFReadDirEntrySlong8Array}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabArrayOfLong8}",
+      "source": "{TIFFReadDirEntrySlong8Array}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySlong8Array}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySlong8Array}",
       "type": 1
     },
     {
-      "source": "Mme.Hucheloup",
-      "target": "Gavroche",
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySlong8Array}",
       "type": 1
     },
     {
-      "source": "Mme.Hucheloup",
-      "target": "Enjolras",
+      "target": "{TIFFReadDirEntryCheckRangeSlong8Long8}",
+      "source": "{TIFFReadDirEntrySlong8Array}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFmalloc}",
+      "source": "{TIFFReadDirEntrySlong8Array}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntrySlong8Array}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntrySlong8Array}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
       "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSbyteLong8}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSbyteShort}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryArray}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSbyteLong}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSbyteByte}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSbyteSlong}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSbyteSlong8}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSbyteSshort}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFmalloc}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntrySbyteArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryCheckedDouble}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryCheckedDouble}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryData}",
+      "source": "{TIFFReadDirEntryCheckedDouble}",
+      "type": 3
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFVTileSize64}",
+      "type": 0
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{_TIFFmemset}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryCheckedRational}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryData}",
+      "source": "{TIFFReadDirEntryCheckedRational}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabArrayOfLong}",
+      "source": "{TIFFReadDirEntryCheckedRational}",
+      "type": 2
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFSwabArrayOfShort}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryArray}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSlongLong}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSlongSlong8}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSlongLong8}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabArrayOfLong}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFmalloc}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntrySlongArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadUInt64}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadUInt64}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFCheckMalloc}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFCheckMalloc}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFCheckMalloc}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFmemcpy}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFmemcpy}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFmemcpy}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFmemcpy}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFmemcpy}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFFetchDirectory}",
+      "type": 3
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFFetchDirectory}",
+      "type": 1
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFFetchDirectory}",
+      "type": 1
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFFetchDirectory}",
+      "type": 1
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFFetchDirectory}",
+      "type": 0
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFFetchDirectory}",
+      "type": 3
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFFetchDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFCheckDirOffset}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFCheckRealloc}",
+      "source": "{TIFFCheckDirOffset}",
+      "type": 0
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFFieldWithTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryShortArray}",
+      "source": "{TIFFReadDirEntryPersampleShort}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryPersampleShort}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFReadDirEntryData}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFmemcpy}",
+      "source": "{TIFFReadDirEntryData}",
+      "type": 0
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFReadDirEntryData}",
+      "type": 0
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFReadDirEntryData}",
+      "type": 3
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{_TIFFCheckMalloc}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryCheckedFloat}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFmemset}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFCreateAnonField}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{CheckDirCount}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFFetchSubjectDistance}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFFetchDirectory}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirectoryCheckOrder}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirectoryFindFieldInfo}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirectoryFindFieldInfo}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFSetupFields}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFFreeDirectory}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFMergeFields}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFFetchNormalTag}",
+      "source": "{TIFFReadCustomDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryArray}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabArrayOfLong8}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabArrayOfLong}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFmalloc}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntryDoubleArray}",
+      "type": 3
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFSwabLong8}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{CheckDirCount}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{CheckDirCount}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFFieldWithTag}",
+      "source": "{CheckDirCount}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFFieldWithTag}",
+      "source": "{CheckDirCount}",
+      "type": 0
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFNumberOfStrips}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryCheckedSrational}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryData}",
+      "source": "{TIFFReadDirEntryCheckedSrational}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabArrayOfLong}",
+      "source": "{TIFFReadDirEntryCheckedSrational}",
+      "type": 2
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFTileSize64}",
+      "type": 1
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFSwabArrayOfLong8}",
+      "type": 0
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFWarningExt}",
+      "type": 1
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFScanlineSize}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntryCheckedSshort}",
+      "type": 0
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFDefaultDirectory}",
+      "type": 1
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFFreeDirectory}",
+      "type": 1
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{_TIFFmalloc}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirEntryOutputErr}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryIfd8Array}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryArray}",
+      "source": "{TIFFReadDirEntryIfd8Array}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFmalloc}",
+      "source": "{TIFFReadDirEntryIfd8Array}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabArrayOfLong8}",
+      "source": "{TIFFReadDirEntryIfd8Array}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryIfd8Array}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryIfd8Array}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSshortLong8}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryArray}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSshortLong}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabArrayOfShort}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSshortShort}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSshortSlong8}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeSshortSlong}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFmalloc}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntrySshortArray}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLongSbyte}",
+      "source": "{TIFFReadDirEntryLong}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedLong}",
+      "source": "{TIFFReadDirEntryLong}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLongLong8}",
+      "source": "{TIFFReadDirEntryLong}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedShort}",
+      "source": "{TIFFReadDirEntryLong}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedLong8}",
+      "source": "{TIFFReadDirEntryLong}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSlong}",
+      "source": "{TIFFReadDirEntryLong}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSshort}",
+      "source": "{TIFFReadDirEntryLong}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSbyte}",
+      "source": "{TIFFReadDirEntryLong}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedByte}",
+      "source": "{TIFFReadDirEntryLong}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLongSshort}",
+      "source": "{TIFFReadDirEntryLong}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLongSlong8}",
+      "source": "{TIFFReadDirEntryLong}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLongSlong}",
+      "source": "{TIFFReadDirEntryLong}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSlong8}",
+      "source": "{TIFFReadDirEntryLong}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFFetchSubjectDistance}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryOutputErr}",
+      "source": "{TIFFFetchSubjectDistance}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchSubjectDistance}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryData}",
+      "source": "{TIFFFetchSubjectDistance}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabArrayOfLong}",
+      "source": "{TIFFFetchSubjectDistance}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{MissingRequired}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFCheckDirOffset}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryOutputErr}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryOutputErr}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryOutputErr}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryOutputErr}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirectoryFindEntry}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirectoryFindEntry}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirectoryFindEntry}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirectoryFindEntry}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFFieldWithTag}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFFieldWithTag}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFFieldWithTag}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFFieldWithTag}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFFieldWithTag}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirectoryCheckOrder}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryPersampleShort}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryPersampleShort}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFNumberOfTiles}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFScanlineSize64}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFFetchStripThing}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFFetchStripThing}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFFillStriles}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFFillStriles}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFFillStriles}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{MissingRequired}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{MissingRequired}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{MissingRequired}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{MissingRequired}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryDoubleArray}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFFetchNormalTag}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFFetchNormalTag}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFFetchNormalTag}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{ChopUpSingleUncompressedStrip}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFCreateAnonField}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFNumberOfStrips}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryShort}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryShort}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryShort}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{EstimateStripByteCounts}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{EstimateStripByteCounts}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{EstimateStripByteCounts}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFStripSize}",
+      "source": "{TIFFReadDirectory}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFScanlineSize}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFTileSize}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirectoryFindFieldInfo}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirectoryFindFieldInfo}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFFetchDirectory}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFDefaultDirectory}",
+      "source": "{TIFFReadDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFFreeDirectory}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFMergeFields}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryShortArray}",
+      "source": "{TIFFReadDirectory}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryOutputErr}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSetField}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryByteArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryByteArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryByteArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryByteArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryByteArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryByteArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntrySshortArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryByte}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryLong}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryFloatArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryFloatArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryFloatArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryLong8}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntrySlong8Array}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryDoubleArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryDoubleArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryIfd8Array}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryIfd8Array}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntrySbyteArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryShort}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryFloat}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryIfd8}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFWarningExt}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFmemcpy}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryDouble}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntrySlongArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirectoryFindFieldInfo}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryLongArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryLongArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryLongArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFmalloc}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryLong8Array}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryLong8Array}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryShortArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryShortArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryShortArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryShortArray}",
+      "source": "{TIFFFetchNormalTag}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeShortSbyte}",
+      "source": "{TIFFReadDirEntryShort}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedShort}",
+      "source": "{TIFFReadDirEntryShort}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedLong8}",
+      "source": "{TIFFReadDirEntryShort}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeShortLong8}",
+      "source": "{TIFFReadDirEntryShort}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSshort}",
+      "source": "{TIFFReadDirEntryShort}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedLong}",
+      "source": "{TIFFReadDirEntryShort}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSbyte}",
+      "source": "{TIFFReadDirEntryShort}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSlong8}",
+      "source": "{TIFFReadDirEntryShort}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeShortSshort}",
+      "source": "{TIFFReadDirEntryShort}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeShortLong}",
+      "source": "{TIFFReadDirEntryShort}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSlong}",
+      "source": "{TIFFReadDirEntryShort}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeShortSlong}",
+      "source": "{TIFFReadDirEntryShort}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedByte}",
+      "source": "{TIFFReadDirEntryShort}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeShortSlong8}",
+      "source": "{TIFFReadDirEntryShort}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedLong}",
+      "source": "{TIFFReadDirEntryFloat}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedShort}",
+      "source": "{TIFFReadDirEntryFloat}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedLong8}",
+      "source": "{TIFFReadDirEntryFloat}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSlong}",
+      "source": "{TIFFReadDirEntryFloat}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedRational}",
+      "source": "{TIFFReadDirEntryFloat}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSshort}",
+      "source": "{TIFFReadDirEntryFloat}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSrational}",
+      "source": "{TIFFReadDirEntryFloat}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedDouble}",
+      "source": "{TIFFReadDirEntryFloat}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSbyte}",
+      "source": "{TIFFReadDirEntryFloat}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedByte}",
+      "source": "{TIFFReadDirEntryFloat}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedSlong8}",
+      "source": "{TIFFReadDirEntryFloat}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckedFloat}",
+      "source": "{TIFFReadDirEntryFloat}",
+      "type": 2
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{_TIFFSetupFields}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFDataWidth}",
+      "source": "{EstimateStripByteCounts}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFScanlineSize64}",
+      "source": "{EstimateStripByteCounts}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFErrorExt}",
+      "source": "{EstimateStripByteCounts}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFCheckMalloc}",
+      "source": "{EstimateStripByteCounts}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFFillStrilesInternal}",
+      "source": "{EstimateStripByteCounts}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{EstimateStripByteCounts}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFTileSize64}",
+      "source": "{EstimateStripByteCounts}",
+      "type": 0
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{EstimateStripByteCounts}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadCustomDirectory}",
+      "source": "{TIFFReadEXIFDirectory}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFGetExifFields}",
+      "source": "{TIFFReadEXIFDirectory}",
+      "type": 2
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFStripSize}",
+      "type": 1
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFTileSize}",
+      "type": 0
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{TIFFScanlineSize64}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryCheckedSlong}",
+      "type": 2
+    },
+    {
+      "target": "Node0x1f84030",
+      "source": "{_TIFFmemcpy}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabLong8}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLong8Slong8}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFSwabLong}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 1
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLong8Sshort}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryArray}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLong8Slong}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabArrayOfLong8}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 1
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 0
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 2
+    },
+    {
+      "target": "{_TIFFfree}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 2
+    },
+    {
+      "target": "{TIFFReadDirEntryCheckRangeLong8Sbyte}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 3
+    },
+    {
+      "target": "{_TIFFmalloc}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 0
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 3
+    },
+    {
+      "target": "{TIFFSwabShort}",
+      "source": "{TIFFReadDirEntryLong8Array}",
+      "type": 2
     }
   ]
 }

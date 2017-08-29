@@ -1,5 +1,7 @@
 import * as d3 from 'd3'
+import CVSS from './cvss3.js'
 
+let visitedNodes = {}
 let $, feedbackPanel, cvssPanel
 let canUseDOM = !!(
   typeof window !== 'undefined' &&
@@ -13,7 +15,7 @@ if (canUseDOM) {
   cvssPanel = $('#cvssPanel').addClass('hidden')
 }
 
-let data = require('../resources/test.json')
+let data = require('../resources/data.json')
 
 export function createGraph () {
   let svg = d3.select('svg')
@@ -136,8 +138,10 @@ export function createGraph () {
 }
 
 function nodeData (node) {
+  // Add visited node to the set
+  visitedNodes[node.id] = 'selected'
+  console.log(visitedNodes)
   // Displaying the data
-  // TODO Add the node.id to a list of selected nodes
   $('#nodeName').text(node.id)
   $('#nodeClustering').text(node.data.clustering_coefficient)
   $('#nodeDistance').text(node.data.distance_to_interface)
@@ -149,9 +153,62 @@ function nodeData (node) {
   if (node.data.faulty) {
     // TODO if the code snippet exists, open up another collapsed Panel, that expands upon request
     cvssPanel.removeClass('hidden')
-    $('#N').prop('checked', true)
+    let cvssValues = node.data.cvss3.vectorString.split('/')
+    cvssValues.forEach(function (value) {
+      value = value.replace(':', '_')
+      $('#' + value).prop('checked', true)
+    })
+    updateScores()
     feedbackPanel.removeClass('hidden')
   }
   // Display the node data
   $('#nodeData').removeClass('hidden')
 }
+
+/* ** updateScores **
+ *
+ * Updates Base, Temporal and Environmental Scores, and the Vector String (both in the web page and
+ * in the fragment of the URL - the part after the "#").
+ * If scores and vectors cannot be generated because the user has not yet selected values for all the Base Score
+ * metrics, messages are displayed explaining this.
+ */
+function updateScores () {
+  let result = CVSS.calculateCVSSFromMetrics(
+    inputValue('input[type="radio"][name=AV]:checked'),
+    inputValue('input[type="radio"][name=AC]:checked'),
+    inputValue('input[type="radio"][name=PR]:checked'),
+    inputValue('input[type="radio"][name=UI]:checked'),
+    inputValue('input[type="radio"][name=S]:checked'),
+
+    inputValue('input[type="radio"][name=C]:checked'),
+    inputValue('input[type="radio"][name=I]:checked'),
+    inputValue('input[type="radio"][name=A]:checked'),
+
+    inputValue('input[type="radio"][name=E]:checked'),
+    inputValue('input[type="radio"][name=RL]:checked'),
+    inputValue('input[type="radio"][name=RC]:checked'),
+
+    inputValue('input[type="radio"][name=CR]:checked'),
+    inputValue('input[type="radio"][name=IR]:checked'),
+    inputValue('input[type="radio"][name=AR]:checked'),
+    inputValue('input[type="radio"][name=MAV]:checked'),
+    inputValue('input[type="radio"][name=MAC]:checked'),
+    inputValue('input[type="radio"][name=MPR]:checked'),
+    inputValue('input[type="radio"][name=MUI]:checked'),
+    inputValue('input[type="radio"][name=MS]:checked'),
+    inputValue('input[type="radio"][name=MC]:checked'),
+    inputValue('input[type="radio"][name=MI]:checked'),
+    inputValue('input[type="radio"][name=MA]:checked'))
+
+  if (result.success === true) {
+
+  }
+  console.log('updateScores', result)
+}
+
+function inputValue (q) {
+  let e = document.querySelector(q)
+  if (!e || e.nodeName.toLowerCase() !== 'input') return
+  return e.value
+}
+
