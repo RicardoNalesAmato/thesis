@@ -1,4 +1,0 @@
-for file in */*.dot.json;
-  do 
-     python3.5 node_attributes.py /home/ricardo/Desktop/macke_results/CVSS_3_scores.json
-  done;
