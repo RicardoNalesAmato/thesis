@@ -169,22 +169,20 @@ def generate_json():
 
 def find_bug_chain_length(child_function, klee_json_data, bug_chain_length):
     caller_list = []
-    bug_chain_length_new = 0
     for key, value in sorted(klee_json_data.items()):
         if "caller" in value:
-            if '{' + value[
-                'caller'] + '}' == child_function:  # TODO: Change to callee, because we are looking for callee's parent (caller)
+            if '{' + value['callee'] + '}' == child_function:
                 caller_list.append('{' + value['caller'] + '}')
-                # bug_chain_length += 1         
-
     max_bug_chain_length = 0
-    for callee in caller_list:
-        bug_chain_length_new = bug_chain_length + 1
-        bug_chain_length_new = find_bug_chain_length(callee, klee_json_data, bug_chain_length_new)
+    if caller_list:
+        for caller in caller_list:
+            bug_chain_length_new = bug_chain_length + 1
+            bug_chain_length_new = find_bug_chain_length(caller, klee_json_data, bug_chain_length_new)
 
-        if bug_chain_length_new > max_bug_chain_length:
-            max_bug_chain_length = bug_chain_length_new
-
+            if bug_chain_length_new > max_bug_chain_length:
+                max_bug_chain_length = bug_chain_length_new
+    else:
+        max_bug_chain_length = bug_chain_length
     return max_bug_chain_length
 
 
@@ -201,10 +199,9 @@ def macke_attributes(node_name):
             if '{' + value['function'] + '}' == node_name:
                 number_of_bugs_found += 1
                 bug_chain_length = 1
-        if "caller" in value:
-            if '{' + value['caller'] + '}' == node_name:  # TODO: In fact check if value['callee']==node_name
-                callee = '{' + node_name + '}'
-                bug_chain_length = find_bug_chain_length(callee, klee_json_data, bug_chain_length)
+        if "callee" in value:
+            if '{' + value['callee'] + '}' == node_name:
+                bug_chain_length = find_bug_chain_length(node_name, klee_json_data, bug_chain_length)
     return number_of_bugs_found, bug_chain_length
 
 
@@ -226,7 +223,8 @@ def front_end_json():
             node["data"] = results_json[node['id']]
             type = results_json[node['id']]['distance_to_interface'] * results_json[node['id']][
                 'macke_vulnerabilities_found'] * results_json[node['id']]['macke_bug_chain_length'] * \
-                   results_json[node['id']]['node_degree'][2] * results_json[node['id']]['clustering_coefficient'] if not results_json[node['id']]['faulty'] else 999
+                   results_json[node['id']]['node_degree'][2] * results_json[node['id']][
+                       'clustering_coefficient'] if not results_json[node['id']]['faulty'] else 999
         if "shape" in node:
             del node["shape"]
 
