@@ -1,6 +1,12 @@
 ## Impact	factors	for	severity	assessment	of	bugs	discovered	via compositional	symbolic	execution
 ### By Ricardo Nales, supervised by Saahil Ognawala
 ---------------------------------------
+### Task list (31.08.2017)
+- [ ] Read about two classifiers
+- [ ] Create script for generating X and Y (based on scikit-learn requirements)
+- [ ] Run both classifiers on X and Y and put results on git
+- [ ] Prepare presentation dry-run
+
 ### Task list (17.08.2017)
 - [x] Send title and abstract of mid-term presentation.
 - [x] Check how distance_to_interface calculates the distance and what is None (should be infinite or a very big number).
