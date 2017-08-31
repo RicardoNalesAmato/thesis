@@ -2,7 +2,7 @@ import * as d3 from 'd3'
 import CVSS from './cvss3.js'
 
 let visitedNodes = {}
-let $, feedbackPanel, cvssPanel
+let $, feedbackPanel, cvssPanel, cvssScorePanel, selectedNode
 let canUseDOM = !!(
   typeof window !== 'undefined' &&
   window.document &&
@@ -13,6 +13,7 @@ if (canUseDOM) {
   $ = require('jquery')
   feedbackPanel = $('#feedbackPanel').addClass('hidden')
   cvssPanel = $('#cvssPanel').addClass('hidden')
+  cvssScorePanel = $('#cvssScorePanel').addClass('hidden')
 }
 
 let data = require('../resources/data.json')
@@ -138,28 +139,38 @@ export function createGraph () {
 }
 
 function nodeData (node) {
+  selectedNode = node
   // Add visited node to the set
-  visitedNodes[node.id] = 'selected'
+  visitedNodes[selectedNode.id] = 'selected'
   console.log(visitedNodes)
   // Displaying the data
-  $('#nodeName').text(node.id)
-  $('#nodeClustering').text(node.data.clustering_coefficient)
-  $('#nodeDistance').text(node.data.distance_to_interface)
-  $('#nodeMackeVul').text(node.data.macke_vulnerabilities_found)
-  $('#nodeMackeChain').text(node.data.macke_bug_chain_length)
-  $('#nodeDegree').text(node.data.node_degree[2])
-  $('#nodePathLength').text(node.data.node_path_length)
-  $('#nodeHasCvss').text(node.data.faulty)
-  if (node.data.faulty) {
+  $('#nodeName').text(selectedNode.id)
+  $('#nodeClustering').text(selectedNode.data.clustering_coefficient)
+  $('#nodeDistance').text(selectedNode.data.distance_to_interface)
+  $('#nodeMackeVul').text(selectedNode.data.macke_vulnerabilities_found)
+  $('#nodeMackeChain').text(selectedNode.data.macke_bug_chain_length)
+  $('#nodeDegree').text(selectedNode.data.node_degree[2])
+  $('#nodePathLength').text(selectedNode.data.node_path_length)
+  $('#nodeHasCvss').text(selectedNode.data.faulty)
+  if (selectedNode.data.faulty) {
     // TODO if the code snippet exists, open up another collapsed Panel, that expands upon request
     cvssPanel.removeClass('hidden')
-    let cvssValues = node.data.cvss3.vectorString.split('/')
+    let cvssValues = selectedNode.data.cvss3.vectorString.split('/')
     cvssValues.forEach(function (value) {
       value = value.replace(':', '_')
       $('#' + value).prop('checked', true)
     })
+    // Update score
     updateScores()
-    feedbackPanel.removeClass('hidden')
+    // Add listeners to radio buttons
+    $('input[type=radio]').change(function () {
+      updateScores()
+      feedbackPanel.removeClass('hidden')
+    })
+  } else {
+    cvssScorePanel.addClass('hidden')
+    cvssPanel.addClass('hidden')
+    feedbackPanel.addClass('hidden')
   }
   // Display the node data
   $('#nodeData').removeClass('hidden')
@@ -201,9 +212,10 @@ function updateScores () {
     inputValue('input[type="radio"][name=MA]:checked'))
 
   if (result.success === true) {
-
+    console.log('updateScores', result)
+    $('#cvssScore').text(result.baseMetricScore + ' ' + result.baseSeverity)
+    cvssScorePanel.removeClass('hidden')
   }
-  console.log('updateScores', result)
 }
 
 function inputValue (q) {

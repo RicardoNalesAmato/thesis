@@ -79,150 +79,163 @@ export default class App extends Component {
         <Row className='show-grid'>
           <form>
             <Row>
-              <Panel header={cvss3} bsStyle='primary' id='cvssPanel'>
-                {/* First Row*/}
-                <Row className='show-grid'>
-                  <Col md={6}>
-                    <h4>Attack Vector (AV)</h4>
-                    <FormGroup>
-                      <Radio name='AV' inline id='AV_N' value='N'>
-                        Network (N)
-                      </Radio>
-                      {''}
-                      <Radio name='AV' inline id='AV_A' value='A'>
-                        Adjacent (A)
-                      </Radio>
-                      {' '}
-                      <Radio name='AV' inline id='AV_L' value='L'>
-                        Local (L)
-                      </Radio>
-                      <Radio name='AV' inline id='AV_P' value='P'>
-                        Physical (P)
-                      </Radio>
-                    </FormGroup>
-                  </Col>
-                  <Col md={6}>
-                    <h4>Scope (S)</h4>
-                    <FormGroup>
-                      <Radio name='S' inline id='S_U' value='U'>
-                        Unchanged (U)
-                      </Radio>
-                      {' '}
-                      <Radio name='S' inline id='S_C' value='C'>
-                        Changed (C)
-                      </Radio>
-                    </FormGroup>
-                  </Col>
-                </Row>
-                <Row className='show-grid'>
-                  <Col md={6}>
-                    <h4>Attack Complexity (AC)</h4>
-                    <FormGroup>
-                      <Radio name='AC' inline id='AC_N' value='N'>
-                        None (N)
-                      </Radio>
-                      {' '}
-                      <Radio name='AC' inline id='AC_L' value='L'>
-                        Low (L)
-                      </Radio>
-                      {' '}
-                      <Radio name='AC' inline id='AC_H' value='H'>
-                        High (H)
-                      </Radio>
-                    </FormGroup>
-                  </Col>
-                  <Col md={6}>
-                    <h4>Confidentiality (C)</h4>
-                    <FormGroup>
-                      <Radio name='C' inline id='C_N' value='N'>
-                        None (N)
-                      </Radio>
-                      {' '}
-                      <Radio name='C' inline id='C_R' value='R'>
-                        Required (R)
-                      </Radio>
-                    </FormGroup>
-                  </Col>
-                </Row>
-                <Row className='show-grid'>
-                  <Col md={6}>
-                    <h4>Privileges Required (PR)</h4>
-                    <FormGroup>
-                      <Radio name='PR' inline id='PR_N' value='N'>
-                        None (N)
-                      </Radio>
-                      {' '}
-                      <Radio name='PR' inline id='PR_L' value='L'>
-                        Low (L)
-                      </Radio>
-                      {' '}
-                      <Radio name='PR' inline id='PR_H' value='H'>
-                        High (H)
-                      </Radio>
-                    </FormGroup>
-                  </Col>
-                  <Col md={6}>
-                    <h4>Integrity (I)</h4>
-                    <FormGroup>
-                      <Radio name='I' inline id='I_N' value='N'>
-                        None (N)
-                      </Radio>
-                      {' '}
-                      <Radio name='I' inline id='I_L' value='L'>
-                        Low (L)
-                      </Radio>
-                      {' '}
-                      <Radio name='I' inline id='I_H' value='H'>
-                        High (H)
-                      </Radio>
-                    </FormGroup>
-                  </Col>
-                </Row>
-                <Row className='show-grid'>
-                  <Col md={6}>
-                    <h4>User Interaction (UI)</h4>
-                    <FormGroup>
-                      <Radio name='UI' inline id='UI_N' value='N'>
-                        None (N)
-                      </Radio>
-                      {' '}
-                      <Radio name='UI' inline id='UI_R' value='R'>
-                        Required (R)
-                      </Radio>
-                    </FormGroup>
-                  </Col>
-                  <Col md={6}>
-                    <h4>Availability (A)</h4>
-                    <FormGroup>
-                      <Radio name='A' inline id='A_N' value='N'>
-                        None (N)
-                      </Radio>
-                      {' '}
-                      <Radio name='A' inline id='A_L' value='L'>
-                        Low (L)
-                      </Radio>
-                      {' '}
-                      <Radio name='A' inline id='A_H' value='H'>
-                        High (H)
-                      </Radio>
-                    </FormGroup>
-                  </Col>
-                </Row>
-              </Panel>
-              <Panel header='Feedback' bsStyle='warning' id='feedbackPanel'>
-                <Row>
-                  <Col md={12}>
-                    <FormGroup controlId='feedbackText'>
-                      <ControlLabel>Since you have made changes to our original calculation, please let us know the
-                        reasoning behind your changes.</ControlLabel>
-                      <FormControl componentClass='textarea' placeholder='Thanks!' />
-                    </FormGroup>
-                  </Col>
-                </Row>
-                <Button type='submit'>
-                  Submit
-                </Button>
-              </Panel>
+              <Col md={9}>
+                <Panel header={cvss3} bsStyle='primary' id='cvssPanel'>
+                  {/* First Row*/}
+                  <Row className='show-grid'>
+                    <Col md={6}>
+                      <h4>Attack Vector (AV)</h4>
+                      <FormGroup>
+                        <Radio name='AV' inline id='AV_N' value='N'>
+                          Network (N)
+                        </Radio>
+                        {''}
+                        <Radio name='AV' inline id='AV_A' value='A'>
+                          Adjacent (A)
+                        </Radio>
+                        {' '}
+                        <Radio name='AV' inline id='AV_L' value='L'>
+                          Local (L)
+                        </Radio>
+                        <Radio name='AV' inline id='AV_P' value='P'>
+                          Physical (P)
+                        </Radio>
+                      </FormGroup>
+                    </Col>
+                    <Col md={6}>
+                      <h4>Scope (S)</h4>
+                      <FormGroup>
+                        <Radio name='S' inline id='S_U' value='U'>
+                          Unchanged (U)
+                        </Radio>
+                        {' '}
+                        <Radio name='S' inline id='S_C' value='C'>
+                          Changed (C)
+                        </Radio>
+                      </FormGroup>
+                    </Col>
+                  </Row>
+                  <Row className='show-grid'>
+                    <Col md={6}>
+                      <h4>Attack Complexity (AC)</h4>
+                      <FormGroup>
+                        <Radio name='AC' inline id='AC_N' value='N'>
+                          None (N)
+                        </Radio>
+                        {' '}
+                        <Radio name='AC' inline id='AC_L' value='L'>
+                          Low (L)
+                        </Radio>
+                        {' '}
+                        <Radio name='AC' inline id='AC_H' value='H'>
+                          High (H)
+                        </Radio>
+                      </FormGroup>
+                    </Col>
+                    <Col md={6}>
+                      <h4>Confidentiality (C)</h4>
+                      <FormGroup>
+                        <Radio name='C' inline id='C_N' value='N'>
+                          None (N)
+                        </Radio>
+                        {' '}
+                        <Radio name='C' inline id='C_R' value='R'>
+                          Required (R)
+                        </Radio>
+                      </FormGroup>
+                    </Col>
+                  </Row>
+                  <Row className='show-grid'>
+                    <Col md={6}>
+                      <h4>Privileges Required (PR)</h4>
+                      <FormGroup>
+                        <Radio name='PR' inline id='PR_N' value='N'>
+                          None (N)
+                        </Radio>
+                        {' '}
+                        <Radio name='PR' inline id='PR_L' value='L'>
+                          Low (L)
+                        </Radio>
+                        {' '}
+                        <Radio name='PR' inline id='PR_H' value='H'>
+                          High (H)
+                        </Radio>
+                      </FormGroup>
+                    </Col>
+                    <Col md={6}>
+                      <h4>Integrity (I)</h4>
+                      <FormGroup>
+                        <Radio name='I' inline id='I_N' value='N'>
+                          None (N)
+                        </Radio>
+                        {' '}
+                        <Radio name='I' inline id='I_L' value='L'>
+                          Low (L)
+                        </Radio>
+                        {' '}
+                        <Radio name='I' inline id='I_H' value='H'>
+                          High (H)
+                        </Radio>
+                      </FormGroup>
+                    </Col>
+                  </Row>
+                  <Row className='show-grid'>
+                    <Col md={6}>
+                      <h4>User Interaction (UI)</h4>
+                      <FormGroup>
+                        <Radio name='UI' inline id='UI_N' value='N'>
+                          None (N)
+                        </Radio>
+                        {' '}
+                        <Radio name='UI' inline id='UI_R' value='R'>
+                          Required (R)
+                        </Radio>
+                      </FormGroup>
+                    </Col>
+                    <Col md={6}>
+                      <h4>Availability (A)</h4>
+                      <FormGroup>
+                        <Radio name='A' inline id='A_N' value='N'>
+                          None (N)
+                        </Radio>
+                        {' '}
+                        <Radio name='A' inline id='A_L' value='L'>
+                          Low (L)
+                        </Radio>
+                        {' '}
+                        <Radio name='A' inline id='A_H' value='H'>
+                          High (H)
+                        </Radio>
+                      </FormGroup>
+                    </Col>
+                  </Row>
+                </Panel>
+              </Col>
+              <Col md={3}>
+                <Panel header='CVSS3 Score' bsStyle='danger' id='cvssScorePanel'>
+                  <h2>
+                    <p id='cvssScore' />
+                  </h2>
+                </Panel>
+              </Col>
+            </Row>
+            <Row>
+              <Col md={12}>
+                <Panel header='Feedback' bsStyle='warning' id='feedbackPanel'>
+                  <Row>
+                    <Col md={12}>
+                      <FormGroup controlId='feedbackText'>
+                        <ControlLabel>Since you have made changes to our original calculation, please let us know the
+                          reasoning behind your changes.</ControlLabel>
+                        <FormControl componentClass='textarea' placeholder='Thanks!' />
+                      </FormGroup>
+                    </Col>
+                  </Row>
+                  <Button type='submit'>
+                    Submit
+                  </Button>
+                </Panel>
+              </Col>
             </Row>
           </form>
         </Row>
