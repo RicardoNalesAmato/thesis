@@ -3,10 +3,10 @@ import json
 import os
 from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import cross_val_score, KFold
 from sklearn import svm
 from lib.pycvss3 import CVSS3
-
+import numpy
 
 # We need only the values for CVSS3 scores of the resulting array NODEATTRIBUTES + CVSS3
 def prep_data(function_data):
@@ -242,10 +242,17 @@ else:
     for function in data:
         structure_data.append(prep_data(function))
 
+    print("Shape of X: %d x %d"%(len(X), len(X[0])))
+    print(len(y_attack_vector))
+    
     svm_clf = svm.SVC(kernel='linear', C=1)
     random_forest_clf = RandomForestClassifier(random_state=0)
 
     #  Generating cross-validation scores for all Base Scores
+    #  cross_val_score is running into a problem for some y vectors, 
+    #  because number of distinct classes is less than 4
+    #  Trying with manual k-fold splits
+    """
     scores_AV = cross_val_score(random_forest_clf, X, y_attack_vector, cv=4)
     scores_AC = cross_val_score(random_forest_clf, X, y_attack_complexity, cv=4)
     scores_PR = cross_val_score(random_forest_clf, X, y_privileges_required, cv=4)
@@ -261,7 +268,83 @@ else:
     print("Accuracy S: %0.2f (+/- %0.2f)" % (scores_S.mean(), scores_S.std() * 2))
     print("Accuracy C: %0.2f (+/- %0.2f)" % (scores_C.mean(), scores_C.std() * 2))
     print("Accuracy I: %0.2f (+/- %0.2f)" % (scores_I.mean(), scores_I.std() * 2))
+    """
 
+    kf = KFold(n_splits=4)
+
+    best_av_score, best_av_learner = 0, None
+    best_ac_score, best_ac_learner = 0, None
+    best_p_score, best_p_learner = 0, None
+    best_ui_score, best_ui_learner = 0, None
+    best_s_score, best_s_learner = 0, None
+    best_ci_score, best_ci_learner = 0, None
+    best_i_score, best_i_learner = 0, None
+    
+    # Convert everything to numpy array
+    X = numpy.asarray(X)
+    y_attack_vector = numpy.asarray(y_attack_vector)
+    y_attack_complexity = numpy.asarray(y_attack_complexity)
+    y_privileges_required = numpy.asarray(y_privileges_required)
+    y_user_interaction = numpy.asarray(y_user_interaction)
+    y_scope = numpy.asarray(y_scope)
+    y_integrity_impact = numpy.asarray(y_integrity_impact)
+    y_confidentiality_impact = numpy.asarray(y_confidentiality_impact)
+    
+    for train, test in kf.split(X):
+        X_train, X_test = X[train], X[test]
+        y_attack_vector_train, y_attack_vector_test = y_attack_vector[train], y_attack_vector[test]
+        y_attack_complexity_train, y_attack_complexity_test = y_attack_complexity[train], y_attack_complexity[test]
+        y_privileges_required_train, y_privileges_required_test = y_privileges_required[train], y_privileges_required[test]
+        y_user_interaction_train, y_user_interaction_test = y_user_interaction[train], y_user_interaction[test]
+        y_scope_train, y_scope_test = y_scope[train], y_scope[test]
+        y_confidentiality_impact_train, y_confidentiality_impact_test = y_confidentiality_impact[train], y_confidentiality_impact[test]
+        y_integrity_impact_train, y_integrity_impact_test = y_integrity_impact[train], y_integrity_impact[test]
+        
+        rf_av_learner = random_forest_learner(X_train, y_attack_vector_train)
+        rf_av_score = rf_av_learner.score(X_test, y_attack_vector_test)
+        if rf_av_score>best_av_score:
+            best_av_score = rf_av_score
+            best_av_learner = rf_av_learner
+        rf_ac_learner = random_forest_learner(X_train, y_attack_complexity_train)
+        rf_ac_score = rf_ac_learner.score(X_test, y_attack_complexity_test)
+        if rf_ac_score>best_ac_score:
+            best_ac_score = rf_ac_score
+            best_ac_learner = rf_ac_learner
+        rf_p_learner = random_forest_learner(X_train, y_privileges_required_train)
+        rf_p_score = rf_p_learner.score(X_test, y_privileges_required_test)
+        if rf_p_score>best_p_score:
+            best_p_score = rf_p_score
+            best_p_learner = rf_p_learner
+        rf_ui_learner = random_forest_learner(X_train, y_user_interaction_train)
+        rf_ui_score = rf_ui_learner.score(X_test, y_user_interaction_test)
+        if rf_ui_score>best_ui_score:
+            best_ui_score = rf_ui_score
+            best_ui_learner = rf_ui_learner
+        rf_s_learner = random_forest_learner(X_train, y_scope_train)
+        rf_s_score = rf_s_learner.score(X_test, y_scope_test)
+        if rf_s_score>best_s_score:
+            best_s_score = rf_s_score
+            best_s_learner = rf_s_learner
+        rf_ci_learner = random_forest_learner(X_train, y_confidentiality_impact_train)
+        rf_ci_score = rf_ci_learner.score(X_test, y_confidentiality_impact_test)
+        if rf_ci_score>best_ci_score:
+            best_ci_score = rf_ci_score
+            best_ci_learner = rf_ci_learner
+        rf_i_learner = random_forest_learner(X_train, y_integrity_impact_train)
+        rf_i_score = rf_i_learner.score(X_test, y_integrity_impact_test)
+        if rf_i_score>best_i_score:
+            best_i_score = rf_i_score
+            best_i_learner = rf_i_learner
+    
+    print("Best validation scores:")
+    print("Attack vector: %1.2f"%(best_av_score))
+    print("Attack complexity: %1.2f"%(best_ac_score))
+    print("Privileges required: %1.2f"%(best_p_score))
+    print("User interaction: %1.2f"%(best_ui_score))
+    print("Scope: %1.2f"%(best_s_score))
+    print("Confidentiality impact: %1.2f"%(best_ci_score))
+    print("Integrity impact: %1.2f"%(best_i_score))
+    
     # Attack Vector Learners
     gaussian_av_learner = gaussian_learner(X, y_attack_vector)
     rf_av_learner = random_forest_learner(X, y_attack_vector)
