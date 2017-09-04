@@ -5,8 +5,8 @@ from sklearn.ensemble import RandomForestClassifier
 def gaussian_learner(X, y):
     print('GAUSSIAN NAIVE BAYES:')
     gnb = GaussianNB()
-    y_pred = gnb.fit(X, y)
-    print(y_pred.predict([[2, 3]]))
+    gnb.fit(X, y)
+    print(gnb.predict([[2, 3]]))
 
 
 def random_forest_learner(X, y):
@@ -21,7 +21,7 @@ def random_forest_learner(X, y):
 # Attributes - TODO Ask Saahil how to structure them
 X = [[32, 43], [2, 3], [435, 546]]
 # Values - TODO Ask Saahil how to structure them
-y = [0, 1, 0]
+y = [0, 2, 1]
 
 gaussian_learner(X, y)
 random_forest_learner(X, y)
