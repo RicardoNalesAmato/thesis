@@ -1,11 +1,12 @@
 from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import RandomForestClassifier
 
+
 def gaussian_learner(X, y):
     print('GAUSSIAN NAIVE BAYES:')
     gnb = GaussianNB()
     y_pred = gnb.fit(X, y)
-    print(y_pred)
+    print(y_pred.predict([[2, 3]]))
 
 
 def random_forest_learner(X, y):
@@ -13,6 +14,7 @@ def random_forest_learner(X, y):
     clf = RandomForestClassifier(random_state=0)
     clf.fit(X, y)
     print(clf.feature_importances_)
+    print(clf.predict([[2, 3]]))
 
 # Main
 
