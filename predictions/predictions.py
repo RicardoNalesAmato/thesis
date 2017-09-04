@@ -163,13 +163,13 @@ else:
             test_values = [node['clustering_coefficient'], node['distance_to_interface'],
                            node['macke_bug_chain_length'],
                            node['macke_vulnerabilities_found'], node['node_degree'][2], node['node_path_length']]
-            print('GAUSSIAN NAIVE BAYES')
+            print('Gaussian Naive Bayes:')
             print(gaussian_av_learner.predict([test_values]), gaussian_ac_learner.predict([test_values]),
                   gaussian_p_learner.predict([test_values]), gaussian_ui_learner.predict([test_values]),
                   gaussian_s_learner.predict([test_values]), gaussian_c_learner.predict([test_values]),
                   gaussian_i_learner.predict([test_values]), gaussian_ai_learner.predict([test_values]))
 
-            print('RANDOM FOREST')
+            print('Random Forest:')
             print(rf_av_learner.predict([test_values]), rf_ac_learner.predict([test_values]),
                   rf_p_learner.predict([test_values]), rf_ui_learner.predict([test_values]),
                   rf_s_learner.predict([test_values]), rf_c_learner.predict([test_values]),
