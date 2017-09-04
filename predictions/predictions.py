@@ -14,9 +14,9 @@ def random_forest_learner(X, y):
     return clf
 
 # Main
-# Attributes - TODO Ask Saahil how to structure them
+# Attributes - TODO Ask Saahil if structure is correct (seems to be)
 X = [[32, 43], [2, 3], [435, 546]]
-# Values - TODO Ask Saahil how to structure them
+# Values - TODO Ask Saahil if structure is correct (seems to be)
 y = [0, 2, 1]
 
 gaussian_test_learner = gaussian_learner(X, y)
