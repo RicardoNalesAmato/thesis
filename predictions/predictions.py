@@ -81,14 +81,15 @@ def prep_data(function_data):
                 y_availability_impact.append(2)
     X.append(node_attributes)
 
+
 def gaussian_learner(X, y):
-    gnb = GaussianNB() # SAAHIL: here you would need a gnb for every base score, i.e. gnb_av, gnb_ac etc. 
-    gnb.fit(X, y) 
-    return gnb # SAAHIL: And finally here, return all the gnb's
+    gnb = GaussianNB()  # SAAHIL: here you would need a gnb for every base score, i.e. gnb_av, gnb_ac etc.
+    gnb.fit(X, y)
+    return gnb  # SAAHIL: And finally here, return all the gnb's
 
 
-def random_forest_learner(X, y): # SAAHIL: structure similar to gaussian_learner
-    clf = RandomForestClassifier(random_state=0) 
+def random_forest_learner(X, y):  # SAAHIL: structure similar to gaussian_learner
+    clf = RandomForestClassifier(random_state=0)
     clf.fit(X, y)
     return clf
 
@@ -151,17 +152,16 @@ else:
     gaussian_ai_learner = gaussian_learner(X, y_availability_impact)
     rf_ai_learner = random_forest_learner(X, y_availability_impact)
 
-    test_values = [0.0, 3, 2, 1, 3, 1.0]
+    test_values = [0.3333333333333333, 3, 1, 1, 3, 1.0]
 
     print('GAUSSIAN NAIVE BAYES:')
-    print(gaussian_av_learner.predict([test_values]))
-    print(gaussian_ac_learner.predict([test_values]))
-    print(gaussian_p_learner.predict([test_values]))
-    print(gaussian_ui_learner.predict([test_values]))
-    print(gaussian_s_learner.predict([test_values]))
-    print(gaussian_c_learner.predict([test_values]))
-    print(gaussian_i_learner.predict([test_values]))
-    print(gaussian_ai_learner.predict([test_values]))
+    print(gaussian_av_learner.predict([test_values]), gaussian_ac_learner.predict([test_values]),
+          gaussian_p_learner.predict([test_values]), gaussian_ui_learner.predict([test_values]),
+          gaussian_s_learner.predict([test_values]), gaussian_c_learner.predict([test_values]),
+          gaussian_i_learner.predict([test_values]), gaussian_ai_learner.predict([test_values]))
 
     print('RANDOM FOREST:')
-    print(rf_av_learner.predict([test_values]))
+    print(rf_av_learner.predict([test_values]), rf_ac_learner.predict([test_values]),
+          rf_p_learner.predict([test_values]), rf_ui_learner.predict([test_values]),
+          rf_s_learner.predict([test_values]), rf_c_learner.predict([test_values]), rf_i_learner.predict([test_values]),
+          rf_ai_learner.predict([test_values]))
