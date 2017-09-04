@@ -7,6 +7,11 @@
 - [ ] Run both classifiers on X and Y and put results on git
 - [ ] Prepare presentation dry-run
 
+### Task list (24.08.2017)
+- [x] Collect CVSS scores Manually from the results of KLEE.
+- [x] Compare them to those found in the NVD database.
+- [x] Further improve the Front-end User Interface.
+
 ### Task list (17.08.2017)
 - [x] Send title and abstract of mid-term presentation.
 - [x] Check how distance_to_interface calculates the distance and what is None (should be infinite or a very big number).
