@@ -123,7 +123,45 @@ else:
     gaussian_av_learner = gaussian_learner(X, y_attack_vector)
     rf_av_learner = random_forest_learner(X, y_attack_vector)
 
+    # Attack Complexity Learners
+    gaussian_ac_learner = gaussian_learner(X, y_attack_complexity)
+    rf_ac_learner = random_forest_learner(X, y_attack_complexity)
+
+    # Privileges Required Learners
+    gaussian_p_learner = gaussian_learner(X, y_privileges_required)
+    rf_p_learner = random_forest_learner(X, y_privileges_required)
+
+    # User Interaction Learners
+    gaussian_ui_learner = gaussian_learner(X, y_user_interaction)
+    rf_ui_learner = random_forest_learner(X, y_user_interaction)
+
+    # Scope Learners
+    gaussian_s_learner = gaussian_learner(X, y_scope)
+    rf_s_learner = random_forest_learner(X, y_scope)
+
+    # Confidentiality Impact Learners
+    gaussian_c_learner = gaussian_learner(X, y_confidentiality_impact)
+    rf_c_learner = random_forest_learner(X, y_confidentiality_impact)
+
+    # Integrity Impact Learners
+    gaussian_i_learner = gaussian_learner(X, y_integrity_impact)
+    rf_i_learner = random_forest_learner(X, y_integrity_impact)
+
+    # Availability Impact Learners
+    gaussian_ai_learner = gaussian_learner(X, y_availability_impact)
+    rf_ai_learner = random_forest_learner(X, y_availability_impact)
+
+    test_values = [0.0, 3, 2, 1, 3, 1.0]
+
     print('GAUSSIAN NAIVE BAYES:')
-    print(gaussian_av_learner.predict([[0.0, 3, 2, 1, 3, 1.0]]))
+    print(gaussian_av_learner.predict([test_values]))
+    print(gaussian_ac_learner.predict([test_values]))
+    print(gaussian_p_learner.predict([test_values]))
+    print(gaussian_ui_learner.predict([test_values]))
+    print(gaussian_s_learner.predict([test_values]))
+    print(gaussian_c_learner.predict([test_values]))
+    print(gaussian_i_learner.predict([test_values]))
+    print(gaussian_ai_learner.predict([test_values]))
+
     print('RANDOM FOREST:')
-    print(rf_av_learner.predict([[0.0, 3, 2, 1, 3, 1.0]]))
+    print(rf_av_learner.predict([test_values]))
