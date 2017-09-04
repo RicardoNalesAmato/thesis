@@ -2,7 +2,7 @@
 ### By Ricardo Nales, supervised by Saahil Ognawala
 ---------------------------------------
 ### Task list (31.08.2017)
-- [ ] Read about two classifiers
+- [x] Read about two classifiers
 - [ ] Create script for generating X and Y (based on scikit-learn requirements)
 - [ ] Run both classifiers on X and Y and put results on git
 - [ ] Prepare presentation dry-run
