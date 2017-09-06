@@ -1,0 +1,46 @@
+\RequirePackage[l2tabu,orthodox]{nag}
+
+\documentclass[headsepline,footsepline,footinclude=false,oneside,fontsize=11pt,paper=a4,listof=totoc,bibliography=totoc]{scrbook}
+
+\input{settings}
+
+\newcommand*{\getUniversity}{Technische Universität München}
+\newcommand*{\getFaculty}{Department of Informatics}
+\newcommand*{\getTitle}{Impact	factors	for	severity assessment of bugs discovered via compositional symbolic execution}
+\newcommand*{\getTitleGer}{Einflussfaktoren zur Bewertung der Severity von Programmfehlern, welche mit Compositional Symbolic Execution entdeckt wurden}
+\newcommand*{\getAuthor}{Ricardo Nales}
+\newcommand*{\getDoctype}{Master's Thesis in Informatics}
+\newcommand*{\getSupervisor}{Saahil Ognawala}
+\newcommand*{\getAdvisor}{Profr. Dr. Alexander Pretschner}
+\newcommand*{\getSubmissionDate}{Submission date}
+\newcommand*{\getSubmissionLocation}{Munich}
+
+\begin{document}
+
+\pagenumbering{alph}
+\input{pages/cover}
+
+\frontmatter{}
+
+\input{pages/title}
+\input{pages/disclaimer}
+\input{pages/acknowledgements}
+\input{pages/abstract}
+\microtypesetup{protrusion=false}
+\tableofcontents{}
+\microtypesetup{protrusion=true}
+
+\mainmatter{}
+
+%chapters
+\input{chapters/01_motivation}
+
+\appendix{}
+
+\microtypesetup{protrusion=false}
+\listoffigures{}
+%\listoftables{}
+\microtypesetup{protrusion=true}
+\printbibliography{}
+
+\end{document}

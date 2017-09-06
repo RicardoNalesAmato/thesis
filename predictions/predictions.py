@@ -83,12 +83,12 @@ def prep_data(function_data):
 
 
 def gaussian_learner(X, y):
-    gnb = GaussianNB()  # SAAHIL: here you would need a gnb for every base score, i.e. gnb_av, gnb_ac etc.
+    gnb = GaussianNB()
     gnb.fit(X, y)
-    return gnb  # SAAHIL: And finally here, return all the gnb's
+    return gnb
 
 
-def random_forest_learner(X, y):  # SAAHIL: structure similar to gaussian_learner
+def random_forest_learner(X, y):
     clf = RandomForestClassifier(random_state=0)
     clf.fit(X, y)
     return clf

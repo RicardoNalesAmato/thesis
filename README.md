@@ -3,8 +3,8 @@
 ---------------------------------------
 ### Task list (31.08.2017)
 - [x] Read about two classifiers
-- [ ] Create script for generating X and Y (based on scikit-learn requirements)
-- [ ] Run both classifiers on X and Y and put results on git
+- [x] Create script for generating X and Y (based on scikit-learn requirements)
+- [x] Run both classifiers on X and Y and put results on git
 - [ ] Prepare presentation dry-run
 
 ### Task list (24.08.2017)
