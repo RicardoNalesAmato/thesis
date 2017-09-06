@@ -1,9 +1,10 @@
+import networkx as nx
 import json
 import sys
 import copy
 from anytree import Node, RenderTree, Resolver
 from anytree.dotexport import RenderTreeGraph
-
+from networkx.readwrite import json_graph
 
 # Find a specific node by name
 def find_node(data, node_label):
@@ -211,7 +212,6 @@ def front_end_json():
     links = []
     from random import randint
     for link in data["links"]:
-        del link["key"]
         link["source"] = find_label(link["source"])
         link["target"] = find_label(link["target"])
         links.append(link)
@@ -240,10 +240,17 @@ def front_end_json():
 
 # Main
 if len(sys.argv) < 2:
-    sys.stderr.write("Syntax : python %s json_file function_name\n" % sys.argv[0])
+    sys.stderr.write("Syntax : python %s <dot_file> function_name\n" % sys.argv[0])
 else:
-    with open(sys.argv[1]) as data_file:
-        data = json.load(data_file)
+    dot_graph = nx.drawing.nx_agraph.read_dot(sys.argv[1])
+    data = json_graph.node_link_data(dot_graph)
+
+    data['links'] = [
+        {
+            'source': data['nodes'][link['source']]['id'],
+            'target': data['nodes'][link['target']]['id']
+        } for link in data['links']]
+
     with open(sys.argv[2]) as cvss3_file:
         cvss3_data = json.load(cvss3_file)
     interface = sys.argv[3] if len(sys.argv) > 3 else "external node"
@@ -251,7 +258,7 @@ else:
     root = Node(interface)
     tree = generate_tree(entry_node, root)
     results_json = {}
-    # RenderTreeGraph(tree).to_picture(sys.argv[1] + "_callgraph.png")
+    RenderTreeGraph(tree).to_picture(sys.argv[1] + "_callgraph.png")
 
     # For testing purposes only -- Displays the current tree
     for pre, fill, node in RenderTree(tree):
