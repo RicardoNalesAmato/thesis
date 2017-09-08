@@ -139,8 +139,12 @@ export default class App extends Component {
                           None (N)
                         </Radio>
                         {' '}
-                        <Radio name='C' inline id='C_R' value='R'>
-                          Required (R)
+                        <Radio name='C' inline id='C_L' value='L'>
+                          Low (L)
+                        </Radio>
+                        {' '}
+                        <Radio name='C' inline id='C_H' value='H'>
+                          High (H)
                         </Radio>
                       </FormGroup>
                     </Col>

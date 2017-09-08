@@ -40,7 +40,7 @@ export function createGraph () {
   let color = d3.scaleOrdinal(d3.schemeCategory10)
 
   let simulation = d3.forceSimulation()
-    .force('link', d3.forceLink().id(function (d) { return d.id }))
+    .force('link', d3.forceLink().id(function (d) { return d.id }).distance(function (d) { return 200 }))
     .force('charge', d3.forceManyBody())
     .force('center', d3.forceCenter(width / 2, height / 2))
 
@@ -62,8 +62,12 @@ export function createGraph () {
       .enter().append('circle')
       .attr('r', 10)
       .attr('fill', function (d) {
-        if (d.root === 'true') return color(d.root)
-        return color(d.type)
+        // Color of the Node
+        if (typeof d.data !== 'undefined') {
+          return d.data.faulty ? cvssScoreColor(d.data.cvss3.baseScore) : cvssScoreColor(0)
+        } else {
+          return '#ffffff'
+        }
       })
       .call(d3.drag()
         .on('start', dragstarted)
@@ -73,13 +77,19 @@ export function createGraph () {
     let text = svg.append('g').attr('class', 'labels').selectAll('g')
       .data(graph.nodes)
       .enter().append('g')
-
     text.append('text')
       .attr('x', 14)
       .attr('y', '.31em')
       .style('font-family', 'sans-serif')
       .style('font-size', '0.7em')
-      .text(function (d) { return d.id })
+      .text(function (d) {
+        // ID of the Node
+        if (typeof d.data !== 'undefined') {
+          return d.data.faulty ? d.id : ''
+        } else {
+          return ''
+        }
+      })
 
     node.on('click', function (d) {
       if (canUseDOM) {
@@ -87,10 +97,8 @@ export function createGraph () {
         nodeData(d)
       }
     })
-
     node.append('title')
       .text(function (d) { return d.id })
-
     simulation
       .nodes(graph.nodes)
       .on('tick', ticked)
@@ -210,12 +218,24 @@ function updateScores () {
     inputValue('input[type="radio"][name=MC]:checked'),
     inputValue('input[type="radio"][name=MI]:checked'),
     inputValue('input[type="radio"][name=MA]:checked'))
-
   if (result.success === true) {
-    console.log('updateScores', result)
     $('#cvssScore').text(result.baseMetricScore + ' ' + result.baseSeverity)
-    cvssScorePanel.removeClass('hidden')
+    cvssScorePanel.removeClass('hidden').css('background-color', cvssScoreColor(result.baseMetricScore)).css('color', 'white')
   }
+}
+
+function cvssScoreColor (score) {
+  let color = '#53aa33'
+  if (score > 0 && score < 4) {
+    color = '#ffcb0d'
+  } else if (score >= 4 && score < 7) {
+    color = '#f9a009'
+  } else if (score >= 7 && score < 9) {
+    color = '#df3d03'
+  } else if (score >= 9) {
+    color = '#cc0500'
+  }
+  return color
 }
 
 function inputValue (q) {

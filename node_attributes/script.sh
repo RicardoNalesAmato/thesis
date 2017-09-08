@@ -1,4 +1,4 @@
-for file in ~/Desktop/macke_results/*/*.dot.json; do
+for file in ~/Desktop/macke_results/*/*.dot; do
     python3.5 node_attributes.py $file /home/ricardo/Desktop/macke_results/CVSS_3_scores.json
 done;
 
