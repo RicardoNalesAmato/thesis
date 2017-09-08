@@ -83,9 +83,13 @@ export function createGraph () {
       .style('font-family', 'sans-serif')
       .style('font-size', '0.7em')
       .text(function (d) {
-        // ID of the Node
+        // ID of the Node - Just shows labels for Nodes with CVSS3 > 5
         if (typeof d.data !== 'undefined') {
-          return d.data.faulty ? d.id : ''
+          if (d.data.faulty) {
+            return d.data.cvss3.baseScore > 5 ? d.id : ''
+          } else {
+            return ''
+          }
         } else {
           return ''
         }
