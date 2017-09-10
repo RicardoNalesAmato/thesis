@@ -49,6 +49,13 @@ module.exports = [
         {
           test: /\.css|scss$/,
           loader: 'ignore-loader'
+        },
+        {
+          test: /\.c$/,
+          loader: 'file-loader',
+          options: {
+            name: 'code/[name].[ext]'
+          }
         }
       ].concat(commonLoaders)
     }
@@ -85,6 +92,13 @@ module.exports = [
             fallback: 'style-loader',
             use: 'css-loader'
           })
+        },
+        {
+          test: /\.c$/,
+          loader: 'file-loader',
+          options: {
+            name: 'code/[name].[ext]'
+          }
         }
       ],
       loaders: [

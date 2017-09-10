@@ -1,4 +1,5 @@
 import express from 'express'
+import path from 'path'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
 import App from '../client/app'
@@ -7,6 +8,7 @@ import template from './template'
 const server = express()
 
 server.use('/assets', express.static('assets'))
+server.use('/code', express.static(path.join('assets', 'code')))
 
 server.get('/', (req, res) => {
   const appString = renderToString(<App />)

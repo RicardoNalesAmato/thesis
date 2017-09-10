@@ -11,7 +11,8 @@ import {
   ControlLabel,
   FormControl,
   Button,
-  Label
+  Label,
+  Breadcrumb
 } from 'react-bootstrap'
 
 const cvss3 = (
@@ -21,6 +22,8 @@ const cvss3 = (
 const nodeData = (
   <h4>Node Data</h4>
 )
+
+let code = require('../resources/reference_code/input-tga.c')
 
 export default class App extends Component {
   render () {
@@ -33,7 +36,7 @@ export default class App extends Component {
         </Row>
         <Row className='show-grid'>
           <Col xs={12} md={8}>
-            <svg width='700' height='700' />
+            <svg width='800' height='600' />
           </Col>
           <Col xs={6} md={4}>
             <Panel header={nodeData} bsStyle='info'>
@@ -73,6 +76,13 @@ export default class App extends Component {
                   </Row>
                 </Col>
               </div>
+            </Panel>
+            <Panel header={<Button>Code</Button>} bsStyle='success' collapsible>
+              <Breadcrumb>
+                <Breadcrumb.Item href={code.toString()} target='_blank'>
+                  input-tga.c
+                </Breadcrumb.Item>
+              </Breadcrumb>
             </Panel>
           </Col>
         </Row>
@@ -235,9 +245,28 @@ export default class App extends Component {
                       </FormGroup>
                     </Col>
                   </Row>
-                  <Button type='submit'>
-                    Submit
-                  </Button>
+                  <Row>
+                    <Col md={12}>
+                      <Row>
+                        <Col md={8}>
+                          <ControlLabel>The nodes you have worked with are: </ControlLabel>
+                        </Col>
+                      </Row>
+                      <Row>
+                        <Col md={8}>
+                          <div id='visitedNodes' />
+                        </Col>
+                      </Row>
+                    </Col>
+                  </Row>
+                  <br />
+                  <Row>
+                    <Col md={12}>
+                      <Button type='submit'>
+                        Submit
+                      </Button>
+                    </Col>
+                  </Row>
                 </Panel>
               </Col>
             </Row>

@@ -40,7 +40,7 @@ export function createGraph () {
   let color = d3.scaleOrdinal(d3.schemeCategory10)
 
   let simulation = d3.forceSimulation()
-    .force('link', d3.forceLink().id(function (d) { return d.id }).distance(function (d) { return 200 }))
+    .force('link', d3.forceLink().id(function (d) { return d.id }).distance(function () { return 200 }))
     .force('charge', d3.forceManyBody())
     .force('center', d3.forceCenter(width / 2, height / 2))
 
@@ -154,7 +154,12 @@ function nodeData (node) {
   selectedNode = node
   // Add visited node to the set
   visitedNodes[selectedNode.id] = 'selected'
-  console.log(visitedNodes)
+  $('#visitedNodes').text('')
+  for (let key in visitedNodes) {
+    if (visitedNodes.hasOwnProperty(key)) {
+      $('#visitedNodes').append(key)
+    }
+  }
   // Displaying the data
   $('#nodeName').text(selectedNode.id)
   $('#nodeClustering').text(selectedNode.data.clustering_coefficient)
