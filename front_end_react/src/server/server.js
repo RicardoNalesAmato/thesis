@@ -14,7 +14,6 @@ server.use('/assets', express.static('assets'))
 server.use('/code', express.static(path.join('assets', 'code')))
 
 server.get('*', (req, res) => {
-
   const content = renderToString(
     <StaticRouter location={req.url} context={{}}>
       {renderRoutes(routes)}

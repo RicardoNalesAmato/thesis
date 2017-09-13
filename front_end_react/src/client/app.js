@@ -21,7 +21,8 @@ class App extends Component {
         <PageHeader>
           Callgraph severity assessments
           <nav className='mdl-navigation'>
-            <Link className='mdl-navigation__link' to='/graphs/:program'> AutoTrace </Link>
+            <Link className='mdl-navigation__link' to='/graphs/autoTrace'> AutoTrace </Link>
+            <Link className='mdl-navigation__link' to='/graphs/blueZ'> BlueZ </Link>
           </nav>
         </PageHeader>
         <main className=''>

@@ -1,5 +1,5 @@
 import AppRoot from '../client/app'
-import GraphsAndFeedback from '../client/components/programSelector'
+import ProgramSelector from '../client/components/programSelector'
 
 const routes = [
   {
@@ -8,7 +8,7 @@ const routes = [
       {
         path: '/graphs/:program',
         exact: true,
-        component: GraphsAndFeedback
+        component: ProgramSelector
       }
     ]
   }
