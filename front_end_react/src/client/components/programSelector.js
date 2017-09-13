@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { createGraph } from './graphs'
+import PropTypes from 'prop-types'
+import { createGraph } from '../graphs'
 import {
   Grid,
   Row,
   Col,
-  PageHeader,
   Panel,
   FormGroup,
   Radio,
@@ -23,12 +23,18 @@ const nodeData = (
   <h4>Node Data</h4>
 )
 
-let code = require('../resources/reference_code/input-tga.c')
+let code = require('../../resources/reference_code/input-tga.c')
 let program
 
-export default class GraphsAndFeedback extends Component {
+class GraphsAndFeedback extends Component {
+  constructor (props) {
+    super(props)
+    // getting the language from the url param set in the router
+    this.program = props.program
+  }
   componentWillMount () {
-    program = require('../resources/graphs/blueZ.json')
+    console.log(this.program)
+    program = require('../../resources/graphs/blueZ.json')
   }
   componentDidMount () {
     // Loading the graph
@@ -37,11 +43,6 @@ export default class GraphsAndFeedback extends Component {
   render () {
     return (
       <Grid>
-        <Row>
-          <PageHeader>
-            Callgraph severity assessments
-          </PageHeader>
-        </Row>
         <Row className='show-grid'>
           <Col xs={12} md={8}>
             <svg width='800' height='600' />
@@ -284,3 +285,9 @@ export default class GraphsAndFeedback extends Component {
     )
   }
 }
+
+GraphsAndFeedback.propTypes = {
+  program: PropTypes.string
+}
+
+export default GraphsAndFeedback

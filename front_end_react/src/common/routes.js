@@ -1,12 +1,12 @@
 import AppRoot from '../client/app'
-import GraphsAndFeedback from '../client/graphsAndFeedback'
+import GraphsAndFeedback from '../client/components/programSelector'
 
 const routes = [
   {
     component: AppRoot,
     routes: [
       {
-        path: '/graphs',
+        path: '/graphs/:program',
         exact: true,
         component: GraphsAndFeedback
       }
