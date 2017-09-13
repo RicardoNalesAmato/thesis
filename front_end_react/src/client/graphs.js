@@ -16,9 +16,7 @@ if (canUseDOM) {
   cvssScorePanel = $('#cvssScorePanel').addClass('hidden')
 }
 
-let data = require('../resources/data.json')
-
-export function createGraph () {
+export function createGraph (data) {
   let svg = d3.select('svg')
 
   let width = svg.attr('width')

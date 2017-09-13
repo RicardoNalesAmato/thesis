@@ -42,9 +42,12 @@
     "ignore-loader": "^0.1.2",
     "jquery": "^3.2.1",
     "path": "^0.12.7",
+    "prop-types": "^15.5.10",
     "react": "^15.2.0",
     "react-bootstrap": "^0.31.2",
     "react-dom": "^15.2.0",
+    "react-router-config": "^1.0.0-beta.4",
+    "react-router-dom": "^4.2.2",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2"
   }

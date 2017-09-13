@@ -1,0 +1,1701 @@
+{
+  "links": [
+    {
+      "source": "{main}",
+      "target": "{read_dump}"
+    },
+    {
+      "source": "{main}",
+      "target": "{open_file}"
+    },
+    {
+      "source": "{main}",
+      "target": "{open_file}"
+    },
+    {
+      "source": "{main}",
+      "target": "{open_file}"
+    },
+    {
+      "source": "{main}",
+      "target": "{open_file}"
+    },
+    {
+      "source": "{main}",
+      "target": "{parse_filter}"
+    },
+    {
+      "source": "{main}",
+      "target": "{strdup}"
+    },
+    {
+      "source": "{main}",
+      "target": "{strdup}"
+    },
+    {
+      "source": "{main}",
+      "target": "{strdup}"
+    },
+    {
+      "source": "{main}",
+      "target": "{strdup}"
+    },
+    {
+      "source": "{main}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{main}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{main}",
+      "target": "{getopt_long}"
+    },
+    {
+      "source": "{main}",
+      "target": "{atoi}"
+    },
+    {
+      "source": "{main}",
+      "target": "{atoi}"
+    },
+    {
+      "source": "{main}",
+      "target": "{atoi}"
+    },
+    {
+      "source": "{main}",
+      "target": "{atoi}"
+    },
+    {
+      "source": "{main}",
+      "target": "{atoi}"
+    },
+    {
+      "source": "{main}",
+      "target": "{atoi}"
+    },
+    {
+      "source": "{main}",
+      "target": "{atoi}"
+    },
+    {
+      "source": "{main}",
+      "target": "{atoi}"
+    },
+    {
+      "source": "{main}",
+      "target": "{atoi}"
+    },
+    {
+      "source": "{main}",
+      "target": "{usage}"
+    },
+    {
+      "source": "{main}",
+      "target": "{init_parser}"
+    },
+    {
+      "source": "{main}",
+      "target": "{init_parser}"
+    },
+    {
+      "source": "{main}",
+      "target": "{exit}"
+    },
+    {
+      "source": "{main}",
+      "target": "{exit}"
+    },
+    {
+      "source": "{main}",
+      "target": "{strcasecmp}"
+    },
+    {
+      "source": "{main}",
+      "target": "{strcasecmp}"
+    },
+    {
+      "source": "{main}",
+      "target": "{process_frames}"
+    },
+    {
+      "source": "{main}",
+      "target": "{process_frames}"
+    },
+    {
+      "source": "{main}",
+      "target": "{set_proto}"
+    },
+    {
+      "source": "{main}",
+      "target": "{set_proto}"
+    },
+    {
+      "source": "{main}",
+      "target": "{set_proto}"
+    },
+    {
+      "source": "{main}",
+      "target": "{set_proto}"
+    },
+    {
+      "source": "{main}",
+      "target": "{set_proto}"
+    },
+    {
+      "source": "{main}",
+      "target": "{set_proto}"
+    },
+    {
+      "source": "{main}",
+      "target": "{open_socket}"
+    },
+    {
+      "source": "{main}",
+      "target": "{open_socket}"
+    },
+    {
+      "source": "{strdup}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{strcasecmp}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{raw_dump}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{read_n}",
+      "target": "{__errno_location}"
+    },
+    {
+      "source": "{read_n}",
+      "target": "{__errno_location}"
+    },
+    {
+      "source": "{read_n}",
+      "target": "{read}"
+    },
+    {
+      "source": "{atoi}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{free}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{open}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{set_proto}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{perror}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{perror}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{perror}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{perror}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{socket}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{__errno_location}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{__errno_location}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{close}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{hci_filter_all_ptypes}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{setsockopt}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{setsockopt}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{setsockopt}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{strerror}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{bind}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{hci_filter_all_events}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{hci_filter_clear}"
+    },
+    {
+      "source": "{open_socket}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{bind}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{__errno_location}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{exit}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{parse_filter}",
+      "target": "{strcasecmp}"
+    },
+    {
+      "source": "{fflush}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{__cmsg_nxthdr}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{memcmp}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{parse}",
+      "target": "{raw_dump}"
+    },
+    {
+      "source": "{parse}",
+      "target": "{p_indent}"
+    },
+    {
+      "source": "{parse}",
+      "target": "{fflush}"
+    },
+    {
+      "source": "{parse}",
+      "target": "{hci_dump}"
+    },
+    {
+      "source": "{recvmsg}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{init_parser}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{p_indent}",
+      "target": "{localtime_r}"
+    },
+    {
+      "source": "{p_indent}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{p_indent}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{p_indent}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{p_indent}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{p_indent}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{perror}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{perror}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{perror}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{__cmsg_nxthdr}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{parse}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{__errno_location}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{__errno_location}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{recvmsg}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{malloc}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{write_n}"
+    },
+    {
+      "source": "{process_frames}",
+      "target": "{poll}"
+    },
+    {
+      "source": "{hci_dump}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{localtime_r}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{perror}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{perror}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{parse}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{malloc}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{exit}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{exit}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{free}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{free}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{read_n}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{read_n}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{read_n}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{read_n}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{read_n}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{read_n}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{read_n}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{read_n}"
+    },
+    {
+      "source": "{read_dump}",
+      "target": "{lseek}"
+    },
+    {
+      "source": "{read}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{poll}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{getopt_long}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{malloc}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{setsockopt}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{usage}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{perror}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{perror}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{perror}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{memcmp}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{fprintf}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{fprintf}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{fprintf}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{open}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{open_file}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{open_file}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{open_file}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{exit}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{exit}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{exit}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{exit}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{exit}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{write}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{read}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{lseek}"
+    },
+    {
+      "source": "{open_file}",
+      "target": "{lseek}"
+    },
+    {
+      "source": "{close}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{external node}",
+      "target": "{main}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{strdup}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{localtime_r}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{read}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{strcasecmp}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{getopt_long}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{raw_dump}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{malloc}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{atoi}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{llvm.memset.p0i8.i64}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{setsockopt}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{poll}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{free}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{open}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{set_proto}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{llvm.dbg.declare}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{bind}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{__errno_location}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{close}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{perror}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{exit}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{socket}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{strerror}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{write}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{fflush}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{printf}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{__cmsg_nxthdr}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{memcmp}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{fprintf}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{recvmsg}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{init_parser}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{lseek}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{llvm.memcpy.p0i8.p0i8.i64}"
+    },
+    {
+      "source": "{external node}",
+      "target": "{hci_dump}"
+    },
+    {
+      "source": "{socket}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{strerror}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{write}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{printf}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{write_n}",
+      "target": "{__errno_location}"
+    },
+    {
+      "source": "{write_n}",
+      "target": "{__errno_location}"
+    },
+    {
+      "source": "{write_n}",
+      "target": "{write}"
+    },
+    {
+      "source": "{fprintf}",
+      "target": "Node0x17c5ec0"
+    },
+    {
+      "source": "{lseek}",
+      "target": "Node0x17c5ec0"
+    }
+  ],
+  "nodes": [
+    {
+      "data": {
+        "node_degree": [
+          14,
+          1,
+          15
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 3.600796525259409,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.14285714285714285,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{main}"
+    },
+    {
+      "id": "Node0x17c5ec0",
+      "type": 0
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{strdup}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          3,
+          4
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{strcasecmp}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{raw_dump}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "cvss3": {
+          "attackVector": "NETWORK",
+          "scope": "UNCHANGED",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "integrityImpact": "NONE",
+          "attackComplexity": "LOW",
+          "baseSeverity": "HIGH",
+          "confidentialityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "macke_bug_chain_length": 2,
+        "node_path_length": 2.0,
+        "macke_vulnerabilities_found": 1,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 3
+      },
+      "type": 999,
+      "id": "{read_n}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{atoi}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{free}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{open}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{set_proto}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          11,
+          1,
+          12
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 1,
+        "node_path_length": 1.3444444444444446,
+        "macke_vulnerabilities_found": 1,
+        "clustering_coefficient": 0.015151515151515152,
+        "distance_to_interface": 2
+      },
+      "type": 0.36363636363636365,
+      "id": "{open_socket}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 1
+      },
+      "type": 0,
+      "id": "{llvm.dbg.declare}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{bind}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          5,
+          6
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.13333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{__errno_location}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          4,
+          5
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.5,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{exit}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          1,
+          2
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 2.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 1.0,
+        "distance_to_interface": 2
+      },
+      "type": 0.0,
+      "id": "{parse_filter}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{fflush}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{__cmsg_nxthdr}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{memcmp}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          4,
+          2,
+          6
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 1,
+        "node_path_length": 2.342857142857143,
+        "macke_vulnerabilities_found": 1,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 3
+      },
+      "type": 0.0,
+      "id": "{parse}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 1,
+        "node_path_length": 0,
+        "macke_vulnerabilities_found": 1,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 3
+      },
+      "type": 0,
+      "id": "{hci_filter_all_events}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{recvmsg}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{init_parser}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 1,
+        "node_path_length": 2.0,
+        "macke_vulnerabilities_found": 1,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 4
+      },
+      "type": 0.0,
+      "id": "{p_indent}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 1,
+        "node_path_length": 0,
+        "macke_vulnerabilities_found": 1,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 3
+      },
+      "type": 0,
+      "id": "{hci_filter_all_ptypes}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          10,
+          1,
+          11
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 1,
+        "node_path_length": 1.278688524590164,
+        "macke_vulnerabilities_found": 1,
+        "clustering_coefficient": 0.16363636363636364,
+        "distance_to_interface": 2
+      },
+      "type": 3.6,
+      "id": "{process_frames}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{hci_dump}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 1
+      },
+      "type": 0,
+      "id": "{llvm.memcpy.p0i8.p0i8.i64}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{localtime_r}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          8,
+          1,
+          9
+        ],
+        "faulty": true,
+        "cvss3": {
+          "attackVector": "NETWORK",
+          "scope": "UNCHANGED",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "integrityImpact": "NONE",
+          "attackComplexity": "LOW",
+          "baseSeverity": "HIGH",
+          "confidentialityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "macke_bug_chain_length": 1,
+        "node_path_length": 2.6012586735517185,
+        "macke_vulnerabilities_found": 1,
+        "clustering_coefficient": 0.16666666666666666,
+        "distance_to_interface": 2
+      },
+      "type": 999,
+      "id": "{read_dump}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          3,
+          4
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.16666666666666666,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{read}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{poll}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{getopt_long}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          3,
+          4
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{malloc}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 1
+      },
+      "type": 0,
+      "id": "{llvm.memset.p0i8.i64}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{setsockopt}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          1,
+          2
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 1,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 1,
+        "clustering_coefficient": 1.0,
+        "distance_to_interface": 2
+      },
+      "type": 4.0,
+      "id": "{usage}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          5,
+          6
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.2,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{perror}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          10,
+          1,
+          11
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 1,
+        "node_path_length": 1.3846153846153846,
+        "macke_vulnerabilities_found": 1,
+        "clustering_coefficient": 0.2,
+        "distance_to_interface": 2
+      },
+      "type": 4.4,
+      "id": "{open_file}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{close}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          34,
+          0,
+          34
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.0142602495543672,
+        "distance_to_interface": 0
+      },
+      "type": 0.0,
+      "id": "{external node}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{socket}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{strerror}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          3,
+          4
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.16666666666666666,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{write}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          7,
+          8
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.25,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{printf}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "cvss3": {
+          "attackVector": "NETWORK",
+          "scope": "UNCHANGED",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseScore": 5.9,
+          "userInteraction": "NONE",
+          "integrityImpact": "NONE",
+          "attackComplexity": "HIGH",
+          "baseSeverity": "MEDIUM",
+          "confidentialityImpact": "NONE",
+          "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "macke_bug_chain_length": 1,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 1,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 3
+      },
+      "type": 999,
+      "id": "{write_n}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{fprintf}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 1,
+        "node_path_length": 0,
+        "macke_vulnerabilities_found": 1,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 3
+      },
+      "type": 0,
+      "id": "{hci_filter_clear}"
+    },
+    {
+      "data": {
+        "node_degree": [
+          1,
+          3,
+          4
+        ],
+        "faulty": false,
+        "macke_bug_chain_length": 0,
+        "node_path_length": 1.0,
+        "macke_vulnerabilities_found": 0,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1
+      },
+      "type": 0.0,
+      "id": "{lseek}"
+    }
+  ]
+}
