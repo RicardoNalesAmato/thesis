@@ -9,10 +9,15 @@ import template from './template'
 import routes from '../common/routes'
 
 const server = express()
+let bodyParser = require('body-parser')
 
 server.use('/assets', express.static('assets'))
 server.use('/code', express.static(path.join('assets', 'code')))
 
+server.use(bodyParser.urlencoded({ extended: false }))
+server.use(bodyParser.json())
+
+// GET General Handler
 server.get('*', (req, res) => {
   const content = renderToString(
     <StaticRouter location={req.url} context={{}}>
@@ -24,6 +29,11 @@ server.get('*', (req, res) => {
     body: content,
     title: 'Front-end'
   }))
+})
+
+// POST Feedback Handler
+server.post('/feedback', (req, res) => {
+  res.send(req.body)
 })
 
 let port = 9090

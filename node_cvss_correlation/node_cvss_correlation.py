@@ -88,6 +88,10 @@ else:
     files = os.listdir(sys.argv[1])
     data = []
     structure_data = []
+    valueNames = ['clustering_coefficient', 'distance_to_interface', 'macke_bug_chain_length',
+                  'macke_vulnerabilities_found', 'node_degree', 'node_path_length', 'attackVector',
+                  'attackComplexity', 'privilegesRequired', 'userInteraction', 'scope',
+                  'confidentialityImpact', 'integrityImpact', 'availabilityImpact']
     for file in files:
         with open(os.path.join(sys.argv[1], file)) as data_file:
             all_functions = json.load(data_file)
@@ -101,8 +105,13 @@ else:
     covariance = numpy.cov(structure_data, rowvar=False)
     correlation = numpy.corrcoef(structure_data, rowvar=False)
     print('Covariance of CVSS3 Scores:\n')
-    for i in range(5, 14):
-        print(covariance[i])
+    for i in range(6, 14):
+        print('====',valueNames[i],'====\n')
+        for j in range(0, 6):
+            print(valueNames[j])
+            print(covariance[i][j])
     print('Correlation of CVSS3 Scores:\n')
-    for i in range(5, 14):
-        print(correlation[i])
+    for i in range(6, 14):
+        print('====',valueNames[i],'====\n')
+        for j in range(0, 6):
+            print(valueNames[j], ': ', correlation[i][j])

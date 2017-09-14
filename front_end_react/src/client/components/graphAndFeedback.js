@@ -23,16 +23,17 @@ import {
   FormControl,
   Button,
   Label,
-  Breadcrumb
+  Breadcrumb,
+  Form
 } from 'react-bootstrap'
 
 class GraphsAndFeedback extends Component {
   constructor (props) {
     super(props)
-    this.handleChange = this.handleChange.bind(this)
     this.state = {
       program: this.props.program
     }
+    this.handleChange = this.handleChange.bind(this)
   }
 
   componentWillMount () {
@@ -42,8 +43,23 @@ class GraphsAndFeedback extends Component {
     createGraph(this.state.program)
   }
 
-  handleChange (e) {
-    this.setState({program: this.props.program})
+  handleChange (event) {
+    this.setState({value: event.target.value})
+  }
+
+  handleSubmit (event) {
+    event.preventDefault()
+    let $ = require('jquery')
+
+    $.ajax({
+      type: 'POST',
+      url: 'http://localhost:9090/feedback',
+      data: $('#feedbackForm').serialize(),
+      success: function (data) {
+        console.log(data)
+      },
+      dataType: 'json'
+    })
   }
 
   render () {
@@ -102,15 +118,15 @@ class GraphsAndFeedback extends Component {
           </Col>
         </Row>
         <Row className='show-grid'>
-          <form>
-            <Row>
-              <Col md={9}>
-                <Panel header={cvss3} bsStyle='primary' id='cvssPanel'>
-                  {/* First Row*/}
-                  <Row className='show-grid'>
-                    <Col md={6}>
-                      <h4>Attack Vector (AV)</h4>
-                      <FormGroup>
+          <Form action='' onSubmit={this.handleSubmit} id='feedbackForm'>
+            <FormGroup>
+              <Row>
+                <Col md={9}>
+                  <Panel header={cvss3} bsStyle='primary' id='cvssPanel'>
+                    {/* First Row*/}
+                    <Row className='show-grid'>
+                      <Col md={6}>
+                        <h4>Attack Vector (AV)</h4>
                         <Radio name='AV' inline id='AV_N' value='N'>
                           Network (N)
                         </Radio>
@@ -125,11 +141,9 @@ class GraphsAndFeedback extends Component {
                         <Radio name='AV' inline id='AV_P' value='P'>
                           Physical (P)
                         </Radio>
-                      </FormGroup>
-                    </Col>
-                    <Col md={6}>
-                      <h4>Scope (S)</h4>
-                      <FormGroup>
+                      </Col>
+                      <Col md={6}>
+                        <h4>Scope (S)</h4>
                         <Radio name='S' inline id='S_U' value='U'>
                           Unchanged (U)
                         </Radio>
@@ -137,13 +151,11 @@ class GraphsAndFeedback extends Component {
                         <Radio name='S' inline id='S_C' value='C'>
                           Changed (C)
                         </Radio>
-                      </FormGroup>
-                    </Col>
-                  </Row>
-                  <Row className='show-grid'>
-                    <Col md={6}>
-                      <h4>Attack Complexity (AC)</h4>
-                      <FormGroup>
+                      </Col>
+                    </Row>
+                    <Row className='show-grid'>
+                      <Col md={6}>
+                        <h4>Attack Complexity (AC)</h4>
                         <Radio name='AC' inline id='AC_N' value='N'>
                           None (N)
                         </Radio>
@@ -155,11 +167,9 @@ class GraphsAndFeedback extends Component {
                         <Radio name='AC' inline id='AC_H' value='H'>
                           High (H)
                         </Radio>
-                      </FormGroup>
-                    </Col>
-                    <Col md={6}>
-                      <h4>Confidentiality (C)</h4>
-                      <FormGroup>
+                      </Col>
+                      <Col md={6}>
+                        <h4>Confidentiality (C)</h4>
                         <Radio name='C' inline id='C_N' value='N'>
                           None (N)
                         </Radio>
@@ -171,13 +181,11 @@ class GraphsAndFeedback extends Component {
                         <Radio name='C' inline id='C_H' value='H'>
                           High (H)
                         </Radio>
-                      </FormGroup>
-                    </Col>
-                  </Row>
-                  <Row className='show-grid'>
-                    <Col md={6}>
-                      <h4>Privileges Required (PR)</h4>
-                      <FormGroup>
+                      </Col>
+                    </Row>
+                    <Row className='show-grid'>
+                      <Col md={6}>
+                        <h4>Privileges Required (PR)</h4>
                         <Radio name='PR' inline id='PR_N' value='N'>
                           None (N)
                         </Radio>
@@ -189,11 +197,9 @@ class GraphsAndFeedback extends Component {
                         <Radio name='PR' inline id='PR_H' value='H'>
                           High (H)
                         </Radio>
-                      </FormGroup>
-                    </Col>
-                    <Col md={6}>
-                      <h4>Integrity (I)</h4>
-                      <FormGroup>
+                      </Col>
+                      <Col md={6}>
+                        <h4>Integrity (I)</h4>
                         <Radio name='I' inline id='I_N' value='N'>
                           None (N)
                         </Radio>
@@ -205,13 +211,11 @@ class GraphsAndFeedback extends Component {
                         <Radio name='I' inline id='I_H' value='H'>
                           High (H)
                         </Radio>
-                      </FormGroup>
-                    </Col>
-                  </Row>
-                  <Row className='show-grid'>
-                    <Col md={6}>
-                      <h4>User Interaction (UI)</h4>
-                      <FormGroup>
+                      </Col>
+                    </Row>
+                    <Row className='show-grid'>
+                      <Col md={6}>
+                        <h4>User Interaction (UI)</h4>
                         <Radio name='UI' inline id='UI_N' value='N'>
                           None (N)
                         </Radio>
@@ -219,11 +223,9 @@ class GraphsAndFeedback extends Component {
                         <Radio name='UI' inline id='UI_R' value='R'>
                           Required (R)
                         </Radio>
-                      </FormGroup>
-                    </Col>
-                    <Col md={6}>
-                      <h4>Availability (A)</h4>
-                      <FormGroup>
+                      </Col>
+                      <Col md={6}>
+                        <h4>Availability (A)</h4>
                         <Radio name='A' inline id='A_N' value='N'>
                           None (N)
                         </Radio>
@@ -235,57 +237,52 @@ class GraphsAndFeedback extends Component {
                         <Radio name='A' inline id='A_H' value='H'>
                           High (H)
                         </Radio>
-                      </FormGroup>
-                    </Col>
-                  </Row>
-                </Panel>
-              </Col>
-              <Col md={3}>
-                <Panel header='CVSS3 Score' bsStyle='danger' id='cvssScorePanel'>
-                  <h2>
-                    <p id='cvssScore' />
-                  </h2>
-                </Panel>
-              </Col>
-            </Row>
-            <Row>
-              <Col md={12}>
-                <Panel header='Feedback' bsStyle='warning' id='feedbackPanel'>
-                  <Row>
-                    <Col md={12}>
-                      <FormGroup controlId='feedbackText'>
+                      </Col>
+                    </Row>
+                  </Panel>
+                </Col>
+                <Col md={3}>
+                  <Panel header='CVSS3 Score' bsStyle='danger' id='cvssScorePanel'>
+                    <h2>
+                      <p id='cvssScore' />
+                    </h2>
+                  </Panel>
+                </Col>
+              </Row>
+              <Row>
+                <Col md={12}>
+                  <Panel header='Feedback' bsStyle='warning' id='feedbackPanel'>
+                    <Row>
+                      <Col md={12}>
                         <ControlLabel>Since you have made changes to our original calculation, please let us know the
                           reasoning behind your changes.</ControlLabel>
-                        <FormControl componentClass='textarea' placeholder='Thanks!' />
-                      </FormGroup>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col md={12}>
-                      <Row>
-                        <Col md={8}>
-                          <ControlLabel>The nodes you have worked with are: </ControlLabel>
-                        </Col>
-                      </Row>
-                      <Row>
-                        <Col md={8}>
-                          <div id='visitedNodes' />
-                        </Col>
-                      </Row>
-                    </Col>
-                  </Row>
-                  <br />
-                  <Row>
-                    <Col md={12}>
-                      <Button type='submit'>
-                        Submit
-                      </Button>
-                    </Col>
-                  </Row>
-                </Panel>
-              </Col>
-            </Row>
-          </form>
+                        {' '}
+                        <FormControl name='feedbackText' componentClass='textarea' placeholder='Thanks!' />
+                        {' '}
+                        <ControlLabel>Name (Optional)</ControlLabel>
+                        {' '}
+                        <FormControl name='name' type='text' placeholder='Type your name here' />
+                        {' '}
+                        <ControlLabel>Email (Optional)</ControlLabel>
+                        {' '}
+                        <FormControl name='email' type='email' placeholder='email@example.com' />
+                        {' '}
+                      </Col>
+                    </Row>
+                    <br />
+                    <Row>
+                      <Col md={12}>
+                        <Button type='submit'>
+                          Submit
+                        </Button>
+                      </Col>
+                    </Row>
+                  </Panel>
+                </Col>
+              </Row>
+              <input hidden type='text' id='visitedNodes' name='visitedNodes' />
+            </FormGroup>
+          </Form>
         </Row>
       </Grid>
     )

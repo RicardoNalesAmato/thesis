@@ -152,10 +152,12 @@ function nodeData (node) {
   selectedNode = node
   // Add visited node to the set
   visitedNodes[selectedNode.id] = 'selected'
-  $('#visitedNodes').text('')
+  let visitedNodesDOM = $('#visitedNodes')
+  console.log(visitedNodesDOM.val())
+  visitedNodesDOM.val('')
   for (let key in visitedNodes) {
     if (visitedNodes.hasOwnProperty(key)) {
-      $('#visitedNodes').append(key)
+      visitedNodesDOM.val(visitedNodesDOM.val() + key)
     }
   }
   // Displaying the data
