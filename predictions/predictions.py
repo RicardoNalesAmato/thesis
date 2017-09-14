@@ -154,24 +154,31 @@ else:
     # Availability Impact Learners
     gaussian_ai_learner = gaussian_learner(X, y_availability_impact)
     rf_ai_learner = random_forest_learner(X, y_availability_impact)
-
-    for node in prediction_set:
-        for key, node in node.items():
-            print(key)
-            if key == '{free}':
-                print('HERE')
-            test_values = [node['clustering_coefficient'], node['distance_to_interface'],
-                           node['macke_bug_chain_length'],
-                           node['macke_vulnerabilities_found'], node['node_degree'][2], node['node_path_length']]
-            print('Gaussian Naive Bayes:')
-            print(gaussian_av_learner.predict([test_values]), gaussian_ac_learner.predict([test_values]),
-                  gaussian_p_learner.predict([test_values]), gaussian_ui_learner.predict([test_values]),
-                  gaussian_s_learner.predict([test_values]), gaussian_c_learner.predict([test_values]),
-                  gaussian_i_learner.predict([test_values]), gaussian_ai_learner.predict([test_values]))
-
-            print('Random Forest:')
-            print(rf_av_learner.predict([test_values]), rf_ac_learner.predict([test_values]),
-                  rf_p_learner.predict([test_values]), rf_ui_learner.predict([test_values]),
-                  rf_s_learner.predict([test_values]), rf_c_learner.predict([test_values]),
-                  rf_i_learner.predict([test_values]),
-                  rf_ai_learner.predict([test_values]))
+    #
+    # for node in prediction_set:
+    #     for key, node in node.items():
+    #         print(key)
+    #         test_values = [node['clustering_coefficient'], node['distance_to_interface'],
+    #                        node['macke_bug_chain_length'],
+    #                        node['macke_vulnerabilities_found'], node['node_degree'][2], node['node_path_length']]
+    #         print('Gaussian Naive Bayes:')
+    #         print(gaussian_av_learner.predict([test_values]), gaussian_ac_learner.predict([test_values]),
+    #               gaussian_p_learner.predict([test_values]), gaussian_ui_learner.predict([test_values]),
+    #               gaussian_s_learner.predict([test_values]), gaussian_c_learner.predict([test_values]),
+    #               gaussian_i_learner.predict([test_values]), gaussian_ai_learner.predict([test_values]))
+    #
+    #         print('Random Forest:')
+    #         print(rf_av_learner.predict([test_values]), rf_ac_learner.predict([test_values]),
+    #               rf_p_learner.predict([test_values]), rf_ui_learner.predict([test_values]),
+    #               rf_s_learner.predict([test_values]), rf_c_learner.predict([test_values]),
+    #               rf_i_learner.predict([test_values]),
+    #               rf_ai_learner.predict([test_values]))
+    print('Random Forest feature importance:')
+    print('AV\t', rf_av_learner.feature_importances_)
+    print('AC\t', rf_ac_learner.feature_importances_)
+    print('P\t', rf_p_learner.feature_importances_)
+    print('UI\t', rf_ui_learner.feature_importances_)
+    print('S\t', rf_s_learner.feature_importances_)
+    print('C\t', rf_c_learner.feature_importances_)
+    print('I\t', rf_i_learner.feature_importances_)
+    print('AI\t', rf_ai_learner.feature_importances_)

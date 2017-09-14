@@ -29,13 +29,21 @@ import {
 class GraphsAndFeedback extends Component {
   constructor (props) {
     super(props)
-    this.program = this.props.program
+    this.handleChange = this.handleChange.bind(this)
+    this.state = {
+      program: this.props.program
+    }
   }
+
   componentWillMount () {
   }
 
   componentDidMount () {
-    createGraph(this.program)
+    createGraph(this.state.program)
+  }
+
+  handleChange (e) {
+    this.setState({program: this.props.program})
   }
 
   render () {
