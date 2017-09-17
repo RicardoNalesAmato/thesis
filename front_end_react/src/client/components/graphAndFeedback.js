@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { createGraph } from '../graphs'
+import swal from 'sweetalert'
 
 const cvss3 = (
   <h4>CVSS3 Base Scores</h4>
@@ -56,7 +57,15 @@ class GraphsAndFeedback extends Component {
       url: 'http://localhost:9090/feedback',
       data: $('#feedbackForm').serialize(),
       success: function (data) {
-        console.log(data)
+        swal({
+          title: 'Success',
+          text: 'Thanks a lot!',
+          icon: 'success',
+          closeOnClickOutside: false,
+          closeOnConfirm: true
+        }).then(result => {
+          if (result) window.location.assign(window.location.protocol + '//' + window.location.hostname + ':' + window.location.port)
+        })
       },
       dataType: 'json'
     })
@@ -257,7 +266,7 @@ class GraphsAndFeedback extends Component {
                         <ControlLabel>Since you have made changes to our original calculation, please let us know the
                           reasoning behind your changes.</ControlLabel>
                         {' '}
-                        <FormControl name='feedbackText' componentClass='textarea' placeholder='Thanks!' />
+                        <FormControl name='feedbackText' componentClass='textarea' placeholder='...' />
                         {' '}
                         <ControlLabel>Name (Optional)</ControlLabel>
                         {' '}

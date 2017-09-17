@@ -1,0 +1,600 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0,
+      "id": "{llvm.memmove.p0i8.p0i8.i64}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 1.0,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          1,
+          1,
+          2
+        ],
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 2.0,
+      "id": "{MagickMallocCleared}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0,
+      "id": "{__assert_fail}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0,
+      "id": "{llvm.memcpy.p0i8.p0i8.i64}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 2.0,
+      "id": "{MagickMallocAlignedArray}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 2.0,
+      "id": "{MagickRealloc}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 2.0,
+      "id": "{MagickMallocArray}"
+    },
+    {
+      "data": {
+        "faulty": true,
+        "clustering_coefficient": 1.0,
+        "cvss3": {
+          "attackVector": "NETWORK",
+          "userInteraction": "NONE",
+          "availabilityImpact": "HIGH",
+          "confidentialityImpact": "HIGH",
+          "baseSeverity": "HIGH",
+          "privilegesRequired": "NONE",
+          "vectorString": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "baseScore": 8.1,
+          "scope": "UNCHANGED",
+          "attackComplexity": "HIGH",
+          "integrityImpact": "HIGH"
+        },
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          1,
+          1,
+          2
+        ],
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 999,
+      "id": "{MagickFreeAligned}"
+    },
+    {
+      "data": {
+        "faulty": true,
+        "clustering_coefficient": 0.5,
+        "cvss3": {
+          "attackVector": "NETWORK",
+          "userInteraction": "NONE",
+          "availabilityImpact": "HIGH",
+          "confidentialityImpact": "HIGH",
+          "baseSeverity": "CRITICAL",
+          "privilegesRequired": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "baseScore": 9.8,
+          "scope": "UNCHANGED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "HIGH"
+        },
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          1,
+          3,
+          4
+        ],
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 999,
+      "id": "{MagickFree}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          1,
+          2
+        ],
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0,
+      "id": "{free}"
+    },
+    {
+      "data": {
+        "faulty": true,
+        "clustering_coefficient": 0.3333333333333333,
+        "cvss3": {
+          "attackVector": "NETWORK",
+          "userInteraction": "NONE",
+          "availabilityImpact": "HIGH",
+          "confidentialityImpact": "HIGH",
+          "baseSeverity": "CRITICAL",
+          "privilegesRequired": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "baseScore": 9.8,
+          "scope": "UNCHANGED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "HIGH"
+        },
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          1,
+          3,
+          4
+        ],
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 999,
+      "id": "{MagickMalloc}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.03571428571428571,
+        "distance_to_interface": 2,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          0,
+          8,
+          8
+        ],
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0.0,
+      "id": "Node0x17ed790"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          1,
+          2
+        ],
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0,
+      "id": "{realloc}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 2.0,
+      "id": "{MagickMallocAligned}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0,
+      "id": "{llvm.memset.p0i8.i64}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.6666666666666666,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          0,
+          3,
+          3
+        ],
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 2.0,
+      "id": "{MagickArraySize}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.04736842105263158,
+        "distance_to_interface": 0,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          20,
+          0,
+          20
+        ],
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0.0,
+      "id": "{external node}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.0,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          1,
+          2
+        ],
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0,
+      "id": "{malloc}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0.3333333333333333,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0,
+      "id": "{posix_memalign}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0,
+      "id": "{MagickAllocFunctions}"
+    },
+    {
+      "data": {
+        "faulty": false,
+        "clustering_coefficient": 0,
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0,
+      "id": "{llvm.dbg.declare}"
+    },
+    {
+      "data": {
+        "faulty": true,
+        "clustering_coefficient": 1.0,
+        "cvss3": {
+          "attackVector": "NETWORK",
+          "userInteraction": "NONE",
+          "availabilityImpact": "HIGH",
+          "confidentialityImpact": "HIGH",
+          "baseSeverity": "HIGH",
+          "privilegesRequired": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+          "baseScore": 8.1,
+          "scope": "UNCHANGED",
+          "attackComplexity": "HIGH",
+          "integrityImpact": "HIGH"
+        },
+        "distance_to_interface": 1,
+        "macke_bug_chain_length": 1,
+        "node_degree": [
+          1,
+          1,
+          2
+        ],
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 2.0
+      },
+      "type": 999,
+      "id": "{MagickCloneMemory}"
+    }
+  ],
+  "links": [
+    {
+      "target": "{MagickMalloc}",
+      "source": "{MagickMallocCleared}"
+    },
+    {
+      "target": "Node0x17ed790",
+      "source": "{__assert_fail}"
+    },
+    {
+      "target": "{MagickMallocAligned}",
+      "source": "{MagickMallocAlignedArray}"
+    },
+    {
+      "target": "{MagickArraySize}",
+      "source": "{MagickMallocAlignedArray}"
+    },
+    {
+      "target": "Node0x17ed790",
+      "source": "{MagickRealloc}"
+    },
+    {
+      "target": "Node0x17ed790",
+      "source": "{MagickRealloc}"
+    },
+    {
+      "target": "{MagickFree}",
+      "source": "{MagickRealloc}"
+    },
+    {
+      "target": "{MagickMalloc}",
+      "source": "{MagickMallocArray}"
+    },
+    {
+      "target": "{MagickArraySize}",
+      "source": "{MagickMallocArray}"
+    },
+    {
+      "target": "{MagickFree}",
+      "source": "{MagickFreeAligned}"
+    },
+    {
+      "target": "Node0x17ed790",
+      "source": "{MagickFree}"
+    },
+    {
+      "target": "Node0x17ed790",
+      "source": "{free}"
+    },
+    {
+      "target": "Node0x17ed790",
+      "source": "{MagickMalloc}"
+    },
+    {
+      "target": "Node0x17ed790",
+      "source": "{realloc}"
+    },
+    {
+      "target": "{posix_memalign}",
+      "source": "{MagickMallocAligned}"
+    },
+    {
+      "target": "{free}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{free}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{llvm.memcpy.p0i8.p0i8.i64}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{MagickMalloc}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{posix_memalign}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{realloc}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{realloc}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{MagickCloneMemory}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{MagickFree}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{llvm.memmove.p0i8.p0i8.i64}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{MagickMallocAligned}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{MagickRealloc}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{llvm.memset.p0i8.i64}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{malloc}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{malloc}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{MagickMallocAlignedArray}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{MagickAllocFunctions}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{MagickMallocCleared}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{MagickMallocArray}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{llvm.dbg.declare}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{MagickFreeAligned}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{MagickArraySize}",
+      "source": "{external node}"
+    },
+    {
+      "target": "Node0x17ed790",
+      "source": "{malloc}"
+    },
+    {
+      "target": "Node0x17ed790",
+      "source": "{posix_memalign}"
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{MagickCloneMemory}"
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{MagickCloneMemory}"
+    }
+  ]
+}

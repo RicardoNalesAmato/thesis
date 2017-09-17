@@ -6,6 +6,7 @@ from anytree import Node, RenderTree, Resolver
 from anytree.dotexport import RenderTreeGraph
 from networkx.readwrite import json_graph
 
+
 # Find a specific node by name
 def find_node(data, node_label):
     for node in data["nodes"]:
@@ -146,8 +147,8 @@ def distance_to_interface(tree, node_name):
 
 
 # Print results out.
-def generate_json():
-    requested_node = find_node(data, node_name)
+def generate_json(node_id):
+    requested_node = node_id
     connected_list = generate_connected_list(requested_node)
     disposable_tree = copy.deepcopy(tree)
 
@@ -210,21 +211,19 @@ def macke_attributes(node_name):
 def front_end_json():
     nodes = []
     links = []
-    from random import randint
     for link in data["links"]:
         link["source"] = find_label(link["source"])
         link["target"] = find_label(link["target"])
         links.append(link)
     for node in data["nodes"]:
-        type = 0
         if "label" in node:
             node["id"] = node["label"]
             del node["label"]
-            node["data"] = results_json[node['id']]
-            type = results_json[node['id']]['distance_to_interface'] * results_json[node['id']][
-                'macke_vulnerabilities_found'] * results_json[node['id']]['macke_bug_chain_length'] * \
-                   results_json[node['id']]['node_degree'][2] * results_json[node['id']][
-                       'clustering_coefficient'] if not results_json[node['id']]['faulty'] else 999
+        node["data"] = results_json[node['id']]
+        type = results_json[node['id']]['distance_to_interface'] * results_json[node['id']][
+            'macke_vulnerabilities_found'] * results_json[node['id']]['macke_bug_chain_length'] * \
+               results_json[node['id']]['node_degree'][2] * results_json[node['id']][
+                   'clustering_coefficient'] if not results_json[node['id']]['faulty'] else 999
         if "shape" in node:
             del node["shape"]
 
@@ -261,13 +260,16 @@ else:
     RenderTreeGraph(tree).to_picture(sys.argv[1] + "_callgraph.png")
 
     # For testing purposes only -- Displays the current tree
-    for pre, fill, node in RenderTree(tree):
-        print("%s%s" % (pre, node.name))
+    # for pre, fill, node in RenderTree(tree):
+    #     print("%s%s" % (pre, node.name))
 
     for node in data["nodes"]:
         if "label" in node:
             node_name = node['label']
-            generate_json()
+        else:
+            node_name = node['id']
+        generate_json(node['id'])
+
     with open(sys.argv[1] + '_node_attributes.json', 'w') as fp:
         json.dump(results_json, fp)
 
