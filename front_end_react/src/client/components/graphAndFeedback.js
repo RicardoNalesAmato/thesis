@@ -11,8 +11,6 @@ const nodeData = (
   <h4>Node Data</h4>
 )
 
-let code = require('../../resources/reference_code/input-tga.c')
-
 import {
   Grid,
   Row,
@@ -72,6 +70,7 @@ class GraphsAndFeedback extends Component {
   }
 
   render () {
+    let code = require('../../resources/reference_code/' + this.props.programName + '.c')
     return (
       <Grid>
         <Row className='show-grid'>
@@ -120,7 +119,7 @@ class GraphsAndFeedback extends Component {
             <Panel header={<Button>Code</Button>} bsStyle='success' collapsible>
               <Breadcrumb>
                 <Breadcrumb.Item href={code.toString()} target='_blank'>
-                  input-tga.c
+                  To code
                 </Breadcrumb.Item>
               </Breadcrumb>
             </Panel>
@@ -266,7 +265,7 @@ class GraphsAndFeedback extends Component {
                         <ControlLabel>Since you have made changes to our original calculation, please let us know the
                           reasoning behind your changes.</ControlLabel>
                         {' '}
-                        <FormControl name='feedbackText' componentClass='textarea' placeholder='...' />
+                        <FormControl name='feedbackText' componentClass='textarea' placeholder='...' required />
                         {' '}
                         <ControlLabel>Name (Optional)</ControlLabel>
                         {' '}
@@ -290,6 +289,7 @@ class GraphsAndFeedback extends Component {
                 </Col>
               </Row>
               <input hidden type='text' id='visitedNodes' name='visitedNodes' />
+              <input hidden type='text' id='programName' name='programName' value={this.props.programName} readOnly />
             </FormGroup>
           </Form>
         </Row>
@@ -299,7 +299,8 @@ class GraphsAndFeedback extends Component {
 }
 
 GraphsAndFeedback.propTypes = {
-  program: PropTypes.object
+  program: PropTypes.object,
+  programName: PropTypes.string
 }
 
 export default GraphsAndFeedback

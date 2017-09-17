@@ -12,7 +12,7 @@ class ProgramSelector extends Component {
     program = require('../../resources/graphs/' + this.props.match.params.program + '.json')
     return (
       <Route path='/graphs/:program' render={props => (
-        <GraphsAndFeedback {...props} program={program} />
+        <GraphsAndFeedback {...props} program={program} programName={this.props.match.params.program} />
       )} />
     )
   }

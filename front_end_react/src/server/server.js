@@ -50,7 +50,7 @@ server.post('/feedback', (req, res) => {
   let name = typeof req.body.name !== 'undefined' ? req.body.name : ''
   let email = typeof req.body.email !== 'undefined' ? req.body.email : ''
 
-  connection.query('INSERT INTO feedback (name, email, comment, selected_nodes) VALUES (?, ?, ?, ?)', [name, email, req.body.feedbackText, req.body.visitedNodes], function (err, result) {
+  connection.query('INSERT INTO feedback (program, name, email, comment, selected_nodes) VALUES (?, ?, ?, ?, ?)', [req.body.programName, name, email, req.body.feedbackText, req.body.visitedNodes], function (err, result) {
     if (err) throw err
     res.send(result)
   })

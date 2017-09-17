@@ -11,12 +11,14 @@ let canUseDOM = !!(
 
 if (canUseDOM) {
   $ = require('jquery')
-  feedbackPanel = $('#feedbackPanel').addClass('hidden')
-  cvssPanel = $('#cvssPanel').addClass('hidden')
-  cvssScorePanel = $('#cvssScorePanel').addClass('hidden')
 }
 
 export function createGraph (data) {
+  if (canUseDOM) {
+    feedbackPanel = $('#feedbackPanel').addClass('hidden')
+    cvssPanel = $('#cvssPanel').addClass('hidden')
+    cvssScorePanel = $('#cvssScorePanel').addClass('hidden')
+  }
   let svg = d3.select('svg')
 
   let width = svg.attr('width')

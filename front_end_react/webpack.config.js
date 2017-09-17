@@ -47,15 +47,8 @@ module.exports = [
           loader: 'babel-loader'
         },
         {
-          test: /\.css|scss$/,
+          test: /\.css|scss|png|c$/,
           loader: 'ignore-loader'
-        },
-        {
-          test: /\.c$/,
-          loader: 'file-loader',
-          options: {
-            name: 'code/[name].[ext]'
-          }
         }
       ].concat(commonLoaders)
     }
@@ -99,6 +92,11 @@ module.exports = [
           options: {
             name: 'code/[name].[ext]'
           }
+        },
+        {
+          test: /\.png$/,
+          exclude: /node_modules/,
+          loader: 'file-loader?name=images/[name].[ext]'
         }
       ],
       loaders: [
