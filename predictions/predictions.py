@@ -93,6 +93,7 @@ def generate_predictions():
                 if 'cvss3' not in function['data']:
                     data = function['data']
                     if data['macke_vulnerabilities_found'] > 0:
+                        data['faulty'] = True
                         test_values = [data['clustering_coefficient'], data['distance_to_interface'],
                                        data['macke_bug_chain_length'],
                                        data['macke_vulnerabilities_found'], data['node_degree'][2],
@@ -194,7 +195,7 @@ def generate_cvss3_object(av, ac, p, ui, s, c, i, ai):
     cvss3_base_score_details = CVSS3(cvss3['vectorString']).cvss_base_score()
     cvss3['baseScore'] = cvss3_base_score_details[0]
     cvss3['baseSeverity'] = cvss3_base_score_details[1].capitalize()
-
+    cvss3['predicted'] = True
     return cvss3
 
 
