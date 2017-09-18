@@ -1,7 +1,7 @@
 import * as d3 from 'd3'
 import CVSS from './cvss3.js'
 
-let visitedNodes = {}
+let visitedNodes
 let $, feedbackPanel, cvssPanel, cvssScorePanel, selectedNode
 let canUseDOM = !!(
   typeof window !== 'undefined' &&
@@ -14,6 +14,7 @@ if (canUseDOM) {
 }
 
 export function createGraph (data) {
+  visitedNodes = {}
   if (canUseDOM) {
     feedbackPanel = $('#feedbackPanel').addClass('hidden')
     cvssPanel = $('#cvssPanel').addClass('hidden')
@@ -155,13 +156,13 @@ function nodeData (node) {
   // Add visited node to the set
   visitedNodes[selectedNode.id] = 'selected'
   let visitedNodesDOM = $('#visitedNodes')
-  console.log(visitedNodesDOM.val())
   visitedNodesDOM.val('')
   for (let key in visitedNodes) {
     if (visitedNodes.hasOwnProperty(key)) {
       visitedNodesDOM.val(visitedNodesDOM.val() + key)
     }
   }
+  console.log(visitedNodesDOM.val())
   // Displaying the data
   $('#nodeName').text(selectedNode.id)
   $('#nodeClustering').text(selectedNode.data.clustering_coefficient)
@@ -171,8 +172,7 @@ function nodeData (node) {
   $('#nodeDegree').text(selectedNode.data.node_degree[2])
   $('#nodePathLength').text(selectedNode.data.node_path_length)
   $('#nodeHasCvss').text(selectedNode.data.faulty)
-  if (selectedNode.data.faulty) {
-    // TODO if the code snippet exists, open up another collapsed Panel, that expands upon request
+  if (selectedNode.data.faulty || selectedNode.data.macke_vulnerabilities_found > 0) {
     cvssPanel.removeClass('hidden')
     let cvssValues = selectedNode.data.cvss3.vectorString.split('/')
     cvssValues.forEach(function (value) {
