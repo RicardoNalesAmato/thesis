@@ -13,7 +13,7 @@ let bodyParser = require('body-parser')
 let mysql = require('mysql')
 
 let connection = mysql.createConnection({
-  host: 'localhost',
+  host: process.env.DB_PORT_3306_TCP_ADDR,
   user: 'root',
   password: 'root',
   database: 'tum_feedback'

@@ -39,7 +39,7 @@ class App extends Component {
               </small>
             </Col>
             <Col xs={2} md={1}>
-              <a href='mailto:ognawala@in.tum.de?subject=Feedback&cc=rnalesa@gmail.com'>
+              <a href='mailto:ognawala@in.tum.de?subject=Feedback&cc=ricardo.nales@tum.de'>
                 <img width={50} height={50} src='https://furtaev.ru/preview/mail_3_small.png' alt='Image' />
               </a>
             </Col>
