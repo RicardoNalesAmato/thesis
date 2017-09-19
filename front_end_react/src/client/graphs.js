@@ -2,7 +2,7 @@ import * as d3 from 'd3'
 import CVSS from './cvss3.js'
 
 let visitedNodes
-let $, feedbackPanel, cvssPanel, cvssScorePanel, selectedNode
+let $, cvssPanel, cvssScorePanel, selectedNode
 let canUseDOM = !!(
   typeof window !== 'undefined' &&
   window.document &&
@@ -16,7 +16,6 @@ if (canUseDOM) {
 export function createGraph (data) {
   visitedNodes = {}
   if (canUseDOM) {
-    feedbackPanel = $('#feedbackPanel').addClass('hidden')
     cvssPanel = $('#cvssPanel').addClass('hidden')
     cvssScorePanel = $('#cvssScorePanel').addClass('hidden')
   }
@@ -184,12 +183,10 @@ function nodeData (node) {
     // Add listeners to radio buttons
     $('input[type=radio]').change(function () {
       updateScores()
-      feedbackPanel.removeClass('hidden')
     })
   } else {
     cvssScorePanel.addClass('hidden')
     cvssPanel.addClass('hidden')
-    feedbackPanel.addClass('hidden')
   }
   // Display the node data
   $('#nodeData').removeClass('hidden')

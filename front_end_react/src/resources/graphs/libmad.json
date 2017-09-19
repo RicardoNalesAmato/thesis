@@ -1,1 +1,863 @@
-{"nodes": [{"id": "{llvm.lifetime.start}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 0}, "type": 0}, {"id": "{mad_bit_nextbyte}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.3333333333333333, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{__assert_fail}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.3333333333333333, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{malloc}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.3333333333333333, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{mad_bit_init}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.3333333333333333, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{mad_bit_read}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.3333333333333333, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{external node}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 0, "clustering_coefficient": 0.0661764705882353, "node_degree": [17, 0, 17], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 0}, "type": 0.0}, {"id": "{llvm.memmove.p0i8.p0i8.i64}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 0}, "type": 0}, {"id": "{llvm.memcpy.p0i8.p0i8.i64}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 0}, "type": 0}, {"id": "{calloc}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.3333333333333333, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{fastsdct}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 3, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 5.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 0}, "type": 0}, {"id": "{mad_bit_skip}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.3333333333333333, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{mad_layer_III}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "clustering_coefficient": 0.13636363636363635, "faulty": true, "node_degree": [11, 1, 12], "cvss3": {"scope": "UNCHANGED", "userInteraction": "REQUIRED", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H", "attackComplexity": "LOW", "privilegesRequired": "NONE", "integrityImpact": "HIGH", "availabilityImpact": "HIGH", "attackVector": "LOCAL", "baseSeverity": "HIGH", "baseScore": 7.8, "confidentialityImpact": "HIGH"}, "macke_vulnerabilities_found": 1, "node_path_length": 1.332899022801303}, "type": 999}, {"id": "{III_imdct_l}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 2, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [1, 1, 2], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{mad_bit_crc}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.3333333333333333, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{llvm.dbg.value}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 0}, "type": 0}, {"id": "{III_imdct_s}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 2, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 5.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 0}, "type": 0}, {"id": "{llvm.memset.p0i8.i64}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 0}, "type": 0}, {"id": "{llvm.lifetime.end}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 0}, "type": 0}, {"id": "Node0x1c91fe0", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 2, "clustering_coefficient": 0.0, "node_degree": [0, 9, 9], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 0}, "type": 0.0}, {"id": "{llvm.dbg.declare}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 0}, "type": 0}, {"id": "{mad_bit_length}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.3333333333333333, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}], "links": [{"target": "Node0x1c91fe0", "source": "{mad_bit_nextbyte}"}, {"target": "Node0x1c91fe0", "source": "{__assert_fail}"}, {"target": "Node0x1c91fe0", "source": "{malloc}"}, {"target": "Node0x1c91fe0", "source": "{mad_bit_init}"}, {"target": "Node0x1c91fe0", "source": "{mad_bit_read}"}, {"target": "{malloc}", "source": "{external node}"}, {"target": "{mad_layer_III}", "source": "{external node}"}, {"target": "{llvm.lifetime.end}", "source": "{external node}"}, {"target": "{mad_bit_nextbyte}", "source": "{external node}"}, {"target": "{mad_bit_init}", "source": "{external node}"}, {"target": "{mad_bit_read}", "source": "{external node}"}, {"target": "{llvm.memset.p0i8.i64}", "source": "{external node}"}, {"target": "{mad_bit_crc}", "source": "{external node}"}, {"target": "{mad_bit_length}", "source": "{external node}"}, {"target": "{llvm.dbg.value}", "source": "{external node}"}, {"target": "{llvm.memmove.p0i8.p0i8.i64}", "source": "{external node}"}, {"target": "{__assert_fail}", "source": "{external node}"}, {"target": "{llvm.memcpy.p0i8.p0i8.i64}", "source": "{external node}"}, {"target": "{calloc}", "source": "{external node}"}, {"target": "{llvm.dbg.declare}", "source": "{external node}"}, {"target": "{mad_bit_skip}", "source": "{external node}"}, {"target": "{llvm.lifetime.start}", "source": "{external node}"}, {"target": "Node0x1c91fe0", "source": "{calloc}"}, {"target": "Node0x1c91fe0", "source": "{mad_bit_skip}"}, {"target": "{malloc}", "source": "{mad_layer_III}"}, {"target": "{III_imdct_s}", "source": "{mad_layer_III}"}, {"target": "{III_imdct_s}", "source": "{mad_layer_III}"}, {"target": "{III_imdct_s}", "source": "{mad_layer_III}"}, {"target": "{__assert_fail}", "source": "{mad_layer_III}"}, {"target": "{__assert_fail}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_nextbyte}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_nextbyte}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_nextbyte}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_init}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_init}", "source": "{mad_layer_III}"}, {"target": "{calloc}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_read}", "source": "{mad_layer_III}"}, {"target": "{III_imdct_l}", "source": "{mad_layer_III}"}, {"target": "{III_imdct_l}", "source": "{mad_layer_III}"}, {"target": "{III_imdct_l}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_skip}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_skip}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_length}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_length}", "source": "{mad_layer_III}"}, {"target": "{mad_bit_crc}", "source": "{mad_layer_III}"}, {"target": "{fastsdct}", "source": "{III_imdct_l}"}, {"target": "{fastsdct}", "source": "{III_imdct_l}"}, {"target": "Node0x1c91fe0", "source": "{mad_bit_crc}"}, {"target": "Node0x1c91fe0", "source": "{mad_bit_length}"}]}
+{
+  "nodes": [
+    {
+      "id": "{llvm.lifetime.start}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{mad_bit_nextbyte}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.3333333333333333,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{__assert_fail}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.3333333333333333,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{malloc}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.3333333333333333,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{mad_bit_init}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.3333333333333333,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{mad_bit_read}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.3333333333333333,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{external node}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 0,
+        "clustering_coefficient": 0.0661764705882353,
+        "node_degree": [
+          17,
+          0,
+          17
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{llvm.memmove.p0i8.p0i8.i64}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{llvm.memcpy.p0i8.p0i8.i64}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{calloc}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.3333333333333333,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{fastsdct}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 3,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 5.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{mad_bit_skip}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.3333333333333333,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{mad_layer_III}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.13636363636363635,
+        "faulty": true,
+        "node_degree": [
+          11,
+          1,
+          12
+        ],
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "userInteraction": "REQUIRED",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "attackComplexity": "LOW",
+          "privilegesRequired": "NONE",
+          "integrityImpact": "HIGH",
+          "availabilityImpact": "HIGH",
+          "attackVector": "LOCAL",
+          "baseSeverity": "HIGH",
+          "baseScore": 7.8,
+          "confidentialityImpact": "HIGH"
+        },
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.332899022801303
+      },
+      "type": 999
+    },
+    {
+      "id": "{III_imdct_l}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 2,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          1,
+          1,
+          2
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{mad_bit_crc}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.3333333333333333,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{llvm.dbg.value}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{III_imdct_s}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 2,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 5.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{llvm.memset.p0i8.i64}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{llvm.lifetime.end}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "Node0x1c91fe0",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 2,
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          0,
+          9,
+          9
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{llvm.dbg.declare}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{mad_bit_length}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.3333333333333333,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    }
+  ],
+  "links": [
+    {
+      "target": "Node0x1c91fe0",
+      "source": "{mad_bit_nextbyte}"
+    },
+    {
+      "target": "Node0x1c91fe0",
+      "source": "{__assert_fail}"
+    },
+    {
+      "target": "Node0x1c91fe0",
+      "source": "{malloc}"
+    },
+    {
+      "target": "Node0x1c91fe0",
+      "source": "{mad_bit_init}"
+    },
+    {
+      "target": "Node0x1c91fe0",
+      "source": "{mad_bit_read}"
+    },
+    {
+      "target": "{malloc}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{mad_layer_III}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{llvm.lifetime.end}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{mad_bit_nextbyte}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{mad_bit_init}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{llvm.memset.p0i8.i64}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{mad_bit_crc}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{mad_bit_length}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{llvm.dbg.value}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{llvm.memmove.p0i8.p0i8.i64}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{llvm.memcpy.p0i8.p0i8.i64}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{calloc}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{llvm.dbg.declare}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{mad_bit_skip}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{llvm.lifetime.start}",
+      "source": "{external node}"
+    },
+    {
+      "target": "Node0x1c91fe0",
+      "source": "{calloc}"
+    },
+    {
+      "target": "Node0x1c91fe0",
+      "source": "{mad_bit_skip}"
+    },
+    {
+      "target": "{malloc}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{III_imdct_s}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{III_imdct_s}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{III_imdct_s}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_nextbyte}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_nextbyte}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_nextbyte}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_init}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_init}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{calloc}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_read}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{III_imdct_l}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{III_imdct_l}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{III_imdct_l}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_skip}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_skip}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_length}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_length}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{mad_bit_crc}",
+      "source": "{mad_layer_III}"
+    },
+    {
+      "target": "{fastsdct}",
+      "source": "{III_imdct_l}"
+    },
+    {
+      "target": "{fastsdct}",
+      "source": "{III_imdct_l}"
+    },
+    {
+      "target": "Node0x1c91fe0",
+      "source": "{mad_bit_crc}"
+    },
+    {
+      "target": "Node0x1c91fe0",
+      "source": "{mad_bit_length}"
+    }
+  ]
+}

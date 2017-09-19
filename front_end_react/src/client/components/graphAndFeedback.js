@@ -267,11 +267,11 @@ class GraphsAndFeedback extends Component {
                         {' '}
                         <FormControl name='feedbackText' componentClass='textarea' placeholder='...' required />
                         {' '}
-                        <ControlLabel>Name (Optional)</ControlLabel>
+                        <ControlLabel>Name ( Your name and e-mail are optional, but by filling them out you have the chance to win Amazon prizes!</ControlLabel>
                         {' '}
                         <FormControl name='name' type='text' placeholder='Type your name here' />
                         {' '}
-                        <ControlLabel>Email (Optional)</ControlLabel>
+                        <ControlLabel>Email</ControlLabel>
                         {' '}
                         <FormControl name='email' type='email' placeholder='email@example.com' />
                         {' '}

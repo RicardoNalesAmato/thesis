@@ -1,1 +1,1869 @@
-{"nodes": [{"id": "{coeff_filter}", "data": {"macke_bug_chain_length": 3, "distance_to_interface": 4, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 5.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 0}, "type": 0}, {"id": "{expand_func}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 2, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 5.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [0, 2, 2], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 0}, "type": 0.0}, {"id": "{ass_pre_blur3_horz_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{find_best_method}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 2, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.1, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "HIGH", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.1, "node_degree": [4, 1, 5], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.68}, "type": 1.0}, {"id": "{ass_blur1246_vert_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{ass_stripe_pack_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 5.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 0}, "type": 0}, {"id": "{ass_pre_blur3_vert_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{ass_blur1235_vert_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{ass_shrink_horz_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{ass_blur1246_horz_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{blur_func}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 2, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 5.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [0, 6, 6], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 0}, "type": 0.0}, {"id": "{ass_blur1235_horz_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{ass_gaussian_blur}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 5.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.38095238095238093, "node_degree": [6, 1, 7], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.7202797202797202}, "type": 2.6666666666666665}, {"id": "{ass_aligned_free}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.6666666666666666, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{pre_blur1_func}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 2, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 5.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [0, 2, 2], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 0}, "type": 0.0}, {"id": "{llvm.memcpy.p0i8.p0i8.i64}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 0}, "type": 0}, {"id": "{realloc_bitmap}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.6666666666666666, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{ass_expand_horz_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{ass_aligned_alloc}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.6666666666666666, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{__assert_fail}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.6666666666666666, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{frexp}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.0, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{ass_stripe_unpack_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 5.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 0}, "type": 0}, {"id": "Node0x1d99840", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 2, "clustering_coefficient": 0.1111111111111111, "node_degree": [0, 9, 9], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 0}, "type": 0.0}, {"id": "{external node}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 0, "clustering_coefficient": 0.009195402298850575, "node_degree": [30, 0, 30], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 0}, "type": 0.0}, {"id": "{copy_line}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 2, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 8.1, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H", "confidentialityImpact": "HIGH"}, "clustering_coefficient": 0.0, "node_degree": [1, 8, 9], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{sqrt}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.0, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{calc_matrix}", "data": {"macke_bug_chain_length": 3, "distance_to_interface": 4, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 5.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 0}, "type": 0}, {"id": "{ass_expand_vert_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{ass_pre_blur1_horz_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{ass_blur1234_vert_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{ass_blur1234_horz_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{shrink_func}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 2, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 5.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [0, 2, 2], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 0}, "type": 0.0}, {"id": "{ass_shrink_vert_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{ass_pre_blur2_horz_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Critical", "baseScore": 9.1, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H", "confidentialityImpact": "HIGH"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.5}, "type": 0.0}, {"id": "{pre_blur2_func}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 2, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 5.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [0, 2, 2], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 0}, "type": 0.0}, {"id": "{pow}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.0, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{ass_pre_blur2_vert_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{get_line}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 2, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.1, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H", "confidentialityImpact": "HIGH"}, "clustering_coefficient": 0.0, "node_degree": [0, 9, 9], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 0}, "type": 0.0}, {"id": "{exp}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0.0, "node_degree": [1, 2, 3], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 1.0}, "type": 0.0}, {"id": "{calc_coeff}", "data": {"macke_bug_chain_length": 2, "distance_to_interface": 3, "cvss3": {"scope": "UNCHANGED", "userInteraction": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "attackComplexity": "LOW", "privilegesRequired": "NONE", "integrityImpact": "NONE", "availabilityImpact": "HIGH", "attackVector": "NETWORK", "baseSeverity": "HIGH", "baseScore": 7.5, "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.1, "node_degree": [4, 1, 5], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 999}, {"id": "{ass_pre_blur1_vert_c}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 1, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "High", "baseScore": 7.5, "userInteraction": "NONE", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [2, 1, 3], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 0.0}, {"id": "{llvm.memset.p0i8.i64}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 0}, "type": 0}, {"id": "{coeff_blur121}", "data": {"macke_bug_chain_length": 3, "distance_to_interface": 4, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 5.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 0}, "type": 0}, {"id": "{pre_blur3_func}", "data": {"macke_bug_chain_length": 1, "distance_to_interface": 2, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "LOCAL", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 5.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.0, "node_degree": [0, 2, 2], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 0}, "type": 0.0}, {"id": "{llvm.dbg.declare}", "data": {"macke_bug_chain_length": 0, "distance_to_interface": 1, "clustering_coefficient": 0, "node_degree": [0, 1, 1], "faulty": false, "macke_vulnerabilities_found": 0, "node_path_length": 0}, "type": 0}, {"id": "{calc_gauss}", "data": {"macke_bug_chain_length": 5, "distance_to_interface": 3, "cvss3": {"scope": "UNCHANGED", "predicted": true, "attackVector": "NETWORK", "privilegesRequired": "NONE", "availabilityImpact": "HIGH", "baseSeverity": "Medium", "baseScore": 6.5, "userInteraction": "REQUIRED", "attackComplexity": "LOW", "integrityImpact": "NONE", "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H", "confidentialityImpact": "NONE"}, "clustering_coefficient": 0.16666666666666666, "node_degree": [2, 2, 4], "faulty": true, "macke_vulnerabilities_found": 1, "node_path_length": 1.0}, "type": 10.0}], "links": [{"target": "{pre_blur3_func}", "source": "{ass_pre_blur3_horz_c}"}, {"target": "{copy_line}", "source": "{ass_pre_blur3_horz_c}"}, {"target": "{copy_line}", "source": "{ass_pre_blur3_horz_c}"}, {"target": "{frexp}", "source": "{find_best_method}"}, {"target": "{calc_gauss}", "source": "{find_best_method}"}, {"target": "{calc_coeff}", "source": "{find_best_method}"}, {"target": "{pow}", "source": "{find_best_method}"}, {"target": "{get_line}", "source": "{ass_blur1246_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1246_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1246_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1246_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1246_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1246_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1246_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1246_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1246_vert_c}"}, {"target": "{blur_func}", "source": "{ass_blur1246_vert_c}"}, {"target": "{get_line}", "source": "{ass_pre_blur3_vert_c}"}, {"target": "{get_line}", "source": "{ass_pre_blur3_vert_c}"}, {"target": "{get_line}", "source": "{ass_pre_blur3_vert_c}"}, {"target": "{get_line}", "source": "{ass_pre_blur3_vert_c}"}, {"target": "{get_line}", "source": "{ass_pre_blur3_vert_c}"}, {"target": "{get_line}", "source": "{ass_pre_blur3_vert_c}"}, {"target": "{get_line}", "source": "{ass_pre_blur3_vert_c}"}, {"target": "{pre_blur3_func}", "source": "{ass_pre_blur3_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1235_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1235_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1235_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1235_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1235_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1235_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1235_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1235_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1235_vert_c}"}, {"target": "{blur_func}", "source": "{ass_blur1235_vert_c}"}, {"target": "{shrink_func}", "source": "{ass_shrink_horz_c}"}, {"target": "{copy_line}", "source": "{ass_shrink_horz_c}"}, {"target": "{copy_line}", "source": "{ass_shrink_horz_c}"}, {"target": "{copy_line}", "source": "{ass_shrink_horz_c}"}, {"target": "{blur_func}", "source": "{ass_blur1246_horz_c}"}, {"target": "{copy_line}", "source": "{ass_blur1246_horz_c}"}, {"target": "{copy_line}", "source": "{ass_blur1246_horz_c}"}, {"target": "{blur_func}", "source": "{ass_blur1235_horz_c}"}, {"target": "{copy_line}", "source": "{ass_blur1235_horz_c}"}, {"target": "{copy_line}", "source": "{ass_blur1235_horz_c}"}, {"target": "Node0x1d99840", "source": "{ass_gaussian_blur}"}, {"target": "Node0x1d99840", "source": "{ass_gaussian_blur}"}, {"target": "Node0x1d99840", "source": "{ass_gaussian_blur}"}, {"target": "Node0x1d99840", "source": "{ass_gaussian_blur}"}, {"target": "Node0x1d99840", "source": "{ass_gaussian_blur}"}, {"target": "Node0x1d99840", "source": "{ass_gaussian_blur}"}, {"target": "Node0x1d99840", "source": "{ass_gaussian_blur}"}, {"target": "Node0x1d99840", "source": "{ass_gaussian_blur}"}, {"target": "Node0x1d99840", "source": "{ass_gaussian_blur}"}, {"target": "Node0x1d99840", "source": "{ass_gaussian_blur}"}, {"target": "{__assert_fail}", "source": "{ass_gaussian_blur}"}, {"target": "{realloc_bitmap}", "source": "{ass_gaussian_blur}"}, {"target": "{find_best_method}", "source": "{ass_gaussian_blur}"}, {"target": "{ass_aligned_alloc}", "source": "{ass_gaussian_blur}"}, {"target": "{ass_aligned_free}", "source": "{ass_gaussian_blur}"}, {"target": "{ass_aligned_free}", "source": "{ass_gaussian_blur}"}, {"target": "Node0x1d99840", "source": "{ass_aligned_free}"}, {"target": "Node0x1d99840", "source": "{realloc_bitmap}"}, {"target": "{expand_func}", "source": "{ass_expand_horz_c}"}, {"target": "{expand_func}", "source": "{ass_expand_horz_c}"}, {"target": "{expand_func}", "source": "{ass_expand_horz_c}"}, {"target": "{copy_line}", "source": "{ass_expand_horz_c}"}, {"target": "{copy_line}", "source": "{ass_expand_horz_c}"}, {"target": "{copy_line}", "source": "{ass_expand_horz_c}"}, {"target": "{copy_line}", "source": "{ass_expand_horz_c}"}, {"target": "Node0x1d99840", "source": "{ass_aligned_alloc}"}, {"target": "Node0x1d99840", "source": "{__assert_fail}"}, {"target": "Node0x1d99840", "source": "{frexp}"}, {"target": "{ass_aligned_alloc}", "source": "{external node}"}, {"target": "{ass_pre_blur2_horz_c}", "source": "{external node}"}, {"target": "{__assert_fail}", "source": "{external node}"}, {"target": "{frexp}", "source": "{external node}"}, {"target": "{sqrt}", "source": "{external node}"}, {"target": "{ass_pre_blur3_horz_c}", "source": "{external node}"}, {"target": "{ass_stripe_unpack_c}", "source": "{external node}"}, {"target": "{ass_blur1246_vert_c}", "source": "{external node}"}, {"target": "{ass_stripe_pack_c}", "source": "{external node}"}, {"target": "{ass_expand_vert_c}", "source": "{external node}"}, {"target": "{ass_pre_blur3_vert_c}", "source": "{external node}"}, {"target": "{ass_blur1234_vert_c}", "source": "{external node}"}, {"target": "{ass_blur1235_vert_c}", "source": "{external node}"}, {"target": "{ass_pre_blur1_horz_c}", "source": "{external node}"}, {"target": "{ass_shrink_horz_c}", "source": "{external node}"}, {"target": "{ass_blur1234_horz_c}", "source": "{external node}"}, {"target": "{ass_blur1246_horz_c}", "source": "{external node}"}, {"target": "{exp}", "source": "{external node}"}, {"target": "{ass_blur1235_horz_c}", "source": "{external node}"}, {"target": "{ass_shrink_vert_c}", "source": "{external node}"}, {"target": "{ass_gaussian_blur}", "source": "{external node}"}, {"target": "{ass_aligned_free}", "source": "{external node}"}, {"target": "{pow}", "source": "{external node}"}, {"target": "{ass_pre_blur2_vert_c}", "source": "{external node}"}, {"target": "{llvm.memset.p0i8.i64}", "source": "{external node}"}, {"target": "{llvm.memcpy.p0i8.p0i8.i64}", "source": "{external node}"}, {"target": "{ass_pre_blur1_vert_c}", "source": "{external node}"}, {"target": "{realloc_bitmap}", "source": "{external node}"}, {"target": "{ass_expand_horz_c}", "source": "{external node}"}, {"target": "{llvm.dbg.declare}", "source": "{external node}"}, {"target": "{get_line}", "source": "{copy_line}"}, {"target": "Node0x1d99840", "source": "{sqrt}"}, {"target": "{get_line}", "source": "{ass_expand_vert_c}"}, {"target": "{get_line}", "source": "{ass_expand_vert_c}"}, {"target": "{get_line}", "source": "{ass_expand_vert_c}"}, {"target": "{expand_func}", "source": "{ass_expand_vert_c}"}, {"target": "{pre_blur1_func}", "source": "{ass_pre_blur1_horz_c}"}, {"target": "{copy_line}", "source": "{ass_pre_blur1_horz_c}"}, {"target": "{copy_line}", "source": "{ass_pre_blur1_horz_c}"}, {"target": "{get_line}", "source": "{ass_blur1234_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1234_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1234_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1234_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1234_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1234_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1234_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1234_vert_c}"}, {"target": "{get_line}", "source": "{ass_blur1234_vert_c}"}, {"target": "{blur_func}", "source": "{ass_blur1234_vert_c}"}, {"target": "{blur_func}", "source": "{ass_blur1234_horz_c}"}, {"target": "{copy_line}", "source": "{ass_blur1234_horz_c}"}, {"target": "{copy_line}", "source": "{ass_blur1234_horz_c}"}, {"target": "{shrink_func}", "source": "{ass_shrink_vert_c}"}, {"target": "{get_line}", "source": "{ass_shrink_vert_c}"}, {"target": "{get_line}", "source": "{ass_shrink_vert_c}"}, {"target": "{get_line}", "source": "{ass_shrink_vert_c}"}, {"target": "{get_line}", "source": "{ass_shrink_vert_c}"}, {"target": "{get_line}", "source": "{ass_shrink_vert_c}"}, {"target": "{get_line}", "source": "{ass_shrink_vert_c}"}, {"target": "{copy_line}", "source": "{ass_pre_blur2_horz_c}"}, {"target": "{copy_line}", "source": "{ass_pre_blur2_horz_c}"}, {"target": "{pre_blur2_func}", "source": "{ass_pre_blur2_horz_c}"}, {"target": "Node0x1d99840", "source": "{pow}"}, {"target": "{get_line}", "source": "{ass_pre_blur2_vert_c}"}, {"target": "{get_line}", "source": "{ass_pre_blur2_vert_c}"}, {"target": "{get_line}", "source": "{ass_pre_blur2_vert_c}"}, {"target": "{get_line}", "source": "{ass_pre_blur2_vert_c}"}, {"target": "{get_line}", "source": "{ass_pre_blur2_vert_c}"}, {"target": "{pre_blur2_func}", "source": "{ass_pre_blur2_vert_c}"}, {"target": "Node0x1d99840", "source": "{exp}"}, {"target": "{calc_matrix}", "source": "{calc_coeff}"}, {"target": "{coeff_blur121}", "source": "{calc_coeff}"}, {"target": "{coeff_blur121}", "source": "{calc_coeff}"}, {"target": "{coeff_filter}", "source": "{calc_coeff}"}, {"target": "{coeff_filter}", "source": "{calc_coeff}"}, {"target": "{calc_gauss}", "source": "{calc_coeff}"}, {"target": "{pre_blur1_func}", "source": "{ass_pre_blur1_vert_c}"}, {"target": "{get_line}", "source": "{ass_pre_blur1_vert_c}"}, {"target": "{get_line}", "source": "{ass_pre_blur1_vert_c}"}, {"target": "{get_line}", "source": "{ass_pre_blur1_vert_c}"}, {"target": "{exp}", "source": "{calc_gauss}"}, {"target": "{sqrt}", "source": "{calc_gauss}"}]}
+{
+  "nodes": [
+    {
+      "id": "{coeff_filter}",
+      "data": {
+        "macke_bug_chain_length": 3,
+        "distance_to_interface": 4,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 5.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{expand_func}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 2,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 5.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_pre_blur3_horz_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{find_best_method}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 2,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.1,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "HIGH",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.1,
+        "node_degree": [
+          4,
+          1,
+          5
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.68
+      },
+      "type": 1.0
+    },
+    {
+      "id": "{ass_blur1246_vert_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_stripe_pack_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 5.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{ass_pre_blur3_vert_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_blur1235_vert_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_shrink_horz_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_blur1246_horz_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{blur_func}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 2,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 5.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          0,
+          6,
+          6
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_blur1235_horz_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_gaussian_blur}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 5.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.38095238095238093,
+        "node_degree": [
+          6,
+          1,
+          7
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.7202797202797202
+      },
+      "type": 2.6666666666666665
+    },
+    {
+      "id": "{ass_aligned_free}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.6666666666666666,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{pre_blur1_func}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 2,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 5.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{llvm.memcpy.p0i8.p0i8.i64}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{realloc_bitmap}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.6666666666666666,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_expand_horz_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_aligned_alloc}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.6666666666666666,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{__assert_fail}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.6666666666666666,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{frexp}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_stripe_unpack_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 5.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "Node0x1d99840",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 2,
+        "clustering_coefficient": 0.1111111111111111,
+        "node_degree": [
+          0,
+          9,
+          9
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{external node}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 0,
+        "clustering_coefficient": 0.009195402298850575,
+        "node_degree": [
+          30,
+          0,
+          30
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{copy_line}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 2,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 8.1,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+          "confidentialityImpact": "HIGH"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          1,
+          8,
+          9
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{sqrt}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{calc_matrix}",
+      "data": {
+        "macke_bug_chain_length": 3,
+        "distance_to_interface": 4,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 5.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{ass_expand_vert_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_pre_blur1_horz_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_blur1234_vert_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_blur1234_horz_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{shrink_func}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 2,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 5.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_shrink_vert_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_pre_blur2_horz_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Critical",
+          "baseScore": 9.1,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+          "confidentialityImpact": "HIGH"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.5
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{pre_blur2_func}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 2,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 5.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{pow}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{ass_pre_blur2_vert_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{get_line}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 2,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.1,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+          "confidentialityImpact": "HIGH"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          0,
+          9,
+          9
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{exp}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          1,
+          2,
+          3
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{calc_coeff}",
+      "data": {
+        "macke_bug_chain_length": 2,
+        "distance_to_interface": 3,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "userInteraction": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "attackComplexity": "LOW",
+          "privilegesRequired": "NONE",
+          "integrityImpact": "NONE",
+          "availabilityImpact": "HIGH",
+          "attackVector": "NETWORK",
+          "baseSeverity": "HIGH",
+          "baseScore": 7.5,
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.1,
+        "node_degree": [
+          4,
+          1,
+          5
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 999
+    },
+    {
+      "id": "{ass_pre_blur1_vert_c}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 1,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "High",
+          "baseScore": 7.5,
+          "userInteraction": "NONE",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          2,
+          1,
+          3
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{llvm.memset.p0i8.i64}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{coeff_blur121}",
+      "data": {
+        "macke_bug_chain_length": 3,
+        "distance_to_interface": 4,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 5.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{pre_blur3_func}",
+      "data": {
+        "macke_bug_chain_length": 1,
+        "distance_to_interface": 2,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "LOCAL",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 5.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.0,
+        "node_degree": [
+          0,
+          2,
+          2
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 0
+      },
+      "type": 0.0
+    },
+    {
+      "id": "{llvm.dbg.declare}",
+      "data": {
+        "macke_bug_chain_length": 0,
+        "distance_to_interface": 1,
+        "clustering_coefficient": 0,
+        "node_degree": [
+          0,
+          1,
+          1
+        ],
+        "faulty": false,
+        "macke_vulnerabilities_found": 0,
+        "node_path_length": 0
+      },
+      "type": 0
+    },
+    {
+      "id": "{calc_gauss}",
+      "data": {
+        "macke_bug_chain_length": 5,
+        "distance_to_interface": 3,
+        "cvss3": {
+          "scope": "UNCHANGED",
+          "predicted": true,
+          "attackVector": "NETWORK",
+          "privilegesRequired": "NONE",
+          "availabilityImpact": "HIGH",
+          "baseSeverity": "Medium",
+          "baseScore": 6.5,
+          "userInteraction": "REQUIRED",
+          "attackComplexity": "LOW",
+          "integrityImpact": "NONE",
+          "vectorString": "AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "confidentialityImpact": "NONE"
+        },
+        "clustering_coefficient": 0.16666666666666666,
+        "node_degree": [
+          2,
+          2,
+          4
+        ],
+        "faulty": true,
+        "macke_vulnerabilities_found": 1,
+        "node_path_length": 1.0
+      },
+      "type": 10.0
+    }
+  ],
+  "links": [
+    {
+      "target": "{pre_blur3_func}",
+      "source": "{ass_pre_blur3_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_pre_blur3_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_pre_blur3_horz_c}"
+    },
+    {
+      "target": "{frexp}",
+      "source": "{find_best_method}"
+    },
+    {
+      "target": "{calc_gauss}",
+      "source": "{find_best_method}"
+    },
+    {
+      "target": "{calc_coeff}",
+      "source": "{find_best_method}"
+    },
+    {
+      "target": "{pow}",
+      "source": "{find_best_method}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1246_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1246_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1246_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1246_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1246_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1246_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1246_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1246_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1246_vert_c}"
+    },
+    {
+      "target": "{blur_func}",
+      "source": "{ass_blur1246_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur3_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur3_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur3_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur3_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur3_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur3_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur3_vert_c}"
+    },
+    {
+      "target": "{pre_blur3_func}",
+      "source": "{ass_pre_blur3_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1235_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1235_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1235_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1235_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1235_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1235_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1235_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1235_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1235_vert_c}"
+    },
+    {
+      "target": "{blur_func}",
+      "source": "{ass_blur1235_vert_c}"
+    },
+    {
+      "target": "{shrink_func}",
+      "source": "{ass_shrink_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_shrink_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_shrink_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_shrink_horz_c}"
+    },
+    {
+      "target": "{blur_func}",
+      "source": "{ass_blur1246_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_blur1246_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_blur1246_horz_c}"
+    },
+    {
+      "target": "{blur_func}",
+      "source": "{ass_blur1235_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_blur1235_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_blur1235_horz_c}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "{realloc_bitmap}",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "{find_best_method}",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "{ass_aligned_alloc}",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "{ass_aligned_free}",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "{ass_aligned_free}",
+      "source": "{ass_gaussian_blur}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{ass_aligned_free}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{realloc_bitmap}"
+    },
+    {
+      "target": "{expand_func}",
+      "source": "{ass_expand_horz_c}"
+    },
+    {
+      "target": "{expand_func}",
+      "source": "{ass_expand_horz_c}"
+    },
+    {
+      "target": "{expand_func}",
+      "source": "{ass_expand_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_expand_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_expand_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_expand_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_expand_horz_c}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{ass_aligned_alloc}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{__assert_fail}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{frexp}"
+    },
+    {
+      "target": "{ass_aligned_alloc}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_pre_blur2_horz_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{__assert_fail}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{frexp}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{sqrt}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_pre_blur3_horz_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_stripe_unpack_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_blur1246_vert_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_stripe_pack_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_expand_vert_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_pre_blur3_vert_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_blur1234_vert_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_blur1235_vert_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_pre_blur1_horz_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_shrink_horz_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_blur1234_horz_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_blur1246_horz_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{exp}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_blur1235_horz_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_shrink_vert_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_gaussian_blur}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_aligned_free}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{pow}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_pre_blur2_vert_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{llvm.memset.p0i8.i64}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{llvm.memcpy.p0i8.p0i8.i64}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_pre_blur1_vert_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{realloc_bitmap}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{ass_expand_horz_c}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{llvm.dbg.declare}",
+      "source": "{external node}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{copy_line}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{sqrt}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_expand_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_expand_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_expand_vert_c}"
+    },
+    {
+      "target": "{expand_func}",
+      "source": "{ass_expand_vert_c}"
+    },
+    {
+      "target": "{pre_blur1_func}",
+      "source": "{ass_pre_blur1_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_pre_blur1_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_pre_blur1_horz_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1234_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1234_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1234_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1234_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1234_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1234_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1234_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1234_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_blur1234_vert_c}"
+    },
+    {
+      "target": "{blur_func}",
+      "source": "{ass_blur1234_vert_c}"
+    },
+    {
+      "target": "{blur_func}",
+      "source": "{ass_blur1234_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_blur1234_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_blur1234_horz_c}"
+    },
+    {
+      "target": "{shrink_func}",
+      "source": "{ass_shrink_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_shrink_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_shrink_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_shrink_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_shrink_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_shrink_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_shrink_vert_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_pre_blur2_horz_c}"
+    },
+    {
+      "target": "{copy_line}",
+      "source": "{ass_pre_blur2_horz_c}"
+    },
+    {
+      "target": "{pre_blur2_func}",
+      "source": "{ass_pre_blur2_horz_c}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{pow}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur2_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur2_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur2_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur2_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur2_vert_c}"
+    },
+    {
+      "target": "{pre_blur2_func}",
+      "source": "{ass_pre_blur2_vert_c}"
+    },
+    {
+      "target": "Node0x1d99840",
+      "source": "{exp}"
+    },
+    {
+      "target": "{calc_matrix}",
+      "source": "{calc_coeff}"
+    },
+    {
+      "target": "{coeff_blur121}",
+      "source": "{calc_coeff}"
+    },
+    {
+      "target": "{coeff_blur121}",
+      "source": "{calc_coeff}"
+    },
+    {
+      "target": "{coeff_filter}",
+      "source": "{calc_coeff}"
+    },
+    {
+      "target": "{coeff_filter}",
+      "source": "{calc_coeff}"
+    },
+    {
+      "target": "{calc_gauss}",
+      "source": "{calc_coeff}"
+    },
+    {
+      "target": "{pre_blur1_func}",
+      "source": "{ass_pre_blur1_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur1_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur1_vert_c}"
+    },
+    {
+      "target": "{get_line}",
+      "source": "{ass_pre_blur1_vert_c}"
+    },
+    {
+      "target": "{exp}",
+      "source": "{calc_gauss}"
+    },
+    {
+      "target": "{sqrt}",
+      "source": "{calc_gauss}"
+    }
+  ]
+}

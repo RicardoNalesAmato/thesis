@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Link from 'react-router-dom/Link'
 
+let text = require('../../resources/text/programInformation.json')
+
 import {
   Grid,
   Row,
@@ -95,14 +97,16 @@ class programSelection extends Component {
           <Col xs={9} md={9}>
             {this.state.redirect ? <Panel header='Program Info' bsStyle='info'>
               <Row>
-                <Col xs={9} md={9}>
+                <Col xs={12} md={12}>
                   <div id={'programInfo'}>
-                    Info about {this.state.redirect}
+                    <p>
+                      {text[this.state.redirect]}
+                    </p>
                   </div>
                 </Col>
               </Row>
               <Row>
-                <Col xs={9} md={9}>
+                <Col xs={12} md={12}>
                   <Link to={'/graphs/' + this.state.redirect}>
                     <Button bsStyle='success'>
                       View Callgraph
