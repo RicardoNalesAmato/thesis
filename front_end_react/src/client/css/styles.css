@@ -16,3 +16,11 @@
 .frame {
     outline: 1px solid black;
 }
+
+.circle {
+    border-radius: 20px;
+    color: white;
+    height: 20px;
+    font-weight: bold;
+    width: 20px;
+}

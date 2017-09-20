@@ -123,6 +123,58 @@ class GraphsAndFeedback extends Component {
                 </Breadcrumb.Item>
               </Breadcrumb>
             </Panel>
+            <Panel header={<Button>Vulnerability Color Coding</Button>} bsStyle='success' collapsible>
+              <Row>
+                <Col md={1}>
+                  <p className='circle' style={{backgroundColor: '#53aa33'}} />
+                </Col>
+                <Col md={5}>
+                  <p>
+                    0.0 None
+                  </p>
+                </Col>
+              </Row>
+              <Row>
+                <Col md={1}>
+                  <p className='circle' style={{backgroundColor: '#ffcb0d'}} />
+                </Col>
+                <Col md={5}>
+                  <p>
+                    0.1 - 3.9 Low
+                  </p>
+                </Col>
+              </Row>
+              <Row>
+                <Col md={1}>
+                  <p className='circle' style={{backgroundColor: '#f9a009'}} />
+                </Col>
+                <Col md={5}>
+                  <p>
+                    4.0 - 6.9 Medium
+                  </p>
+                </Col>
+              </Row>
+              <Row>
+                <Col md={1}>
+                  <p className='circle' style={{backgroundColor: '#df3d03'}} />
+                </Col>
+                <Col md={5}>
+                  <p>
+                    7.0 - 8.9 High
+                  </p>
+                </Col>
+              </Row>
+              <Row>
+                <Col md={1}>
+                  <p className='circle' style={{backgroundColor: '#cc0500'}} />
+                </Col>
+                <Col md={5}>
+                  <p>
+                    9.0 - 10.0 Critical
+                  </p>
+                </Col>
+              </Row>
+            </Panel>
           </Col>
         </Row>
         <Row className='show-grid'>
@@ -251,9 +303,9 @@ class GraphsAndFeedback extends Component {
                 </Col>
                 <Col md={3}>
                   <Panel header='CVSS3 Score' bsStyle='danger' id='cvssScorePanel'>
-                    <h2>
+                    <h3>
                       <p id='cvssScore' />
-                    </h2>
+                    </h3>
                   </Panel>
                 </Col>
               </Row>
@@ -262,12 +314,11 @@ class GraphsAndFeedback extends Component {
                   <Panel header='Feedback' bsStyle='warning' id='feedbackPanel'>
                     <Row>
                       <Col md={12}>
-                        <ControlLabel>Since you have made changes to our original calculation, please let us know the
-                          reasoning behind your changes.</ControlLabel>
+                        <ControlLabel>Please leave us feedback about our calculations. For example, let us know why you changed base score values, if you did. Or what did you think about the calculated values.</ControlLabel>
                         {' '}
                         <FormControl name='feedbackText' componentClass='textarea' placeholder='...' required />
                         {' '}
-                        <ControlLabel>Name ( Your name and e-mail are optional, but by filling them out you have the chance to win Amazon prizes!</ControlLabel>
+                        <ControlLabel>Name ( Your name and e-mail are optional, but by filling them out you have the chance to win Amazon prizes!)</ControlLabel>
                         {' '}
                         <FormControl name='name' type='text' placeholder='Type your name here' />
                         {' '}
