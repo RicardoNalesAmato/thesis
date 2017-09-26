@@ -18,7 +18,28 @@
 
 
 \refsection{0}
-  \sortlist[entry]{anyt/global/}
+  \sortlist[entry]{nty/global/}
+    \entry{graphs}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b60a529dd6b177ade41a496694853bd9}{%
+           family={Bondy},
+           familyi={B\bibinitperiod},
+           given={U.\bibnamedelimi S.\bibnamedelimi R},
+           giveni={U\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           suffix={John\bibnamedelimb Adrian;\bibnamedelima Murty},
+           suffixi={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b60a529dd6b177ade41a496694853bd9}
+      \strng{fullhash}{b60a529dd6b177ade41a496694853bd9}
+      \strng{authornamehash}{b60a529dd6b177ade41a496694853bd9}
+      \strng{authorfullhash}{b60a529dd6b177ade41a496694853bd9}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Graph Theory with Applications}
+      \field{year}{1976}
+    \endentry
     \entry{cvss3}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=0c34eac2e992705b5ffc785d79fc8039}{%
@@ -31,7 +52,6 @@
       \strng{fullhash}{0c34eac2e992705b5ffc785d79fc8039}
       \strng{authornamehash}{0c34eac2e992705b5ffc785d79fc8039}
       \strng{authorfullhash}{0c34eac2e992705b5ffc785d79fc8039}
-      \field{labelalpha}{FIR}
       \field{sortinit}{F}
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
@@ -55,13 +75,31 @@
       \strng{fullhash}{9f46a85f6a7eda7a7c48ceac953d8cec}
       \strng{authornamehash}{9f46a85f6a7eda7a7c48ceac953d8cec}
       \strng{authorfullhash}{9f46a85f6a7eda7a7c48ceac953d8cec}
-      \field{labelalpha}{Ogn16}
       \field{sortinit}{O}
       \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{MACKE: Compositional analysis of low-level vulnerabilities with symbolic execution}
       \field{year}{2016}
+    \endentry
+    \entry{dataFlow}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=2028cc173b09c0b4d923fe00a4198463}{%
+           family={Sathe},
+           familyi={S\bibinitperiod},
+           given={Uday\bibnamedelimb Khedker;\bibnamedelimb Amitabha\bibnamedelimb Sanyal;\bibnamedelima Bageshri},
+           giveni={U\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{2028cc173b09c0b4d923fe00a4198463}
+      \strng{fullhash}{2028cc173b09c0b4d923fe00a4198463}
+      \strng{authornamehash}{2028cc173b09c0b4d923fe00a4198463}
+      \strng{authorfullhash}{2028cc173b09c0b4d923fe00a4198463}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Data Flow Analysis: Theory and Practice}
+      \field{year}{2009}
     \endentry
   \endsortlist
 \endrefsection

@@ -8,14 +8,15 @@
 \usepackage[%
   backend=biber,
   url=false,
-  style=alphabetic,
+  style=numeric-comp,
   maxnames=4,
   minnames=3,
   maxbibnames=99,
   giveninits,
   uniquename=init]{biblatex}
 \usepackage{graphicx}
-\usepackage{scrhack} % necessary for listings package
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{scrhack}
 \usepackage{listings}
 \usepackage{lstautogobble}
 \usepackage{tikz}
@@ -30,6 +31,8 @@
 
 \setkomafont{disposition}{\normalfont\bfseries} % use serif font for headings
 \linespread{1.05} % adjust line spread for mathpazo font
+
+\graphicspath{ {figures/} }
 
 % Add table of contents to PDF bookmarks
 \BeforeTOCHead[toc]{{\cleardoublepage\pdfbookmark[0]{\contentsname}{toc}}}

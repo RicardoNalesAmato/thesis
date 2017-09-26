@@ -7,10 +7,6 @@ const cvss3 = (
   <h4>CVSS3 Base Scores</h4>
 )
 
-const nodeData = (
-  <h4>Node Data</h4>
-)
-
 import {
   Grid,
   Row,
@@ -30,7 +26,9 @@ class GraphsAndFeedback extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      program: this.props.program
+      program: this.props.program,
+      openCode: false,
+      openNodeAttributes: false
     }
     this.handleChange = this.handleChange.bind(this)
   }
@@ -52,7 +50,7 @@ class GraphsAndFeedback extends Component {
 
     $.ajax({
       type: 'POST',
-      url: 'http://localhost:9090/feedback',
+      url: window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '/feedback',
       data: $('#feedbackForm').serialize(),
       success: function (data) {
         swal({
@@ -62,7 +60,7 @@ class GraphsAndFeedback extends Component {
           closeOnClickOutside: false,
           closeOnConfirm: true
         }).then(result => {
-          if (result) window.location.assign(window.location.protocol + '//' + window.location.hostname + ':' + window.location.port)
+          console.log(result)
         })
       },
       dataType: 'json'
@@ -78,52 +76,7 @@ class GraphsAndFeedback extends Component {
             <svg width='800' height='600' />
           </Col>
           <Col xs={6} md={4}>
-            <Panel header={nodeData} bsStyle='info'>
-              <div id='nodeData' className='hidden'>
-                <Col xs={6} md={4}>
-                  <Row>
-                    <Label>Name</Label>
-                    <div id='nodeName' style={{marginLeft: 20}} />
-                  </Row>
-                  <Row>
-                    <Label>Clustering Coefficient</Label>
-                    <div id='nodeClustering' style={{marginLeft: 20}} />
-                  </Row>
-                  <Row>
-                    <Label>Distance to interface</Label>
-                    <div id='nodeDistance' style={{marginLeft: 20}} />
-                  </Row>
-                  <Row>
-                    <Label>Vulnerabilities found by Macke</Label>
-                    <div id='nodeMackeVul' style={{marginLeft: 20}} />
-                  </Row>
-                  <Row>
-                    <Label>Macke bug chain length</Label>
-                    <div id='nodeMackeChain' style={{marginLeft: 20}} />
-                  </Row>
-                  <Row>
-                    <Label>Node degree</Label>
-                    <div id='nodeDegree' style={{marginLeft: 20}} />
-                  </Row>
-                  <Row>
-                    <Label>Node path length</Label>
-                    <div id='nodePathLength' style={{marginLeft: 20}} />
-                  </Row>
-                  <Row>
-                    <Label>CVSS3 Data available</Label>
-                    <div id='nodeHasCvss' style={{marginLeft: 20}} />
-                  </Row>
-                </Col>
-              </div>
-            </Panel>
-            <Panel header={<Button>Code</Button>} bsStyle='success' collapsible>
-              <Breadcrumb>
-                <Breadcrumb.Item href={code.toString()} target='_blank'>
-                  To code
-                </Breadcrumb.Item>
-              </Breadcrumb>
-            </Panel>
-            <Panel header={<Button>Vulnerability Color Coding</Button>} bsStyle='success' collapsible>
+            <Panel header={'Vulnerability Color Coding'} bsStyle='info'>
               <Row>
                 <Col md={1}>
                   <p className='circle' style={{backgroundColor: '#53aa33'}} />
@@ -174,6 +127,51 @@ class GraphsAndFeedback extends Component {
                   </p>
                 </Col>
               </Row>
+            </Panel>
+            <Panel header={<Button onClick={() => this.setState({ openCode: !this.state.openCode })}>Code</Button>} bsStyle='success' collapsible expanded={this.state.openCode}>
+              <Breadcrumb>
+                <Breadcrumb.Item href={code.toString()} target='_blank'>
+                  To code
+                </Breadcrumb.Item>
+              </Breadcrumb>
+            </Panel>
+            <Panel header={<Button onClick={() => this.setState({ openNodeAttributes: !this.state.openNodeAttributes })}>Node Attributes</Button>} bsStyle='info' collapsible expanded={this.state.openNodeAttributes}>
+              <div id='nodeData' className='hidden'>
+                <Col xs={6} md={4}>
+                  <Row>
+                    <Label>Name</Label>
+                    <div id='nodeName' style={{marginLeft: 20}} />
+                  </Row>
+                  <Row>
+                    <Label>Clustering Coefficient</Label>
+                    <div id='nodeClustering' style={{marginLeft: 20}} />
+                  </Row>
+                  <Row>
+                    <Label>Distance to interface</Label>
+                    <div id='nodeDistance' style={{marginLeft: 20}} />
+                  </Row>
+                  <Row>
+                    <Label>Vulnerabilities found by Macke</Label>
+                    <div id='nodeMackeVul' style={{marginLeft: 20}} />
+                  </Row>
+                  <Row>
+                    <Label>Macke bug chain length</Label>
+                    <div id='nodeMackeChain' style={{marginLeft: 20}} />
+                  </Row>
+                  <Row>
+                    <Label>Node degree</Label>
+                    <div id='nodeDegree' style={{marginLeft: 20}} />
+                  </Row>
+                  <Row>
+                    <Label>Node path length</Label>
+                    <div id='nodePathLength' style={{marginLeft: 20}} />
+                  </Row>
+                  <Row>
+                    <Label>CVSS3 Data available</Label>
+                    <div id='nodeHasCvss' style={{marginLeft: 20}} />
+                  </Row>
+                </Col>
+              </div>
             </Panel>
           </Col>
         </Row>

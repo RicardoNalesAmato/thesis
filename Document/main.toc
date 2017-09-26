@@ -8,14 +8,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Motivation}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}The severity of bugs}{1}{section.1.1}
+\contentsline {section}{\numberline {1.1}The severity of vulnerabilities}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}How are bugs found}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}How are vulnerabilities found}{1}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Symbolic execution}{1}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.2}The severity of a vulnerability}{2}{subsection.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}The severity of a bug}{2}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.3}Common Vulnerability Scoring System}{2}{subsection.1.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{3}{chapter*.3}
+\contentsline {section}{\numberline {1.2}Symbolic execution}{2}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{4}{chapter*.4}
+\contentsline {subsection}{\numberline {1.2.1}Modular and Compositional Analysis with KLEE Engine}{3}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Callgraphs}{3}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Directed graph attributes}{4}{subsection.1.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Related Work}{5}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Development}{6}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Results}{7}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Figures}{8}{chapter*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{9}{chapter*.6}
