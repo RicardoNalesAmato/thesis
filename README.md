@@ -5,7 +5,7 @@
 - [x] Read about two classifiers
 - [x] Create script for generating X and Y (based on scikit-learn requirements)
 - [x] Run both classifiers on X and Y and put results on git
-- [ ] Prepare presentation dry-run
+- [x] Prepare presentation dry-run
 
 ### Task list (24.08.2017)
 - [x] Collect CVSS scores Manually from the results of KLEE.
