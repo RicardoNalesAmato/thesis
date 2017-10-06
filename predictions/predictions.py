@@ -3,6 +3,8 @@ import json
 import os
 from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import cross_val_score
+from sklearn import svm
 from lib.pycvss3 import CVSS3
 
 
@@ -240,6 +242,25 @@ else:
     for function in data:
         structure_data.append(prep_data(function))
 
+    clf = svm.SVC(kernel='linear', C=1)
+
+    #  Generating cross-validation scores for all Base Scores
+    scores_AV = cross_val_score(clf, X, y_attack_vector, cv=4)
+    scores_AC = cross_val_score(clf, X, y_attack_complexity, cv=4)
+    scores_PR = cross_val_score(clf, X, y_privileges_required, cv=4)
+    scores_UI = cross_val_score(clf, X, y_user_interaction, cv=4)
+    scores_S  = cross_val_score(clf, X, y_scope, cv=4)
+    scores_C  = cross_val_score(clf, X, y_confidentiality_impact, cv=4)
+    scores_I  = cross_val_score(clf, X, y_integrity_impact, cv=4)
+
+    print("Accuracy AV: %0.2f (+/- %0.2f)" % (scores_AV.mean(), scores_AV.std() * 2))
+    print("Accuracy AC: %0.2f (+/- %0.2f)" % (scores_AC.mean(), scores_AC.std() * 2))
+    print("Accuracy PR: %0.2f (+/- %0.2f)" % (scores_PR.mean(), scores_PR.std() * 2))
+    print("Accuracy UI: %0.2f (+/- %0.2f)" % (scores_UI.mean(), scores_UI.std() * 2))
+    print("Accuracy S: %0.2f (+/- %0.2f)" % (scores_S.mean(), scores_S.std() * 2))
+    print("Accuracy C: %0.2f (+/- %0.2f)" % (scores_C.mean(), scores_C.std() * 2))
+    print("Accuracy I: %0.2f (+/- %0.2f)" % (scores_I.mean(), scores_I.std() * 2))
+
     # Attack Vector Learners
     gaussian_av_learner = gaussian_learner(X, y_attack_vector)
     rf_av_learner = random_forest_learner(X, y_attack_vector)
@@ -272,7 +293,7 @@ else:
     gaussian_ai_learner = gaussian_learner(X, y_availability_impact)
     rf_ai_learner = random_forest_learner(X, y_availability_impact)
 
-    generate_predictions()
+    # generate_predictions()
 
     # for node in prediction_set:
     #     for key, node in node.items():
@@ -292,7 +313,8 @@ else:
     #               rf_s_learner.predict([test_values]), rf_c_learner.predict([test_values]),
     #               rf_i_learner.predict([test_values]),
     #               rf_ai_learner.predict([test_values]))
-    #   Feature importances
+
+    # Feature importances
     # print('Random Forest feature importance:')
     # print('AV\t', rf_av_learner.feature_importances_)
     # print('AC\t', rf_ac_learner.feature_importances_)
