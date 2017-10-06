@@ -242,16 +242,17 @@ else:
     for function in data:
         structure_data.append(prep_data(function))
 
-    clf = svm.SVC(kernel='linear', C=1)
+    svm_clf = svm.SVC(kernel='linear', C=1)
+    random_forest_clf = RandomForestClassifier(random_state=0)
 
     #  Generating cross-validation scores for all Base Scores
-    scores_AV = cross_val_score(clf, X, y_attack_vector, cv=4)
-    scores_AC = cross_val_score(clf, X, y_attack_complexity, cv=4)
-    scores_PR = cross_val_score(clf, X, y_privileges_required, cv=4)
-    scores_UI = cross_val_score(clf, X, y_user_interaction, cv=4)
-    scores_S  = cross_val_score(clf, X, y_scope, cv=4)
-    scores_C  = cross_val_score(clf, X, y_confidentiality_impact, cv=4)
-    scores_I  = cross_val_score(clf, X, y_integrity_impact, cv=4)
+    scores_AV = cross_val_score(random_forest_clf, X, y_attack_vector, cv=4)
+    scores_AC = cross_val_score(random_forest_clf, X, y_attack_complexity, cv=4)
+    scores_PR = cross_val_score(random_forest_clf, X, y_privileges_required, cv=4)
+    scores_UI = cross_val_score(random_forest_clf, X, y_user_interaction, cv=4)
+    scores_S  = cross_val_score(random_forest_clf, X, y_scope, cv=4)
+    scores_C  = cross_val_score(random_forest_clf, X, y_confidentiality_impact, cv=4)
+    scores_I  = cross_val_score(random_forest_clf, X, y_integrity_impact, cv=4)
 
     print("Accuracy AV: %0.2f (+/- %0.2f)" % (scores_AV.mean(), scores_AV.std() * 2))
     print("Accuracy AC: %0.2f (+/- %0.2f)" % (scores_AC.mean(), scores_AC.std() * 2))
