@@ -6,30 +6,168 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Abstract}{iv}{chapter*.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Motivation}{1}{chapter.1}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}The severity of vulnerabilities}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Motivation}{4}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}How are vulnerabilities found}{1}{subsection.1.1.1}
+\contentsline {section}{\numberline {2.1}The severity of vulnerabilities}{4}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}The severity of a vulnerability}{2}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {2.1.1}How are vulnerabilities found}{4}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Common Vulnerability Scoring System}{2}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {2.1.2}The severity of a vulnerability}{5}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Symbolic execution}{2}{section.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Common Vulnerability Scoring System}{5}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Modular and Compositional Analysis with KLEE Engine}{3}{subsection.1.2.1}
+\contentsline {section}{\numberline {2.2}Symbolic execution}{5}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Callgraphs}{3}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Modular and Compositional Analysis with KLEE Engine}{6}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Directed graph attributes}{4}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {2.2.2}Callgraphs}{6}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Related Work}{5}{chapter.2}
+\contentsline {section}{\numberline {2.3}Putting it all together}{7}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Development}{6}{chapter.3}
+\contentsline {chapter}{\numberline {3}Methodology and implementation}{8}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Results}{7}{chapter.4}
+\contentsline {section}{\numberline {3.1}Research phase}{8}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline List of Figures}{8}{chapter*.5}
+\contentsline {subsection}{\numberline {3.1.1}Understanding LLVM}{8}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{9}{chapter*.6}
+\contentsline {subsection}{\numberline {3.1.2}Getting to know KLEE}{9}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Compositional symbolic execution through MACKE}{10}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.4}Call graphs}{12}{subsection.3.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.5}Directed graphs and Node Attributes}{14}{subsection.3.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Node degree}{15}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Clustering coefficient}{15}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Effective eccentricity}{16}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Path length}{16}{section*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Node attributes found through MACKE}{17}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Vulnerabilities found by Macke}{17}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Macke bug chain length}{17}{section*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Exploring CVSS base scores, and their meaning}{17}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Attack Vector (AV)}{17}{section*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Attack Complexity (AC)}{18}{section*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Privileges Required (PR)}{18}{section*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Privileges Required (PR)}{19}{section*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline User Interaction (UI)}{19}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Scope (S)}{20}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Confidentiality (C)}{20}{section*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Integrity (I)}{20}{section*.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Availability (A)}{21}{section*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Implementation phase}{21}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Finding a reliable Vulnerabilities Database and suitable programs to analyze}{21}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Bugzilla database}{22}{section*.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline NVD - National Vulnerability Database}{23}{section*.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Getting vulnerabilities and their source code}{24}{section*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Running all programs through MACKE}{25}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.3}Analisis of the vulnerabilities found}{26}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.4}Calculating node attributes}{28}{subsection.3.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.5}Correlation found}{29}{subsection.3.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.6}Learning CVSS base score values from node attributes}{30}{subsection.3.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.7}Framework implementation}{31}{subsection.3.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Evaluation}{33}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Experiments}{34}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Docker container setup}{34}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Pre-processing the data}{34}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}CVSS score assignment}{34}{subsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.4}Runnig MACKE on programs}{34}{subsection.4.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.5}Getting Call Graphs and Node Attributes}{34}{subsection.4.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.6}Learning Setup}{34}{subsection.4.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Split dataset}{34}{section*.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.7}Front-end implementation}{34}{subsection.4.1.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.8}Survey}{34}{subsection.4.1.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.9}Including Feedback}{34}{subsection.4.1.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Results}{34}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}CVSS Scores found}{34}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}MACKE vulnerabilities found}{34}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Common vulnerabilities found on NVD}{34}{section*.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Unique undocumented vulnerabilities found}{34}{section*.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}Learning results}{34}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.4}Survey Results}{34}{subsection.4.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.5}Future work}{34}{subsection.4.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Related Work}{35}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}MACKE's ranking of vulnerabilities}{35}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}MACKE's severity assessment}{36}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline L and len chain (f)}{38}{section*.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline I and is int(f)}{38}{section*.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline N and vuln inst(f)}{38}{section*.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline D and d interface(f)}{38}{section*.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline is outlier(f)}{38}{section*.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline MACKE's severity assessment}{39}{section*.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline What can we take away?}{39}{section*.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}A Novel Automatic Severity Vulnerability Assessment Framework}{39}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}How to improve upon current QVAS?}{40}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Pipeline of the ASVA framework}{40}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Is ASVA an improvement over our current framework}{42}{subsection.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Conclusion}{43}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Figures}{44}{chapter*.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline List of Tables}{45}{chapter*.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{46}{chapter*.51}

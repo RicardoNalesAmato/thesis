@@ -20,25 +20,145 @@
 \refsection{0}
   \sortlist[entry]{nty/global/}
     \entry{graphs}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=b60a529dd6b177ade41a496694853bd9}{%
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ede9a751c89cfb23d2465884121b6ca6}{%
            family={Bondy},
            familyi={B\bibinitperiod},
-           given={U.\bibnamedelimi S.\bibnamedelimi R},
-           giveni={U\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod},
-           suffix={John\bibnamedelimb Adrian;\bibnamedelima Murty},
-           suffixi={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+           given={John\bibnamedelima Adrian},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=b4ac94ede8a7b1b29472cb06b5c1c380}{%
+           family={Murty},
+           familyi={M\bibinitperiod},
+           given={U.\bibnamedelimi S.\bibnamedelimi R.},
+           giveni={U\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
-      \strng{namehash}{b60a529dd6b177ade41a496694853bd9}
-      \strng{fullhash}{b60a529dd6b177ade41a496694853bd9}
-      \strng{authornamehash}{b60a529dd6b177ade41a496694853bd9}
-      \strng{authorfullhash}{b60a529dd6b177ade41a496694853bd9}
+      \strng{namehash}{ead9a7ca6d37a79f43accbeddead2a02}
+      \strng{fullhash}{ead9a7ca6d37a79f43accbeddead2a02}
+      \strng{authornamehash}{ead9a7ca6d37a79f43accbeddead2a02}
+      \strng{authorfullhash}{ead9a7ca6d37a79f43accbeddead2a02}
       \field{sortinit}{B}
       \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Graph Theory with Applications}
       \field{year}{1976}
+    \endentry
+    \entry{exeBook}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=3ebca8838d3863f547f4ccf0ca77e00b}{%
+           family={Cadar},
+           familyi={C\bibinitperiod},
+           given={et\bibnamedelima al.},
+           giveni={e\bibinitperiod\bibinitdelim a\bibinitperiod},
+           suffix={C.},
+           suffixi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ebca8838d3863f547f4ccf0ca77e00b}
+      \strng{fullhash}{3ebca8838d3863f547f4ccf0ca77e00b}
+      \strng{authornamehash}{3ebca8838d3863f547f4ccf0ca77e00b}
+      \strng{authorfullhash}{3ebca8838d3863f547f4ccf0ca77e00b}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{EXE: Automatically generating inputs of death}
+      \field{year}{2006}
+    \endentry
+    \entry{bugzilla}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=53b3284a34f92c91734cdfe7433306d8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           prefix={bugzilla.org},
+           prefixi={b\bibinitperiod}}}%
+      }
+      \strng{namehash}{53b3284a34f92c91734cdfe7433306d8}
+      \strng{fullhash}{53b3284a34f92c91734cdfe7433306d8}
+      \strng{authornamehash}{53b3284a34f92c91734cdfe7433306d8}
+      \strng{authorfullhash}{53b3284a34f92c91734cdfe7433306d8}
+      \field{sortinit}{c}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bugzilla}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.bugzilla.org/
+      \endverb
+    \endentry
+    \entry{nvd}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=53b3284a34f92c91734cdfe7433306d8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           prefix={bugzilla.org},
+           prefixi={b\bibinitperiod}}}%
+      }
+      \strng{namehash}{53b3284a34f92c91734cdfe7433306d8}
+      \strng{fullhash}{53b3284a34f92c91734cdfe7433306d8}
+      \strng{authornamehash}{53b3284a34f92c91734cdfe7433306d8}
+      \strng{authorfullhash}{53b3284a34f92c91734cdfe7433306d8}
+      \field{sortinit}{c}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NIST}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://nvd.nist.gov/
+      \endverb
+    \endentry
+    \entry{klee}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=2112d277d00e0ee70b98ef25da8f053a}{%
+           family={Cristian\bibnamedelima Cadar},
+           familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Dawson\bibnamedelima Engler},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           suffix={Daniel\bibnamedelima Dunbar},
+           suffixi={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{2112d277d00e0ee70b98ef25da8f053a}
+      \strng{fullhash}{2112d277d00e0ee70b98ef25da8f053a}
+      \strng{authornamehash}{2112d277d00e0ee70b98ef25da8f053a}
+      \strng{authorfullhash}{2112d277d00e0ee70b98ef25da8f053a}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs}
+      \field{year}{2008}
+    \endentry
+    \entry{numpy}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d0e571b3062ab10ba3406b58fa165b2d}{%
+           family={developers},
+           familyi={d\bibinitperiod},
+           given={NumPy},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0e571b3062ab10ba3406b58fa165b2d}
+      \strng{fullhash}{d0e571b3062ab10ba3406b58fa165b2d}
+      \strng{authornamehash}{d0e571b3062ab10ba3406b58fa165b2d}
+      \strng{authorfullhash}{d0e571b3062ab10ba3406b58fa165b2d}
+      \field{sortinit}{d}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NumPy}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.numpy.org
+      \endverb
     \endentry
     \entry{cvss3}{misc}{}
       \name{author}{1}{}{%
@@ -61,20 +181,208 @@
       \verb https://www.first.org/cvss/cvss-v30-specification-v1.8.pdf
       \endverb
     \endentry
-    \entry{ognawala}{book}{}
+    \entry{callgraphs}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=9f46a85f6a7eda7a7c48ceac953d8cec}{%
+        {{uniquename=0,hash=6876a2c1dbb11421a388958e0ce6f91a}{%
+           family={G.},
+           familyi={G\bibinitperiod},
+           given={Agrawal},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6876a2c1dbb11421a388958e0ce6f91a}
+      \strng{fullhash}{6876a2c1dbb11421a388958e0ce6f91a}
+      \strng{authornamehash}{6876a2c1dbb11421a388958e0ce6f91a}
+      \strng{authorfullhash}{6876a2c1dbb11421a388958e0ce6f91a}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Demand-Driven Construction of Call Graphs}
+      \field{year}{2000}
+    \endentry
+    \entry{dot}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8f2c99066d776c46471abb2d894da470}{%
+           family={Graphviz},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f2c99066d776c46471abb2d894da470}
+      \strng{fullhash}{8f2c99066d776c46471abb2d894da470}
+      \strng{authornamehash}{8f2c99066d776c46471abb2d894da470}
+      \strng{authorfullhash}{8f2c99066d776c46471abb2d894da470}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Graphviz}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.graphviz.org/Documentation.php
+      \endverb
+    \endentry
+    \entry{llvm}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d4b7f903ba286272e03987dad5c1968e}{%
+           family={Group},
+           familyi={G\bibinitperiod},
+           given={LLVM\bibnamedelima Developer},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4b7f903ba286272e03987dad5c1968e}
+      \strng{fullhash}{d4b7f903ba286272e03987dad5c1968e}
+      \strng{authornamehash}{d4b7f903ba286272e03987dad5c1968e}
+      \strng{authorfullhash}{d4b7f903ba286272e03987dad5c1968e}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The LLVM Compiler Infrastructure}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://llvm.org/
+      \endverb
+    \endentry
+    \entry{thomasThesis}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=fdfa77f893b7f1c279c049cba61dead1}{%
+           family={Hutzelmann},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Technische Universität München, Universität Augsburg und Ludwig-Maximilians-Universität München}%
+      }
+      \strng{namehash}{fdfa77f893b7f1c279c049cba61dead1}
+      \strng{fullhash}{fdfa77f893b7f1c279c049cba61dead1}
+      \strng{authornamehash}{fdfa77f893b7f1c279c049cba61dead1}
+      \strng{authorfullhash}{fdfa77f893b7f1c279c049cba61dead1}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Compositional Analysis for Exposing Vulnerabilities -- A Symbolic Execution Approach}
+      \field{type}{mathesis}
+      \field{year}{2016}
+    \endentry
+    \entry{scikit}{online}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=33543b3b48546110d4354673c91ef8d1}{%
+           family={INRIA},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1409f3f75f3305b56ebb7f7007b4162}
+      \strng{fullhash}{f1409f3f75f3305b56ebb7f7007b4162}
+      \strng{authornamehash}{f1409f3f75f3305b56ebb7f7007b4162}
+      \strng{authorfullhash}{f1409f3f75f3305b56ebb7f7007b4162}
+      \field{sortinit}{I}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SciKit}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://scikit-learn.org/stable/#
+      \endverb
+    \endentry
+    \entry{graphClassification}{book}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=9efb67f4063a66737c5e2f61aaf5c44b}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Geng},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=975d5e4e645440ca9565a1e7630b3ffc}{%
+           family={Semerci†},
+           familyi={S\bibinitperiod},
+           given={Murat},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=03afaab9e897b4c03c06de3f99265dfc}{%
+           family={Yener},
+           familyi={Y\bibinitperiod},
+           given={Bülent},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=143fcb6112b4bb1d37f250cb9f70efd2}{%
+           family={Zaki},
+           familyi={Z\bibinitperiod},
+           given={Mohammed\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{19e052530812b367d3bdf7215510d4d7}
+      \strng{fullhash}{19e052530812b367d3bdf7215510d4d7}
+      \strng{authornamehash}{19e052530812b367d3bdf7215510d4d7}
+      \strng{authorfullhash}{19e052530812b367d3bdf7215510d4d7}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Graph Classification via Topological and Label Attributes}
+      \field{year}{2011}
+    \endentry
+    \entry{ricardo}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=bcc60141ce3ea82eb5010dd189fad163}{%
+           family={Nales},
+           familyi={N\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{bcc60141ce3ea82eb5010dd189fad163}
+      \strng{fullhash}{bcc60141ce3ea82eb5010dd189fad163}
+      \strng{authornamehash}{bcc60141ce3ea82eb5010dd189fad163}
+      \strng{authorfullhash}{bcc60141ce3ea82eb5010dd189fad163}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thesis's Codebase}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://github.com/Rydros/thesis
+      \endverb
+    \endentry
+    \entry{ognawala}{book}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=2da85f9b4ab88bc9424188291a0666a2}{%
            family={Ognawala},
            familyi={O\bibinitperiod},
-           given={et\bibnamedelima al.},
-           giveni={e\bibinitperiod\bibinitdelim a\bibinitperiod},
-           suffix={S.},
-           suffixi={S\bibinitperiod}}}%
+           given={Saahil},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=c438757bb3d80a601f0ede4f7c82ae16}{%
+           family={Ochoa},
+           familyi={O\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=b97a51976ed8d1c8ff95582081bb2025}{%
+           family={Pretschner},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=a80041a7e245034b8b1c88457de07b00}{%
+           family={Limmer},
+           familyi={L\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{9f46a85f6a7eda7a7c48ceac953d8cec}
-      \strng{fullhash}{9f46a85f6a7eda7a7c48ceac953d8cec}
-      \strng{authornamehash}{9f46a85f6a7eda7a7c48ceac953d8cec}
-      \strng{authorfullhash}{9f46a85f6a7eda7a7c48ceac953d8cec}
+      \strng{namehash}{a3875488a3370efdfe873834a055084d}
+      \strng{fullhash}{a3875488a3370efdfe873834a055084d}
+      \strng{authornamehash}{a3875488a3370efdfe873834a055084d}
+      \strng{authorfullhash}{a3875488a3370efdfe873834a055084d}
       \field{sortinit}{O}
       \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
       \field{labelnamesource}{author}
@@ -100,6 +408,40 @@
       \field{labeltitlesource}{title}
       \field{title}{Data Flow Analysis: Theory and Practice}
       \field{year}{2009}
+    \endentry
+    \entry{novelty}{book}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=f271a3791877547766dd17441d986d07}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=747a0d803983fc6ee24cfe0dd78997d7}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yuqing},
+           giveni={Y\bibinitperiod}}}%
+        {{uniquename=0,hash=a746b85571685f147556a7af874cafff}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{uniquename=0,hash=f66c2fa7cf05c01f543e566246f21e0a}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{883c7d7b008e5cca7c3b51bffee285ec}
+      \strng{fullhash}{883c7d7b008e5cca7c3b51bffee285ec}
+      \strng{authornamehash}{883c7d7b008e5cca7c3b51bffee285ec}
+      \strng{authorfullhash}{883c7d7b008e5cca7c3b51bffee285ec}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Novel Automatic Severity Vulnerability Assessment Framework}
+      \field{year}{2015}
     \endentry
   \endsortlist
 \endrefsection

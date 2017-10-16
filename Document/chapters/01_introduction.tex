@@ -1,90 +1,36 @@
 % !TeX root = ../main.tex
-% Add the above to each chapter to make compiling the PDF easier in some editors.
 
-\chapter{Introduction}\label{chapter:introduction}
+\chapter{Introduction}\label{chapter:Introduction}
 
-\section{Section}
-Citation test~\parencite{ognawala}.
+In today's world, where software applications are ever growing, with features being added at a much quicker pace as before has lead to an overflow of vulnerabilities, that also grow ever so complex. These vulnerabilities need to be taken care of, but what if our resources are scarce? if we cannot fix every single vulnerability? how do we know objectively which one should take priority over the rest?
 
-\subsection{Subsection}
+This can be done manually of course if the developers have knowledge in security and how a specific vulnerability could be exploited, and while this works, it also could fall into the realm of the subjectivity. Fortunately, there is a standard that is being adopted rapidly by the IT industry called CVSS or Common Vulnerability Scoring System \parencite{cvss3} which allows us to rate the severity of a vulnerability by extracting some of the properties of the vulnerabilities. This rating is a numerical value from 0 to 10, which could allow us to finally know which vulnerabilities should be prioritized. 
 
-See~\autoref{tab:sample}, \autoref{fig:sample-drawing}, \autoref{fig:sample-plot}, \autoref{fig:sample-listing}.
+The CVSS has been developed by the National Infrastructure Advisory Council (NIAC) in 2003/2004. It's first iteration showed promise in objectively assessing a vulnerability, and gained momentum across the IT industry with its second iteration. In late 2015 CVSS 3.0 -- or CVSS3 -- was released, and has now become a staple in security, when it comes to assessing how severe a vulnerability is, across projects. This in turn has also led to all obscure assessments done by development teams, which were for the most part subjective, to banish in favor of using a standardized metric.
 
-\begin{table}[htpb]
-  \caption[Example table]{An example for a simple table.}\label{tab:sample}
-  \centering
-  \begin{tabular}{l l l l l}
-    \toprule
-      A & B & C & D & F\\
-    \midrule
-      1 & 2 & 1 & 2 & 5 \\
-      2 & 3 & 2 & 3 & 3\\
-    \bottomrule
-  \end{tabular}
-\end{table}
+In order to get the CVSS3 score of a vulnerability we must know certain attributes from it, which CVSS3 refers to as "Base Scores"\parencite{cvss3}. These scores are:
 
-\begin{figure}[htpb]
-  \centering
-  % This should probably go into a file in figures/
-  \begin{tikzpicture}[node distance=3cm]
-    \node (R0) {$R_1$};
-    \node (R1) [right of=R0] {$R_2$};
-    \node (R2) [below of=R1] {$R_4$};
-    \node (R3) [below of=R0] {$R_3$};
-    \node (R4) [right of=R1] {$R_5$};
+\begin{itemize}
+	\item Attack Vector (AV)  - This metric reflects the context by which vulnerability exploitation is possible. The Base Score increases the more remote (logically, and physically) an attacker can be in order to exploit the vulnerable component.  \\
+	\item Attack Complexity (AC)   - This metric describes the conditions beyond the attacker’s control that must exist in order to exploit the vulnerability. Such conditions may require the collection of more information about the target, the presence of certain system configuration settings, or computational exceptions. \\
+	\item Privileges-Required (PR) - This metric describes the level of privileges an attacker must possess before successfully exploiting the vulnerability. This Base Score increases as fewer privileges are required. \\
+	\item User Interaction(UI) - This metric captures the requirement for a user, other than the attacker, to participate in the successful compromise the vulnerable component. This metric determines whether the vulnerability can be exploited solely at the will of the attacker, or whether a separate user (or user-initiated process) must participate in some manner. The Base Score is highest when no user interaction is required. \\
+	\item Scope (S) - Does a successful attack impact a component other than the vulnerable component? If so, the Base Score increases and the Confidentiality, Integrity and Authentication metrics should be scored relative to the impacted component. \\
+	\item Confidentiality (C) - This metric measures the impact to the confidentiality of the information resources managed by a software component due to a successfully exploited vulnerability. Confidentiality refers to limiting information access and disclosure to only authorized users, as well as preventing access by, or disclosure to, unauthorized ones. \\
+	\item Integrity (I) - This metric measures the impact to integrity of a successfully exploited vulnerability. Integrity refers to the trustworthiness and veracity of information. \\
+	\item Availability (A) - This metric measures the impact to the availability of the impacted component resulting from a successfully exploited vulnerability. It refers to the loss of availability of the impacted component itself, such as a networked service (e.g., web, database, email). Since availability refers to the accessibility of information resources, attacks that consume network bandwidth, processor cycles, or disk space all impact the availability of an impacted component. \\
+\end{itemize}
 
-    \path[every node]
-      (R0) edge (R1)
-      (R0) edge (R3)
-      (R3) edge (R2)
-      (R2) edge (R1)
-      (R1) edge (R4);
-  \end{tikzpicture}
-  \caption[Example drawing]{An example for a simple drawing.}\label{fig:sample-drawing}
-\end{figure}
+By finding these values, one can obtain the aforementioned value between 0 and 10, the former being vulnerability that requires no attention and the latter one that needs immediate attention.
 
-\begin{figure}[htpb]
-  \centering
+Finding said vulnerabilities can prove itself difficult, and sometimes costly if it is not fixed before it gets in the hands of externals. Fortunately as well, there are tools that allow us to find vulnerabilities in an automatic fashion, with very high source code coverage by using compositional symbolic execution, such as MACKE \parencite{ognawala}. The problem with this tool is that, though it can find vulnerabilities, we are left with the initially presented issue, how do we know how severe each vulnerability found is? would fixing it make sense, and be worth the investment?
 
-  \pgfplotstableset{col sep=&, row sep=\\}
-  % This should probably go into a file in data/
-  \pgfplotstableread{
-    a & b    \\
-    1 & 1000 \\
-    2 & 1500 \\
-    3 & 1600 \\
-  }\exampleA
-  \pgfplotstableread{
-    a & b    \\
-    1 & 1200 \\
-    2 & 800 \\
-    3 & 1400 \\
-  }\exampleB
-  % This should probably go into a file in figures/
-  \begin{tikzpicture}
-    \begin{axis}[
-        ymin=0,
-        legend style={legend pos=south east},
-        grid,
-        thick,
-        ylabel=Y,
-        xlabel=X
-      ]
-      \addplot table[x=a, y=b]{\exampleA};
-      \addlegendentry{Example A};
-      \addplot table[x=a, y=b]{\exampleB};
-      \addlegendentry{Example B};
-    \end{axis}
-  \end{tikzpicture}
-  \caption[Example plot]{An example for a simple plot.}\label{fig:sample-plot}
-\end{figure}
+The main drive of this thesis emerged from placing those two scenarios together. What if we could use compositional symbolic execution, and get vulnerabilities automatically, that have already been assessed following the CVSS3 standard? This would not only allow teams to find very obscure errors that might be hard to find during Q\&A but also know if they need immediate attention or not.
 
-\begin{figure}[htpb]
-  \centering
-  \begin{tabular}{c}
-  \begin{lstlisting}[language=SQL]
-    SELECT * FROM tbl WHERE tbl.str = "str"
-  \end{lstlisting}
-  \end{tabular}
-  \caption[Example listing]{An example for a source code listing.}\label{fig:sample-listing}
-\end{figure}
+To do this, we would need something that can be analyzed and matched against each of the aforementioned base scores from CVSS3. Luckily, a static call graph can be extracted from all programs that can be run by MACKE, which can be completely analyzed through the use of graph logic \parencite{graphs}. The call graph extracted would be a directed graph, that is nothing more than a collection of nodes and edges, the latter having a source and a target. Their relations have specific attributes and can be thoroughly analyzed and quantified by using graph theory.
+
+To do all of this we would need a reliable point of reference, in our case it being vulnerabilities that have already  been assessed with CVSS3 and their source code. The code will be passed through MACKE, which in turn will find vulnearbilties through compositional symbolic execution. If it is able to find the same vulnerability documented in the database, we would then be in good standing to analyze by taking a look at the attributes of the call graph. 
+
+With the attributes calculated from the vulnerable nodes, and the CVSS3 scores from the database -- which have been manually calculated -- we would be able to correlate them. Furthermore, through the use of machine learning, we expect that if we use the attributes found and the CVSS3 scores for learning, we would be able to get a strong model that could predict the CVSS3 base scores.
+
+Our hypothesis is that by developing a framework, which uses all of the aforementioned procedures, empowers developers and testers, so that they can find vulnerabilities, assess them and correct them as fast as possible, reducing the investment in both testing -- using symbolic execution -- and assessment -- using our framework -- leading to a solution to the initially proposed problem.

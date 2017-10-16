@@ -13,13 +13,15 @@ But in projects where there are more vulnerabilities than resources to assign to
 
 \subsection{How are vulnerabilities found}
 
+Vulnerabilities can be found in several ways, and all of them have different characteristics, \todo{static analysis, dynamic and symbolic}
+
 A vulnerability can be found in a pleathora of ways: it can be a simple semicolon missing from the code, it could be a typo in one variable, these are now-a-days easy to find since there are IDEs (Integrated Development Environment); or it could be that someone overlooked sanitizing an input, that could lead to buffer-overflow errors during runtime. Whichever the source of a given vulnerability, the approach to find a it is always the same: reproduce this error by supplying the inputs that got the software to an unstable state, or in most cases, crashed it.
 
 \subsection{The severity of a vulnerability}
 
-A vulnerability has the power to bring a whole system down. They can be a force to be reckoned with, when it has spawned inside a codebase that has built up to millions of lines of code. A fix for it could be trivial, if a developer understands the nature of the vulnerability, and/or has experience with the system, and/or he introduced the vulnerability himself. 
+A vulnerability has the power to bring a whole system down. They can be a force to be reckoned with, when it has spawned inside a codebase that has built up to millions of lines of code. After a vulnerability has been found, we must know how severe its impact on the system will be, and act accordingly. If a severity has the power of bringing the system down, we know it is quite severe. 
 
-But what happens in the normal occation when a vulnerability is found and there is no easy solution at hand? When resources are scarse and we need to prioritize which vulnerability to focus on next so that our system may continue working as inteded?
+But what happens in the normal occation when a vulnerability is found and there is no way to know how severe it is at first glance? when there are several vulnerabilities that subjectively speeking, all seem to affect the system equally? When resources are scarse and we need to prioritize which vulnerability to focus on next so that our system may continue working as inteded?
 When there are extremely huge time constraints and we can only budget to fix one at a time, because our workforce is limited?
 
 \subsection{Common Vulnerability Scoring System}
@@ -34,6 +36,7 @@ Throughout this thesis we introduce ways to find the severity of a specific vuln
 
 Symbolic execution is a way of testing a program to determine what inputs allow the software to execute. Instead of using normal variables for testing, an interpreter follows the execution assuming symbolic values as the inputs instead of using concrete values -- as per in normal execution -- which can take any value for the given type of the input, thus covering the complete range of possible branches the program could take, therefore discovering vulnerabilities along its way.
 
+
 \subsection{Modular and Compositional Analysis with KLEE Engine}
 
 Throughout this thesis MACKE (Modular and Compositional Analysis with KLEE Engine)\parencite{ognawala} will be used to find vulnerabilities, and callgraphs of programs to fully analize the source of the vulnerability, and the possible severity of it.
@@ -46,7 +49,7 @@ The use of this tool allows us to find an extensive amount of undocumented and d
 
 A callgraph\parencite{dataFlow} is the relationship between functions in a computer program, where several functions are present. It is, for the most part, user readable, and allows for an overall view of a program. It helps to pinpoint functions that might be unused, and if there are a few functions that are too intertwined. In general, a callgraph allows users to find if the intended purpose of the program has been met, and if the means to achieve the result was correct.
 
-\begin{figure}
+\begin{figure}[!htb]
 	\caption{Program callgraph}
 	\centering
 	\includegraphics[width=1.0\textwidth]{callgraph1}
@@ -56,7 +59,12 @@ Call graphs can be dynamic or static. A dynamic call graph is a record of an exe
 
 Call graphs can be defined to represent varying degrees of precision. A more precise call graph more precisely approximates the behavior of the real program, at the cost of taking longer to compute and more memory to store. The most precise call graph is fully context-sensitive, which means that for each procedure, the graph contains a separate node for each call stack that procedure can be activated with. A fully context-sensitive call graph is called a calling context tree. This can be computed dynamically easily, although it may take up a large amount of memory. Calling context trees are usually not computed statically, because it would take too long for a large program. The least precise call graph is context-insensitive, which means that there is only one node for each procedure.
 
-\subsection{Directed graph attributes}
 
-Knowing that we can extract the callgraph of a program, and that it is a set of vertices connected by edges, we know we will be dealing with a directed graph, and that its attributes can be mathematically analyzed.\parencite{graphs} 
+\section{Putting it all together}
+
+By using compositional symbolic execution we would be able to find some vulnerabilities -- as many as MACKE can find in its scope of testing -- and also generate the programs callgraph. By having these two components, and by measuring its vulnerability -- by following the CVSS3 guidelines -- we could correlate the graph attributes to each and every one of the base scores, to see if there is a pattern, which could later then be used to generate a supervised learning algorithm that could automatically give us the CVSS3 scores of bugs found by MACKE. 
+
+The main drive behind doing this is the belief that the relations among functions, and their location in the graph is deeply intertwined with the severity of a vulnerability. A callgraph can tell us if the program is accessible directly, or not, for instance. It can also tell us if a vulnerability will prograpate or not, allowing us to pinpoint the starting and end points of a potential chain of errors.
+
+
 

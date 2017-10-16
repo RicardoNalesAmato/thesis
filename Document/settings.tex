@@ -5,6 +5,8 @@
 \usepackage[sc]{mathpazo}
 \usepackage[ngerman,american]{babel}
 \usepackage[autostyle]{csquotes}
+\usepackage{newverbs}
+\usepackage{url}
 \usepackage[%
   backend=biber,
   url=false,
@@ -61,7 +63,9 @@
 }
 
 % Settings for lstlistings
-\lstset{%
+\lstset{
+  language=C,
+  showstringspaces=false,
   basicstyle=\ttfamily,
   columns=fullflexible,
   autogobble,

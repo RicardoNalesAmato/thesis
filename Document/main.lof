@@ -6,11 +6,43 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces Program callgraph\relax }}{3}{figure.caption.3}
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Program callgraph\relax }}{6}{figure.caption.4}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces C program analyzed by EXE\relax }}{10}{figure.caption.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces EXE symbolic execution\relax }}{11}{figure.caption.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces AutoTrace 0.31.1\relax }}{12}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Node degree\relax }}{15}{figure.caption.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Clustering coefficient\relax }}{16}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces MACKE vulnerabilities found for AutoTrace 0.31.1\relax }}{26}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces NVD documented error for ReadImage\relax }}{27}{figure.caption.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces NVD documented error for rlefread\relax }}{27}{figure.caption.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces AutoTrace 0.31.1 callgraph with redundant edges\relax }}{28}{figure.caption.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces AutoTrace 0.31.1 callgraph without redundant edges\relax }}{29}{figure.caption.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces AutoTrace 0.31.1 node attributes JSON file\relax }}{30}{figure.caption.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces Correlation found of node attributes to CVSS3 scores\relax }}{32}{figure.caption.35}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces MACKE's severity ranking framework using (L=3,I=5,N=2,D=4,O=1)\relax }}{37}{figure.caption.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces The process of ASVA\relax }}{41}{figure.caption.47}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
