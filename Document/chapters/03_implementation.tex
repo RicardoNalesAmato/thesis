@@ -92,7 +92,7 @@ The usage of MACKE is quite similar to that of KLEE; the program must be compile
 MACKE's results are very robust, and showcases the three-step execution it goes through. The main resulting file is "klee.json" which includes the function names of only those where vulnerabilities where found. 
 It shows whether the vulnerability was found in phase 1, which means if the vulnerability was found when each of the components of the program were isolated and executed. If it shows phase 2, it means that the vulnerability was found at a lower level, and found by using the results of phase 1. 
 
-\subsection{Call graphs}
+\subsection{Extraction of Callgraphs} \todo{This subsection's name could change}
 
 By compiling our programs with LLVM we are able to get a bitcode file, which includes all interactions between the program's components (i.e functions, interfaces..). This file will also allow us to generate a call graph of such interactions.
 
@@ -173,13 +173,15 @@ The advantage of having a static call graph is that we can see every single path
 
 What is important about the call graphs is that they can be analyzed by using graph logic.
 
-\subsection{Directed graphs and Node Attributes}
+\subsection{Directed graphs}
 
 Graph theory \parencite{graphs} is the mathematical area that focuses on the analysis of the structure of graphs. A graph can be directed or undirected, the former having vertices that do not depict a source and a target, but only a relation between the two, while the latter does have a source and target, and as the name implies, having a direction, as it was explained in 2.1.4 .
 
-As it also has been explained, we are dealing with static callgraphs which are always directed graphs. Therefore, we set out to explore the different attributes that could be extracted. To this end, we explored graph attributes for classification from \parencite{graphClassification} which we found concise and well documented, as well as using generic formulas from \parencite{graphs}. 
+As it also has been explained, we are dealing with static callgraphs which are always directed graphs. Therefore, we set out to explore the different attributes that could be extracted. To this end, we explored graph attributes for classification from \parencite{graphClassification} which we found concise and well documented, as well as using generic formulas from \parencite{graphs}. Furthermore, while exploring the graph attributes will allow us to get good impact factors to be used as node attributes, we also know that some important factors can be extracted from the results MACKE provides, this based on \parencite{ognawala}.
 
 We will be exploring, and explaining to detail what the considered graph attributes were, and which ones worked for our thesis.
+
+\subsection{Node Attributes}
 
 \subsubsection{Node degree}
 
@@ -239,10 +241,6 @@ This attribute complements the degree and the clustering coefficient nicely, and
 
 It is worth noting that the description we have given, and used only applies to directed graphs, where sources and targets are available, thus explicitly showing the relationships between nodes (e.g parent, child, etc...)
 
-\section{Node attributes found through MACKE}
-
-Getting outside of the realm of graph attributes, and into the results found by MACKE, we were able to get two very valuable node attributes, that we could use for every single function.
-
 \subsubsection{Vulnerabilities found by Macke}
 
 This node attribute depicts how many vulnerabilities MACKE was able to find, like shown in Figure 3.6 . For every vulnerability found, a counter would go up for the function affected. Therefore, if a function had 3 vulnerabilities found, that is the value this node attribute would hold for that specific function.
@@ -251,9 +249,11 @@ This node attribute depicts how many vulnerabilities MACKE was able to find, lik
 
 This node attribute tells us how long a chain of calls was before the vulnerable function was called. To do this, we checked the phase in which each function was called. If a bug was found during phase two, we checked the caller and the callee of each function, until we reached the vulnerability. If a chain was, for instance, 5 functions long, that would be the value represented by this node attribute.
 
-\subsection{Exploring CVSS base scores, and their meaning}
+\section{CVSS scoring}
 
 In our introduction to this thesis, we introduced CVSS -- which we will be naming CVSS3, to explicitly specify that we use version 3.0 throughout this project -- and its importance towards achieving our goal of assessing vulnerabilities as objectively as possible. We also introduced the base scores, what they mean, and how they impact the assessment. Now we will describe in detail what each base score can have as its value, and what each one means.
+
+\subsection{Base scores and their meanings}
 
 All of the following information has been taken from \parencite{cvss3} as our source, to stay true and consistent.
 
@@ -343,6 +343,10 @@ The more data is modifiable after the attack, the more severe the vulnerability 
 	\item High (H) - There is total loss of availability, resulting in the attacker being able to fully deny access to resources in the impacted component; this loss is either sustained (while the attacker continues to deliver the attack) or persistent (the condition persists even after the attack has completed). Alternatively, the attacker has the ability to deny some availability, but the loss of availability presents a direct, serious consequence to the impacted component (e.g., the attacker cannot disrupt existing connections, but can prevent new connections; the attacker can repeatedly exploit a vulnerability that, in each instance of a successful attack, leaks a only small amount of memory, but after repeated exploitation causes a service to become completely unavailable).
 \end{itemize}
 
+\subsection{Calculation of the CVSS3 base score}
+
+\todo{HERE}
+
 \section{Implementation phase}
 
 Now that we have a clearer picture of all the pieces of the puzzle, we need to make it all come together. In order for us to be able to do this, we had to make a very specific plan, and do all of the steps shown in this chapter sequentally, since each one depended on to one that came right before it.
@@ -416,7 +420,6 @@ The programs found are:
 
 \begin{itemize}
 	\item BlueZ 5.42
-	\item AutoTrace 0.31.1
 	\item AutoTrace 0.31.1
 	\item GraphicsMagic 1.3.25
 	\item Icoutils 0.31.1
@@ -564,7 +567,7 @@ The results found are shown in Figure 3.12
 \begin{figure}[!htb]
 	\caption{Correlation found of node attributes to CVSS3 scores}
 	\centering
-	\includegraphics[width=1.0\textwidth]{correlation}
+	\includegraphics[width=0.8\textwidth]{correlation}
 \end{figure}
 
 Out of these results we were able to tell that the correlation for some node attributes was really small, which allowed us to have an idea how important, or irrelevant some node attributes were regarding some CVSS3 base scores. Furthermore, we also thought that while the results were not so encouraging, we needed to use this data for learning, and see how accurate it could actually be.
@@ -582,4 +585,18 @@ Therefore, we would be able to generate a model that based on the node attribute
 
 In order to do this we used one of the biggest machine learning libraries for Python, called scikit \parencite{scikit}, which allowed us to use several different machine learning algorithms to find whether or not some would fit our needs. The results will be discussed in detail in Chapter 4.
 \subsection{Framework implementation}
-test
+
+In order for all of the development that has been shown previously to be useful for end users, it has to be put together as part of a framework that can be used seemlessly, that is not obtuse, and does not get in the way of assessing the vulnerabilities found through composite symbolic execution. With these requirements in mind, we set out to create a GUI that would empower our end users to do the following:
+
+\begin{itemize}
+	\item View callgraphs for all programs analyzed in this thesis
+	\item Interact with each node in the callgraph
+	\item Each interactable node displays its data
+	\item Depending on the selected node, different options are available
+\end{itemize}
+
+We decided to create a web application, having a backend based on NodeJS and a front-end based on ReactJS and using D3.js to render the callgraphs. The backend would handle the requests and return a pre-rendered view to the frontend of everything to lower loading times on slow computers for some of our users (Known as Server Side Rendering in ReactJS). For every program analyzed through our Python programs, we generated a file that can be parsed by our framework, which has the call graph, and CVSS3 data all in one JSON file. The entire source code is also available at \parencite{ricardo}.
+
+
+
+

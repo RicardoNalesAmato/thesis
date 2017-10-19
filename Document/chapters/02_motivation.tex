@@ -4,7 +4,7 @@
 
 In todays world, all software that has been developed by a team of programmers is bound to have errors, and the amount of them you might have in a project will only keep incrementing if they are not dealt with in a timely manner. Of all these errors that are found, they usually lead to vulnerabilities in our system, which can be exploted in several ways -- ways which will be discussed at a later point in this thesis -- and sometimes the time to fix one vulnerability completely outweights the benefit provided. That is why knowing the severity of a given vulnerability is usualy crucial to assess correctly the amount of resources we need to assign for its correction.
 
-\section{The severity of vulnerabilities}
+\section{Vulnerabilities}
 Since the inception of informatics, errors in code, be it semmantic or synactic, have existed. These errors, as mentioned previously, usually lead to security issues in our application, called software vulnerabilities.
 
 Most errors arise from simple programming mistakes, and vary from one programing language to another, as well as the field where these programms are being put to use. Regardless of how a vulnerability comes to be, a solution needs to be found for it, which usually includes its development, testing, and a deployment.
@@ -13,9 +13,13 @@ But in projects where there are more vulnerabilities than resources to assign to
 
 \subsection{How are vulnerabilities found}
 
-Vulnerabilities can be found in several ways, and all of them have different characteristics, \todo{static analysis, dynamic and symbolic}
-
 A vulnerability can be found in a pleathora of ways: it can be a simple semicolon missing from the code, it could be a typo in one variable, these are now-a-days easy to find since there are IDEs (Integrated Development Environment); or it could be that someone overlooked sanitizing an input, that could lead to buffer-overflow errors during runtime. Whichever the source of a given vulnerability, the approach to find a it is always the same: reproduce this error by supplying the inputs that got the software to an unstable state, or in most cases, crashed it.
+
+There are tools and methodologies to automize the process of discovering vulnerabilities, by testing the program's correctness, optimization, verification, performance, profiling, etc. In our thesis we have decided to opt for symbolic execution as a means of finding vulnerabilities in an automatic manner. The difference of symbolic execution against other types of analysis such as static, or dynamic is that, for instance in a function that would normally receive two integers as its parameters, now receives two symbols, that can take any value possible from the range of integers, thus testing all possible combinations, and testing all possible scenarios, in contrast to static or dynamic were specific values are passed and compared to an expected final state set by us. What symbolic execution provides is a thorough analysis of programs, such that will try to discover vulnerabilities in all possible branches of a given program, whenever a program can be analysed with the proper tools.
+
+\subsubsection{Buffer-overflow vulnerabilities}
+
+\todo{HERE}
 
 \subsection{The severity of a vulnerability}
 
@@ -45,7 +49,7 @@ This tool makes use of symbolic execution techniques at the level of C functions
 
 The use of this tool allows us to find an extensive amount of undocumented and documented bugs. The documented bugs found will be analyzed in the initial phases, since they have already been assessed manually with the CVSS3 framework.
 
-\subsection{Callgraphs}
+\section{Callgraphs}
 
 A callgraph\parencite{dataFlow} is the relationship between functions in a computer program, where several functions are present. It is, for the most part, user readable, and allows for an overall view of a program. It helps to pinpoint functions that might be unused, and if there are a few functions that are too intertwined. In general, a callgraph allows users to find if the intended purpose of the program has been met, and if the means to achieve the result was correct.
 
@@ -54,6 +58,8 @@ A callgraph\parencite{dataFlow} is the relationship between functions in a compu
 	\centering
 	\includegraphics[width=1.0\textwidth]{callgraph1}
 \end{figure}
+
+\subsection{Callgraph types}
 
 Call graphs can be dynamic or static. A dynamic call graph is a record of an execution of the program, for example as output by a profiler. Thus, a dynamic call graph can be exact, but only describes one run of the program. A static call graph is a call graph intended to represent every possible run of the program. The exact static call graph is an undecidable problem, so static call graph algorithms are generally overapproximations. That is, every call relationship that occurs is represented in the graph, and possibly also some call relationships that would never occur in actual runs of the program.
 
