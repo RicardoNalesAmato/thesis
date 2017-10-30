@@ -130,8 +130,8 @@ class GraphsAndFeedback extends Component {
             </Panel>
             <Panel header={<Button onClick={() => this.setState({ openCode: !this.state.openCode })}>Code</Button>} bsStyle='success' collapsible expanded={this.state.openCode}>
               <Breadcrumb>
-                <Breadcrumb.Item href={code.toString()} target='_blank'>
-                  To code
+                <Breadcrumb.Item href={code.toString()} download>
+                  Download code
                 </Breadcrumb.Item>
               </Breadcrumb>
             </Panel>
