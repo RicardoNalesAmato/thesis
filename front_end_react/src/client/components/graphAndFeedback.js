@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { createGraph } from '../graphs'
 import swal from 'sweetalert'
+import axios from 'axios'
 
 const cvss3 = (
   <h4>CVSS3 Base Scores</h4>
@@ -28,7 +29,8 @@ class GraphsAndFeedback extends Component {
     this.state = {
       program: this.props.program,
       openCode: false,
-      openNodeAttributes: false
+      openNodeAttributes: false,
+      programCode: false
     }
     this.handleChange = this.handleChange.bind(this)
   }
@@ -37,6 +39,10 @@ class GraphsAndFeedback extends Component {
   }
 
   componentDidMount () {
+    axios.get(window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '/code/' + this.props.programName + '.c')
+      .then(res => {
+        this.setState({programCode: res.data})
+      })
     createGraph(this.state.program)
   }
 
@@ -130,8 +136,11 @@ class GraphsAndFeedback extends Component {
             </Panel>
             <Panel header={<Button onClick={() => this.setState({ openCode: !this.state.openCode })}>Code</Button>} bsStyle='success' collapsible expanded={this.state.openCode}>
               <Breadcrumb>
+                <Breadcrumb.Item>
+                  <Button bsStyle='success' onClick={() => console.log(this.state.programCode)}>See code</Button>
+                </Breadcrumb.Item>
                 <Breadcrumb.Item href={code.toString()} download>
-                  Download code
+                  <img width={20} height={20} src='https://image.flaticon.com/icons/png/512/0/532.png' alt='Download code' />
                 </Breadcrumb.Item>
               </Breadcrumb>
             </Panel>

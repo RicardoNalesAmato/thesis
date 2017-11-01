@@ -26,6 +26,7 @@
     "webpack-node-externals": "^1.2.0"
   },
   "dependencies": {
+    "axios": "^0.17.0",
     "babel": "^6.23.0",
     "babel-loader": "^7.1.1",
     "body-parser": "^1.18.1",
