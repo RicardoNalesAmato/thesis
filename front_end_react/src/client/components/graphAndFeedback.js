@@ -20,7 +20,8 @@ import {
   Button,
   Label,
   Breadcrumb,
-  Form
+  Form,
+  Modal
 } from 'react-bootstrap'
 
 class GraphsAndFeedback extends Component {
@@ -30,18 +31,20 @@ class GraphsAndFeedback extends Component {
       program: this.props.program,
       openCode: false,
       openNodeAttributes: false,
-      programCode: false
+      programCode: false,
+      showModal: false
     }
     this.handleChange = this.handleChange.bind(this)
   }
 
   componentWillMount () {
+    require('../../resources/reference_code/' + this.props.programName + '.c')
   }
 
   componentDidMount () {
     axios.get(window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '/code/' + this.props.programName + '.c')
       .then(res => {
-        this.setState({programCode: res.data})
+        this.setState({programCode: res.data.replace(/(?:\r\n|\r|\n)/g, '<br />')})
       })
     createGraph(this.state.program)
   }
@@ -73,8 +76,11 @@ class GraphsAndFeedback extends Component {
     })
   }
 
+  createMarkup () {
+    return {__html: this.state.programCode}
+  }
+
   render () {
-    let code = require('../../resources/reference_code/' + this.props.programName + '.c')
     return (
       <Grid>
         <Row className='show-grid'>
@@ -137,13 +143,24 @@ class GraphsAndFeedback extends Component {
             <Panel header={<Button onClick={() => this.setState({ openCode: !this.state.openCode })}>Code</Button>} bsStyle='success' collapsible expanded={this.state.openCode}>
               <Breadcrumb>
                 <Breadcrumb.Item>
-                  <Button bsStyle='success' onClick={() => console.log(this.state.programCode)}>See code</Button>
+                  <Button bsStyle='success' onClick={() => this.setState({ showModal: true })}>See code</Button>
                 </Breadcrumb.Item>
-                <Breadcrumb.Item href={code.toString()} download>
+                <Breadcrumb.Item href={'/code/' + this.props.programName + '.c'} download>
                   <img width={20} height={20} src='https://image.flaticon.com/icons/png/512/0/532.png' alt='Download code' />
                 </Breadcrumb.Item>
               </Breadcrumb>
             </Panel>
+            <Modal show={this.state.showModal} bsSize='large' onHide={() => this.setState({ showModal: false })}>
+              <Modal.Header closeButton>
+                <Modal.Title>Program's Code</Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <div dangerouslySetInnerHTML={this.createMarkup()} />
+              </Modal.Body>
+              <Modal.Footer>
+                <Button onClick={() => this.setState({ showModal: false })}>Close</Button>
+              </Modal.Footer>
+            </Modal>
             <Panel header={<Button onClick={() => this.setState({ openNodeAttributes: !this.state.openNodeAttributes })}>Node Attributes</Button>} bsStyle='info' collapsible expanded={this.state.openNodeAttributes}>
               <div id='nodeData' className='hidden'>
                 <Col xs={6} md={4}>
