@@ -3,10 +3,15 @@ import PropTypes from 'prop-types'
 import { createGraph } from '../graphs'
 import swal from 'sweetalert'
 import axios from 'axios'
+import Highlighter from 'react-highlight-words'
 
 const cvss3 = (
   <h4>CVSS3 Base Scores</h4>
 )
+
+const highlightStyle = {
+  background: '#ffb7b7'
+}
 
 import {
   Grid,
@@ -44,7 +49,7 @@ class GraphsAndFeedback extends Component {
   componentDidMount () {
     axios.get(window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '/code/' + this.props.programName + '.c')
       .then(res => {
-        this.setState({programCode: res.data.replace(/(?:\r\n|\r|\n)/g, '<br />')})
+        this.setState({programCode: res.data})
       })
     createGraph(this.state.program)
   }
@@ -75,11 +80,6 @@ class GraphsAndFeedback extends Component {
       dataType: 'json'
     })
   }
-
-  createMarkup () {
-    return {__html: this.state.programCode}
-  }
-
   render () {
     return (
       <Grid>
@@ -155,7 +155,13 @@ class GraphsAndFeedback extends Component {
                 <Modal.Title>Program's Code</Modal.Title>
               </Modal.Header>
               <Modal.Body>
-                <div dangerouslySetInnerHTML={this.createMarkup()} />
+                <pre>
+                  <Highlighter
+                    highlightStyle={highlightStyle}
+                    searchWords={['III_imdct_l']}
+                    textToHighlight={this.state.programCode}
+                  />
+                </pre>
               </Modal.Body>
               <Modal.Footer>
                 <Button onClick={() => this.setState({ showModal: false })}>Close</Button>
