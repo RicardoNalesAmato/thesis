@@ -13,6 +13,12 @@ const highlightStyle = {
   background: '#ffb7b7'
 }
 
+let canUseDOM = !!(
+  typeof window !== 'undefined' &&
+  window.document &&
+  window.document.createElement
+)
+
 import {
   Grid,
   Row,
@@ -37,7 +43,8 @@ class GraphsAndFeedback extends Component {
       openCode: false,
       openNodeAttributes: false,
       programCode: false,
-      showModal: false
+      showModal: false,
+      selectedFunction: false
     }
     this.handleChange = this.handleChange.bind(this)
   }
@@ -143,7 +150,7 @@ class GraphsAndFeedback extends Component {
             <Panel header={<Button onClick={() => this.setState({ openCode: !this.state.openCode })}>Code</Button>} bsStyle='success' collapsible expanded={this.state.openCode}>
               <Breadcrumb>
                 <Breadcrumb.Item>
-                  <Button bsStyle='success' onClick={() => this.setState({ showModal: true })}>See code</Button>
+                  {canUseDOM ? <Button bsStyle='success' onClick={() => this.setState({ showModal: true, selectedFunction: document.getElementById('nodeName').innerHTML })}>See code</Button> : null}
                 </Breadcrumb.Item>
                 <Breadcrumb.Item href={'/code/' + this.props.programName + '.c'} download>
                   <img width={20} height={20} src='https://image.flaticon.com/icons/png/512/0/532.png' alt='Download code' />
@@ -154,20 +161,20 @@ class GraphsAndFeedback extends Component {
               <Modal.Header closeButton>
                 <Modal.Title>Program's Code</Modal.Title>
               </Modal.Header>
-              <Modal.Body>
+              {this.state.selectedFunction ? <Modal.Body>
                 <pre>
                   <Highlighter
                     highlightStyle={highlightStyle}
-                    searchWords={['III_imdct_l']}
+                    searchWords={[this.state.selectedFunction]}
                     textToHighlight={this.state.programCode}
                   />
                 </pre>
-              </Modal.Body>
+              </Modal.Body> : <pre>Please select a funtion before using this option, to download the code, please click on the download icon. </pre> }
               <Modal.Footer>
                 <Button onClick={() => this.setState({ showModal: false })}>Close</Button>
               </Modal.Footer>
             </Modal>
-            <Panel header={<Button onClick={() => this.setState({ openNodeAttributes: !this.state.openNodeAttributes })}>Node Attributes</Button>} bsStyle='info' collapsible expanded={this.state.openNodeAttributes}>
+            <Panel header={<Button onClick={() => this.setState({openNodeAttributes: !this.state.openNodeAttributes})}>Node Attributes</Button>} bsStyle='info' collapsible expanded={this.state.openNodeAttributes}>
               <div id='nodeData' className='hidden'>
                 <Col xs={6} md={4}>
                   <Row>

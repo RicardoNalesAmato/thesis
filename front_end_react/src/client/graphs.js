@@ -163,7 +163,7 @@ function nodeData (node) {
   }
   console.log(visitedNodesDOM.val())
   // Displaying the data
-  $('#nodeName').text(selectedNode.id)
+  $('#nodeName').text(selectedNode.id.substr(1).slice(0, -1))
   $('#nodeClustering').text(selectedNode.data.clustering_coefficient)
   $('#nodeDistance').text(selectedNode.data.distance_to_interface)
   $('#nodeMackeVul').text(selectedNode.data.macke_vulnerabilities_found)
